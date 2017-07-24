@@ -32,4 +32,24 @@
 				
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+
+
+
+
+<div class="wrapper">
+	
+	
+	<header>
+		
+		<div class="logo_wrapper">
 			
+			<a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/studio-barre.png"/></a>
+			
+		</div><!-- logo_wrapper -->
+		hello
+		
+	</header>
+	
+	
+	
+	

@@ -1,0 +1,22 @@
+body {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+background: $darkgrey;
+}
+
+
+body img.gform_ajax_spinner {
+    display: none!important;
+}
+
+
+header, section, nav, footer {
+	display: block;
+}
+
+.wrapper {
+	width:100%;
+	max-width: 1200px;
+	margin:0 auto;
+}
