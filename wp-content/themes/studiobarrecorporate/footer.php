@@ -30,6 +30,12 @@
 	
 </footer>
 
+<div class="copyright">
+	
+	&copy; <?php echo date("Y"); ?> Studio Barre LLC.
+	
+</div><!-- copyright -->
+
 </div><!-- wrapper -->
 
 <?php wp_footer();?>

@@ -12,8 +12,8 @@ footer {
 .social_media_wrapper {
 	float:left;
 	border-right:1px solid $bordergrey;
-	padding:13px 10px;
-	width:285px;
+	padding:13px 20px;
+	width:305px;
 	span.find_us {
 		display: inline-block;
 		vertical-align: top;
@@ -33,20 +33,21 @@ footer {
 
 .newsletter {
 	float:right;
-	width:calc(100% - 285px);
-	padding:4px 10px 0px 20px;
+	width:calc(100% - 305px);
+	padding:5px 10px 0px 30px;
 	img.email {
 		float: left;
 		width:47px;
-		padding-top:6px;
+		padding-top:5px;
 	}
 }
 
 .newsletter_form_wrapper {
 	float:left;
 	width:calc(100% - 47px);
-	padding-left:2%;
+	padding:0 8%;
 	display: flex;
+	
 	span.brackets, span.subscribe, .newsletter_form {
 /*
 		display: inline-block;
@@ -57,13 +58,19 @@ footer {
 		font-size: 32px;
 	}
 	span.subscribe {
-		padding-top:9px;
+		
+		padding: 10px 13px 0 25px;
+		
+		
 	}
 	.newsletter_form {
 		flex:1;
+		padding-right:32px;
+		padding-top:8px;
 		ul {
 			list-style: none;
 			li {
+				position: relative;
 				label {
 					display: none;
 				}
@@ -71,8 +78,19 @@ footer {
 					background: $bordergrey;
 					border:none;
 					width:100%;
+					color:$darkgrey;
+					font-size: 15px;
+					text-transform: lowercase;
+					padding:5px 12px;
+					
 				}
 				
+			}
+			.gfield_description, .validation_message {
+				font-size: 11px;
+				position: absolute;
+				top:28px;
+				left:0;
 			}
 		}
 		.gform_footer {
@@ -81,6 +99,11 @@ footer {
 				background: $bordergrey;
 				border:none;
 				width:100%;
+				color:$darkgrey;
+				padding:5px 8px;
+				font-size: 15px;
+				cursor: pointer;
+				text-transform: lowercase;
 			}
 		}
 	}
@@ -90,14 +113,27 @@ footer {
 #gform_1 {
 	display: flex;
 	.gform_body, .gform_footer {
-// 		display: inline-block;
+
 	}
 	.gform_body {
 		flex:1;
 	}
 	.gform_footer {
-		width:150px;
+		width:70px;
+		margin-left:10px;
 	}
+}
+
+
+.validation_error {
+	display: none;
+}
+
+
+.copyright {
+	color:$bordergrey;
+	font-size:12px;
+	margin-top:6px;
 }
 
 
