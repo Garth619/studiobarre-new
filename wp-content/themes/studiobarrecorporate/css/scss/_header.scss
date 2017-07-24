@@ -1,6 +1,5 @@
 header {
 	color:#fff;
-	font-size:50px;
 	overflow: hidden;
 }
 
@@ -8,6 +7,7 @@ header {
 .logo_wrapper {
 	float:left;
 	width:160px;
+	margin-top: 30px;
 	img {
 		max-width: 100%;
 		height:auto;
@@ -39,7 +39,7 @@ a.find_button {
 
 .nav_wrapper {
 	width:100%;
-	margin-top: 62px;
+	margin-top: 83px;
 	padding-left:3%;
 }
 
@@ -49,5 +49,25 @@ a.find_button {
 	border-bottom:1px solid $yellow;
 	font-size: 41px;
 	padding-bottom: 5px;
-	
+}
+
+nav {
+	margin-top:13px;
+	ul {
+		list-style: none;
+		margin:0;
+		display: flex;
+		justify-content: space-between;
+		li {
+			font-family: $coresanslight;
+			
+			text-transform: lowercase;
+			font-size: 15px;
+			letter-spacing: 0.7px;
+			a {
+				color:#fff;
+				text-decoration: none;
+			}
+		}
+	}
 }
