@@ -31,10 +31,6 @@
 <body <?php body_class(); ?>>
 				
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-
-
-
 
 <div class="wrapper">
 	
@@ -46,7 +42,26 @@
 			<a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/studio-barre.png"/></a>
 			
 		</div><!-- logo_wrapper -->
-		hello
+		
+		<div class="header_right">
+			
+			<a href="" class="find_button">Find Your Studio</a>
+			
+			<div class="nav_wrapper">
+				
+				<div class="tagline">
+					
+					<span class="brackets">{</span><!-- brackets -->
+					<span class="tagline_content">Strength. Defined</span><!-- tagline_content -->
+					<span class="brackets">}</span><!-- brackets -->
+					
+				</div><!-- tagline -->
+				
+				<nav><?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?></nav>
+				
+			</div><!-- nav_wrapper -->
+			
+		</div><!-- header_right -->
 		
 	</header>
 	

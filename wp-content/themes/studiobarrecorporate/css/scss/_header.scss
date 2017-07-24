@@ -1,13 +1,53 @@
 header {
 	color:#fff;
 	font-size:50px;
-	font-family: $inoutreg;
+	overflow: hidden;
 }
 
 
 .logo_wrapper {
+	float:left;
+	width:160px;
 	img {
 		max-width: 100%;
 		height:auto;
 	}
+}
+
+
+.header_right {
+	float:right;
+	width:calc(100% - 160px);
+	position: relative;
+}
+
+
+a.find_button {
+	background:$yellow;
+	font-family: $coresansbold;
+	text-transform: lowercase;
+	color:$lightgrey;
+	text-decoration: none;
+	font-size:15px;
+	padding:6px 10px;
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+
+
+.nav_wrapper {
+	width:100%;
+	margin-top: 62px;
+	padding-left:3%;
+}
+
+.tagline {
+	font-family: $coresansextralight;
+	text-transform: lowercase;
+	border-bottom:1px solid $yellow;
+	font-size: 41px;
+	padding-bottom: 5px;
+	
 }
