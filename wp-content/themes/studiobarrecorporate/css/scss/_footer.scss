@@ -45,7 +45,7 @@ footer {
 .newsletter_form_wrapper {
 	float:left;
 	width:calc(100% - 47px);
-	padding:0 8%;
+	padding:5px 8% 0;
 	display: flex;
 	
 	span.brackets, span.subscribe, .newsletter_form {
@@ -59,14 +59,14 @@ footer {
 	}
 	span.subscribe {
 		
-		padding: 10px 13px 0 25px;
+		padding: 8px 13px 0 25px;
 		
 		
 	}
 	.newsletter_form {
 		flex:1;
 		padding-right:32px;
-		padding-top:8px;
+		padding-top:3px;
 		ul {
 			list-style: none;
 			li {
