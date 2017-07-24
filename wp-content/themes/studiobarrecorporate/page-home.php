@@ -4,7 +4,13 @@
 
 
 
-<?php get_template_part( 'loop', 'page' );?>
+<div class="slideshow">
+	
+	<a href="">
+		<img src="<?php bloginfo('template_directory');?>/images/slide-test.jpg"/>
+	</a>
+	
+</div><!-- slideshow -->
 
 
 

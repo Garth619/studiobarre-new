@@ -4569,6 +4569,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/studiobarrecorporate\/css\/scss\/_homepage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/css\/scss\/_homepage.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/studiobarrecorporate\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4813,6 +4826,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/slide-test.jpg": {
+		"ft": 16384,
+		"iS": 129064,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/slide-test.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/studio-barre.png": {

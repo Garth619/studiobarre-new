@@ -63,6 +63,8 @@
 			
 		</div><!-- header_right -->
 		
+		<div style="clear:both"></div>
+		
 	</header>
 	
 	
