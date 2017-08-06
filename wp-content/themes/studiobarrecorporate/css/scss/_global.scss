@@ -26,10 +26,53 @@ header, section, nav, footer {
 }
 
 
+.content {
+	color:#fff;
+	line-height: 20px;
+	font-size: 16px;
+	h1 {
+		font-family: $coresansbold;
+		color:$yellow;
+		text-transform: lowercase;
+		font-size:25px;
+		font-style: normal;
+		font-weight: 300;
+		margin-bottom:5px;
+	}
+	p,ul {
+		margin-bottom:20px;
+		
+	}
+	p {
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+	ul {
+		margin-left:24px
+	}
+	a {
+		color:$yellow;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}	
+}
+
+
 @media screen and (max-width: 800px) {
 	
 	.wrapper {
 		padding:0;
+		margin-bottom:20px;
+	}
+	
+	.content {
+		font-size:15px;
+		h1 {
+			font-size:23px;
+		}
 	}
 	
 } /* Media Query */

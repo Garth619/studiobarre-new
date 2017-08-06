@@ -40,39 +40,10 @@
 }
 
 
+
+
 .main_intro {
-	color:#fff;
 	padding:35px 0 10px;
-	line-height: 20px;
-	font-size: 16px;
-	h1 {
-		font-family: $coresansbold;
-		color:$yellow;
-		text-transform: lowercase;
-		font-size:25px;
-		font-style: normal;
-		font-weight: 300;
-		margin-bottom:5px;
-	}
-	p,ul {
-		margin-bottom:20px;
-		
-	}
-	p {
-		&:last-of-type {
-			margin-bottom: 0;
-		}
-	}
-	ul {
-		margin-left:24px
-	}
-	a {
-		color:$yellow;
-		text-decoration: none;
-		&:hover {
-			text-decoration: underline;
-		}
-	}	
 }
 
 
@@ -83,7 +54,7 @@
 	}
 	
 	.main_intro {
-		padding:20px 15px;
+		padding:30px 15px 0px;
 	}
 	
 	
@@ -103,7 +74,7 @@
 		img {
 			width:100%;
 			display: block;
-			margin-bottom:10px;
+			border-bottom:14px solid #4d4d4f;
 		}
 	}
 	

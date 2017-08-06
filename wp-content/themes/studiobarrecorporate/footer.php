@@ -10,12 +10,13 @@
 		<a href="http://instagram.com/studiobarrestrengthdefined" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/instagram.png"/></a>
 		<a href="https://www.facebook.com/StudioBarre/?ref=hl" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/facebook.png"/></a>
 		<a href="https://plus.google.com/+StudioBarreLaCostaCarlsbad/posts?hl=en" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.png"/></a>
+		<a class="email_link mobile" href="mailto:info@studiobarre.com"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png"/></a>
 		
 	</div><!-- social_media_wrapper -->
 	
 	<div class="newsletter">
 		
-		<a href="mailto:info@studiobarre.com"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png"/></a>
+		<a class="email_link desktop" href="mailto:info@studiobarre.com"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png"/></a>
 		
 		<div class="newsletter_form_wrapper">
 			
@@ -32,7 +33,18 @@
 
 <div class="copyright">
 	
-	&copy; <?php echo date("Y"); ?> Studio Barre LLC.
+	<div class="inner_copyright">
+	
+	<span>&copy; <?php echo date("Y"); ?> Studio Barre LLC.</span>
+		
+	<ul>
+			
+		<li><a href="">barre{tender} login</a></li>
+		<li><a href="">owner login</a></li>
+	
+	</ul>
+	
+	</div><!-- inner_copyright -->
 	
 </div><!-- copyright -->
 

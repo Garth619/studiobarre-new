@@ -51,7 +51,7 @@
 	
 </div><!-- slideshow -->
 
-<div class="main_intro">
+<div class="main_intro content">
 	
 	<h1>Welcome</h1>
 	
