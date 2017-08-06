@@ -1,11 +1,11 @@
 body {
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
-background: $darkgrey;
-font-size:16px;
-font-family: $coresanslight;
-line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+	background: $darkgrey;
+	font-size:16px;
+	font-family: $coresanslight;
+	line-height: 1;
 }
 
 
@@ -24,3 +24,15 @@ header, section, nav, footer {
 	margin:0 auto 65px;
 	padding:0 30px;
 }
+
+
+@media screen and (max-width: 800px) {
+	
+	.wrapper {
+		padding:0;
+	}
+	
+} /* Media Query */
+
+
+

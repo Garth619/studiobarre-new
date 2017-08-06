@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -36,6 +37,14 @@
 	
 	
 	<header>
+		
+		<div class="mobile_menu">
+			
+			<div class="menu_bar"></div><!-- menu_bar -->
+			<div class="menu_bar"></div><!-- menu_bar -->
+			<div class="menu_bar"></div><!-- menu_bar -->
+			
+		</div><!-- mobile_menu -->
 		
 		<div class="logo_wrapper">
 			

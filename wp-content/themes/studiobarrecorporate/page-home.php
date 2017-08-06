@@ -3,11 +3,50 @@
 <?php get_header(); ?>
 
 
-
 <div class="slideshow">
 	
 	<a href="">
-		<img src="<?php bloginfo('template_directory');?>/images/slide-test.jpg"/>
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide1.jpg"/>
+	</a>
+	
+	<a href="">
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide2.jpg"/>
+	</a>
+	
+	<a href="">
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide3.jpg"/>
+	</a>
+
+	<a href="">
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide4.jpg"/>
+	</a>
+	
+	<a href="">
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide5.jpg"/>
+	</a>
+
+</div><!-- slideshow -->
+
+<div class="mobile_slides">
+	
+	<a href="">
+		<img src="<?php bloginfo('template_directory');?>/images/m1.jpg"/>
+	</a>
+	
+	<a href="">
+		<img src="<?php bloginfo('template_directory');?>/images/m2.jpg"/>
+	</a>
+	
+	<a href="">
+		<img src="<?php bloginfo('template_directory');?>/images/m3.jpg"/>
+	</a>
+	
+	<a href="">
+		<img src="<?php bloginfo('template_directory');?>/images/m4.jpg"/>
+	</a>
+	
+	<a href="">
+		<img src="<?php bloginfo('template_directory');?>/images/m5.jpg"/>
 	</a>
 	
 </div><!-- slideshow -->

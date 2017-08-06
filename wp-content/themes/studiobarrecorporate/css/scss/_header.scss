@@ -1,7 +1,13 @@
 header {
 	color:#fff;
-// 	overflow: hidden;
 	margin-bottom:30px;
+}
+
+.mobile_menu {
+	display: none;
+	.menu_bar {
+			
+	}
 }
 
 
@@ -42,6 +48,9 @@ a.find_button {
 	width:100%;
 	margin-top: 83px;
 	padding-left:3%;
+	position: relative;
+	z-index:20;
+	
 }
 
 .tagline {
@@ -152,6 +161,74 @@ nav {
 }
 
 
+@media screen and (max-width: 800px) {
+	
+	.wrapper {
+// 		padding:0;
+	}
+	
+	header {
+		margin-top:10px;
+		position: relative;
+	}
+	
+	.mobile_menu {
+		display: block;
+		position: absolute;
+		top:40px;
+		left:8%;
+		width:25px;
+		.menu_bar {
+			width:100%;
+			height:3px;
+			margin-bottom: 4px;
+			background:#4d4d4f;
+			border-radius: 3px;
+		}
+	}
+	
+	.logo_wrapper {
+		float:none;
+		width:100%;
+		text-align: center;
+		margin-top:0;
+		margin-left:auto;
+		margin-right:auto;
+		max-width: 90px;
+		
+	}
+	
+	
+	.header_right {
+		float:none;
+		margin-top:10px;
+		width:100%;
+		
+		background:#4d4d4f;
+		overflow: hidden;
+		padding:0 12px 6px 0
+	}
+	
+	a.find_button {
+		position: static;
+		float: right;
+	}
+	
+	.nav_wrapper {
+		display: none;
+	}
+	
+	
+	nav {
+		
+	}
+	
 
+	
+	
+	
+	
+	
+} /* Media Query */
 
 
