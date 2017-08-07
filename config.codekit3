@@ -56,6 +56,12 @@
 		"oAP": "\/readme.html",
 		"oF": 0
 		},
+	"\/studiobarre-migrate-20170807032117.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/studiobarre-migrate-20170807032117.sql.gz",
+		"oF": 0
+		},
 	"\/wp-activate.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7278,6 +7284,442 @@
 		"oAP": "\/wp-content\/plugins\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/css\/plugin-update-styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/css\/plugin-update-styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/icon-cli.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/icon-cli.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/icon-media-files.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/icon-media-files.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/icon-multisite-tools.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/icon-multisite-tools.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/mor10.png": {
+		"ft": 32768,
+		"iS": 2861,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/mor10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/mor10@2x.png": {
+		"ft": 32768,
+		"iS": 7013,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/mor10@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/welcome.jpg": {
+		"ft": 16384,
+		"iS": 10925,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/img\/welcome.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/common-172.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/common-172-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/common-172.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/common-172.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/hook-172.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/hook-172-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/hook-172.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/hook-172.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/multisite-172.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/multisite-172-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/multisite-172.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/multisite-172.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/plugin-update-172.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/plugin-update-172-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/plugin-update-172.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/plugin-update-172.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/script-172.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/script-172-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/script-172.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/script-172.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-base.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-base.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-cli.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-cli.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-command.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-command.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-filesystem.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-filesystem.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-migration-state.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-migration-state.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-replace.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-replace.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-sanitize.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-sanitize.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-utils.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb-utils.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdb.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdbpro-addon.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdbpro-addon.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdbpro-cli-export.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdbpro-cli-export.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdbpro-command.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdbpro-command.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdbpro.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/class\/wpmdbpro.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/compatibility\/wp-migrate-db-pro-compatibility.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/compatibility\/wp-migrate-db-pro-compatibility.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/languages\/wp-migrate-db-en.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/languages\/wp-migrate-db-en.pot",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/languages\/wp-migrate-db-pt_BR.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/languages\/wp-migrate-db-pt_BR.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/addons.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/addons.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/breadcrumbs.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/breadcrumbs.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/checkbox.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/checkbox.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/compatibility.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/compatibility.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/debug-info.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/debug-info.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/max-request-size.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/common\/max-request-size.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/help.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/help.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/migrate-progress.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/migrate-progress.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/migrate.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/migrate.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/options-tools-subsite.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/options-tools-subsite.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/options.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/options.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/backup.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/backup.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/block-external-warning.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/block-external-warning.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/connection-info.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/connection-info.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/exclude-post-types.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/exclude-post-types.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/invalid-licence-warning.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/invalid-licence-warning.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/licence-info.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/licence-info.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/licence.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/licence.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/outdated-addons-warning.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/outdated-addons-warning.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/pull-push-radio-buttons.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/pull-push-radio-buttons.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/request-settings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/request-settings.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/secret-key-warning.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/secret-key-warning.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/select-tables.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/select-tables.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/toggle-remote-requests.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/toggle-remote-requests.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/videos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/pro\/videos.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/profile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/profile.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/template\/settings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/template\/settings.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/wp-migrate-db-pro.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/wp-migrate-db-pro.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -8126,6 +8568,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/style.css.map",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/.htaccess",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/index.php",
 		"oF": 0
 		},
 	"\/wp-cron.php": {
