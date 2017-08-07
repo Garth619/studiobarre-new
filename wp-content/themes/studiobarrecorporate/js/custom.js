@@ -39,6 +39,23 @@ $('.slideshow').slick({
 });
 
 
+$('ul#menu-top-nav li.menu-item-has-children > a').click(function(){
+	
+	$(this).parent().toggleClass('open');
+	
+	
+});
+
+
+$('.mobile_menu').click(function(){
+	
+	$(this).toggleClass('open');
+	$('nav').toggleClass('open');
+	$('a.find_button').toggleClass('hide');
+	
+});
+
+
 
 }); // Document Ready
 
