@@ -30,15 +30,26 @@ header, section, nav, footer {
 	color:#fff;
 	line-height: 20px;
 	font-size: 16px;
-	h1 {
+	h1, h2 {
 		font-family: $coresansbold;
 		color:$yellow;
 		text-transform: lowercase;
-		font-size:25px;
+		font-size:22px;
 		font-style: normal;
 		font-weight: 300;
 		margin-bottom:5px;
 	}
+	
+
+	h2.white {
+		text-transform: uppercase;
+		font-family: $akzcondensed;
+		color:#fff;
+		font-size:30px;
+		margin-bottom: 30px;
+	}
+
+	
 	p,ul {
 		margin-bottom:20px;
 		
@@ -71,9 +82,82 @@ header, section, nav, footer {
 	.content {
 		font-size:15px;
 		h1 {
-			font-size:23px;
+			font-size:20px;
 		}
 	}
+	
+} /* Media Query */
+
+
+
+// Global Inner Templates
+
+
+
+.inner_main {
+	width:100%;
+	overflow: hidden;
+	padding-bottom:35px;
+}
+
+.sidebar {
+	width:188px;
+	float:left;
+	h1 {
+		font-family: $asnapperscript;
+		color:$yellow;
+		text-transform: lowercase;
+		font-size:55px;
+		font-style: normal;
+		font-weight: 300;
+	}
+}
+
+.inner_container {
+	width:calc(100% - 188px);
+	float:right;
+}
+
+.inner_banner {
+	
+	img {
+		max-width: 100%;
+		height:auto;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	
+	
+	body:not(.page-template-page-home) {
+		a.find_button {
+			display: none;
+		}
+		nav {
+			
+		}
+	}
+	
+	
+	.sidebar {
+		width:100%;
+		float:none;
+		text-align: center;
+	}
+	
+	.inner_container {
+		width:100%;
+		float:none;
+	}
+	
+	.content_wrapper {
+		padding:15px;
+	}
+	
+	
+	
+	
 	
 } /* Media Query */
 

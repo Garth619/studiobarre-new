@@ -1,12 +1,13 @@
 <?php get_header(); ?>
 
+	<div class="inner_main">
 
 
 <?php get_template_part( 'loop', 'page' );?>
 
-<?php //use get_template_part( 'loop', 'page' ) if needed ?>
 
-	
+
+	</div><!-- inner_main -->
 
 <?php // get_sidebar(); ?>
 
