@@ -44,11 +44,34 @@ header, section, nav, footer {
 		margin-bottom:5px;
 	}
 	
-
+	h1.one_column {
+		font-family: $asnapperscript;
+		color:$yellow;
+		text-transform: none;
+		font-size:55px;
+		font-style: normal;
+		font-weight: 300;
+		padding-top:14px;
+		 line-height: 50px;
+		 text-align: center;
+	}
 	h2.white {
 		text-transform: uppercase;
 		font-family: $akzcondensed;
 		color:#fff;
+		font-size:30px;
+		margin-bottom: 30px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+	h2.white.center {
+		text-align: center;
+	}
+	
+	h2.yellow {
+		text-transform: uppercase;
+		font-family: $akzcondensed;
+		color:$yellow;
 		font-size:30px;
 		margin-bottom: 30px;
 		line-height: 30px;
@@ -109,6 +132,8 @@ header, section, nav, footer {
 .sidebar {
 	width:188px;
 	float:left;
+	text-align: center;
+	padding-right: 29px;
 	h1 {
 		font-family: $asnapperscript;
 		color:$yellow;
@@ -116,12 +141,20 @@ header, section, nav, footer {
 		font-size:55px;
 		font-style: normal;
 		font-weight: 300;
+		padding-top:14px;
+		 line-height: 50px;
 	}
 }
 
 .inner_container {
 	width:calc(100% - 188px);
 	float:right;
+}
+
+
+.inner_container.one_column {
+	float:none;
+	width:100%;
 }
 
 .inner_banner {
@@ -150,6 +183,11 @@ header, section, nav, footer {
 		width:100%;
 		float:none;
 		text-align: center;
+		padding-right:0;
+		h1 {
+			padding:11px 10px 7px;
+			line-height: 67px;
+		}
 	}
 	
 	.inner_container {

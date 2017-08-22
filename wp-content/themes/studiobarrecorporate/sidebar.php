@@ -1,7 +1,7 @@
 
 <div class="sidebar">
 	
-	<h1>About Us</h1>
+	<h1><?php the_title();?></h1>
 	
 </div><!-- sidebar -->
 			

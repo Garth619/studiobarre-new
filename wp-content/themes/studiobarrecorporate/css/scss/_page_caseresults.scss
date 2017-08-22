@@ -1,0 +1,67 @@
+.case_results_wrapper {
+	margin-top:55px;
+}
+
+.single_case_results {
+	overflow: hidden;
+	
+	margin-bottom:50px; 
+	&:last-of-type {
+		.case_results_content {
+			border-bottom:none;
+		}
+	}
+	.case_image_wrapper {
+		
+		border: 2px solid $yellow;
+		width:235px;
+		float:left;
+		img {
+			max-width: 100%;
+			height:auto;
+			display: block;
+		}
+	}
+	.case_results_content {
+		width:calc(100% - 285px);
+		float:right;
+		margin-left:45px;
+		border-bottom: 1px solid #fff;
+		padding-bottom:50px; 
+		
+	}
+	span.case_results_read_more {
+		display: block;
+		color:$yellow;
+		margin: 13px 0;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	
+
+.single_case_results {
+	
+	.case_image_wrapper {
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+		img {
+			
+		}
+	}
+	.case_results_content {
+		float: none;
+		width:100%;
+		margin-left: 0;
+		
+	}
+	span.case_results_read_more {
+		
+	}
+}
+	
+	
+	
+} /* Media Query */
