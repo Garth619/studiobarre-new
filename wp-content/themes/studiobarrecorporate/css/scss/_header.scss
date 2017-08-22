@@ -249,7 +249,16 @@ nav {
 	.nav_wrapper {
 		margin-top:0;
 		padding:0;
+		// background:#4d4d4f;
 	}
+	
+/*
+	body:not(.page-template-page-home) {
+		.nav_wrapper {
+			background:transparent;
+		}
+	}
+*/
 	
 	.tagline {
 		display: none;
@@ -260,12 +269,14 @@ nav {
 		max-height: 3000px;
 		opacity: 1;
 		visibility: visible;
+		padding-bottom: 25px;
 	}
 	
 nav {
 	margin-top:0;
 	background: $darkgrey;
-	padding:0 42px 25px;
+// 	padding:0 42px 25px;
+padding: 0 42px;
 	max-height: 0;
 	opacity: 0;
 	visibility: hidden;
@@ -389,7 +400,13 @@ nav {
 	
 
 	
-	
+	.sidebar {
+		background: #4d4d4f;
+		h1 {
+			padding: 11px 10px 3px;
+			font-size: 53px;
+		}
+	}
 	
 
 	
