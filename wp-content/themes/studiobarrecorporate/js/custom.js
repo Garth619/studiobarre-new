@@ -57,6 +57,20 @@ $('.mobile_menu').click(function(){
 
 
 
+// Case Results Read More
+
+
+$('span.case_results_read_more').click(function(){
+	
+	$(this).next('.read_more_case').slideToggle(300);
+	
+	$(this).toggleClass('open');
+	
+});
+
+
+
+
 }); // Document Ready
 
 

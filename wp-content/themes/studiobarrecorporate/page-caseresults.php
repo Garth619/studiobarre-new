@@ -10,11 +10,15 @@
 		
 		<div class="inner_container one_column">
 			
-			
+			<div class="one_column_header content">
+				
+				<h1 class="header_script center">Real Results</h1><!-- one_column -->
+				
+			</div><!-- one_column_header -->
 			
 			<div class="content_wrapper content">
 			
-				<h1 class="one_column">Real Results</h1><!-- one_column -->
+				
 				
 				<div class="case_results_wrapper">
 					
@@ -37,7 +41,7 @@
 							
 							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
 							
-							<span class="case_results_read_more">Read More +</span><!-- case_results_read_more -->
+							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
 							
 							<div class="read_more_case">
 								

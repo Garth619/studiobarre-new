@@ -43,17 +43,19 @@ header, section, nav, footer {
 		font-weight: 300;
 		margin-bottom:5px;
 	}
-	
-	h1.one_column {
+	h1.header_script.center {
+		text-align: center;
+	}
+	h1.header_script {
 		font-family: $asnapperscript;
 		color:$yellow;
-		text-transform: none;
+		// text-transform: none;
 		font-size:55px;
 		font-style: normal;
 		font-weight: 300;
 		padding-top:14px;
 		 line-height: 50px;
-		 text-align: center;
+		 
 	}
 	h2.white {
 		text-transform: uppercase;
@@ -113,6 +115,10 @@ header, section, nav, footer {
 		h1 {
 			font-size:20px;
 		}
+		h1.header_script {
+			background: #4d4d4f;
+			font-size:55px;
+		}
 	}
 	
 } /* Media Query */
@@ -134,6 +140,22 @@ header, section, nav, footer {
 	float:left;
 	text-align: center;
 	padding-right: 29px;
+	.contact_info {
+		text-align: left;
+		color:#fff;
+		margin-top:20px;
+		p {
+			margin-bottom:15px;
+			line-height: 20px;
+		}
+		a {
+			color:#fff;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
 	h1 {
 		font-family: $asnapperscript;
 		color:$yellow;
@@ -142,7 +164,7 @@ header, section, nav, footer {
 		font-style: normal;
 		font-weight: 300;
 		padding-top:14px;
-		 line-height: 50px;
+		line-height: 50px;
 	}
 }
 
@@ -184,6 +206,7 @@ header, section, nav, footer {
 		float:none;
 		text-align: center;
 		padding-right:0;
+		
 		h1 {
 			padding:11px 10px 7px;
 			line-height: 67px;

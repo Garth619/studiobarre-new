@@ -1,5 +1,5 @@
 .case_results_wrapper {
-	margin-top:55px;
+	margin-top:45px;
 }
 
 .single_case_results {
@@ -12,10 +12,10 @@
 		}
 	}
 	.case_image_wrapper {
-		
 		border: 2px solid $yellow;
 		width:235px;
 		float:left;
+		margin-bottom:45px;
 		img {
 			max-width: 100%;
 			height:auto;
@@ -29,11 +29,24 @@
 		border-bottom: 1px solid #fff;
 		padding-bottom:50px; 
 		
+		
+	}
+	span.case_results_read_more.open {
+		&:after {
+			content:" Less -";
+		}
 	}
 	span.case_results_read_more {
-		display: block;
+		display: inline-block;
 		color:$yellow;
 		margin: 13px 0;
+		&:after {
+			content:" More +";
+			
+		}
+	}
+	.read_more_case {
+		display: none;
 	}
 }
 
