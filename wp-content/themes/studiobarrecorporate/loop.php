@@ -7,7 +7,7 @@
 		<h2>Not Found</h2>
 		
 		<div class="entry-content">
-			<p>Apologies, but no results were found</p>
+			<p>Apologies, but no posts have been created</p>
 			
 		</div><!-- .entry-content -->
 	</div><!-- #post-0 -->

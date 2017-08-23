@@ -136,10 +136,10 @@ header, section, nav, footer {
 }
 
 .sidebar {
-	width:188px;
+	width:159px;
 	float:left;
 	text-align: center;
-	padding-right: 29px;
+	
 	.contact_info {
 		text-align: left;
 		color:#fff;
@@ -170,7 +170,8 @@ header, section, nav, footer {
 
 .inner_container {
 	width:calc(100% - 188px);
-	float:right;
+	float:left;
+	padding-left: 5%;
 }
 
 
