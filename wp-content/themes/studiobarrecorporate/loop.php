@@ -19,7 +19,19 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
 
-		<?php the_content();?>
+		<div class="single_post">
+					
+					<h2><?php the_title();?></h2>
+					
+					<?php the_content();?>
+					
+					
+					<?php $my_date = get_the_date(); ?>
+
+
+					<span class="posted_on">Posted On <?php echo $my_date; ?></span><!-- posted_on -->
+					
+				</div><!-- single_post -->
 			
 		<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
 			

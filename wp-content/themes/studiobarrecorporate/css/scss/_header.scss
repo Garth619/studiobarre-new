@@ -104,6 +104,7 @@ nav {
 		> li.menu-item-has-children:hover {
 			ul.sub-menu {
 				opacity: 1;
+				visibility: visible;
 			}
 		}
 		> li:hover {
@@ -140,6 +141,7 @@ nav {
 				width:205px;
 				padding:15px 20px 10px;
 				opacity: 0;
+				visibility: hidden;
 				transition: all .2s ease-in-out;
 				 li.current_page_item {
 					 a {

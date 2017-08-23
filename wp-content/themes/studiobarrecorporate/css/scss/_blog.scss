@@ -1,0 +1,18 @@
+
+.single_post {
+	border-bottom: 1px solid $bordergrey;
+	padding-bottom:35px;
+	margin-bottom:35px;
+	&:last-of-type {
+		border-bottom: none;
+	}
+}
+
+
+span.posted_on {
+	display: block;
+	margin-top:20px;
+	font-size: 14px;
+	text-transform: lowercase;
+	color:$bordergrey;
+}
