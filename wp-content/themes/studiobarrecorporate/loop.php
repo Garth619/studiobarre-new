@@ -21,20 +21,22 @@
 
 		<div class="single_post">
 					
-					<h2><?php the_title();?></h2>
+			<h2><?php the_title();?></h2>
 					
-					<?php the_content();?>
+			<?php the_content();?>
 					
 					
-					<?php $my_date = get_the_date(); ?>
+			<?php $my_date = get_the_date(); ?>
 
 
-					<span class="posted_on">Posted On <?php echo $my_date; ?></span><!-- posted_on -->
+			<span class="posted_on">Posted On <?php echo $my_date; ?><?php edit_post_link( __( 'Edit', 'twentyten' ), '&nbsp;&nbsp;|&nbsp;&nbsp;', '' ); ?></span><!-- posted_on -->
 					
-				</div><!-- single_post -->
 			
-		<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
+
+					
+		</div><!-- single_post -->
 			
+					
 		
 <?php endwhile; // end of loop ?> 
 

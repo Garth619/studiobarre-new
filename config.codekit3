@@ -39,27 +39,16 @@
 		"oAP": "\/license.txt",
 		"oF": 0
 		},
-	"\/MAMP-PRO-Logo.png": {
-		"ft": 32768,
-		"iS": 5793,
-		"oA": 0,
-		"oAP": "\/MAMP-PRO-Logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/readme.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/readme.html",
 		"oF": 0
 		},
-	"\/studiobarre-migrate-20170807032117.sql.gz": {
+	"\/studiobarre-migrate-20170823044025.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/studiobarre-migrate-20170807032117.sql.gz",
+		"oAP": "\/studiobarre-migrate-20170823044025.sql.gz",
 		"oF": 0
 		},
 	"\/wp-activate.php": {
