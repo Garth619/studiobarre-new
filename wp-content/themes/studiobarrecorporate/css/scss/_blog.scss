@@ -50,3 +50,22 @@ ul.latest_post_list {
 		}
 	}
 }
+
+
+@media screen and (max-width: 800px) {
+	
+	
+	
+	span.latest_posts {
+		display: none;
+	}
+
+
+ul.latest_post_list {
+	display: none;
+}
+	
+	
+	
+	
+} /* Media Query */

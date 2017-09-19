@@ -75,7 +75,7 @@
 							
 							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
 							
-							<span class="case_results_read_more">Read More +</span><!-- case_results_read_more -->
+							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
 							
 							<div class="read_more_case">
 								
@@ -109,7 +109,7 @@
 							
 							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
 							
-							<span class="case_results_read_more">Read More +</span><!-- case_results_read_more -->
+							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
 							
 							<div class="read_more_case">
 								
@@ -143,7 +143,7 @@
 							
 							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
 							
-							<span class="case_results_read_more">Read More +</span><!-- case_results_read_more -->
+							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
 							
 							<div class="read_more_case">
 								
@@ -177,7 +177,7 @@
 							
 							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
 							
-							<span class="case_results_read_more">Read More +</span><!-- case_results_read_more -->
+							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
 							
 							<div class="read_more_case">
 								

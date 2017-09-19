@@ -39,7 +39,7 @@ header, section, nav, footer {
 		font-family: $coresansbold;
 		color:$yellow;
 		text-transform: lowercase;
-		font-size:22px;
+		font-size:20px;
 		font-style: normal;
 		font-weight: 300;
 		margin-bottom:5px;
@@ -225,6 +225,7 @@ img.aligncenter {
 .inner_container.one_column {
 	float:none;
 	width:100%;
+	padding-left:0;
 }
 
 .inner_banner {
@@ -264,6 +265,7 @@ img.aligncenter {
 	.inner_container {
 		width:100%;
 		float:none;
+		padding-left:0;
 	}
 	
 	.content_wrapper {
