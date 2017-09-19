@@ -16,3 +16,37 @@ span.posted_on {
 	text-transform: lowercase;
 	color:$bordergrey;
 }
+
+
+span.latest_posts {
+	font-family: $akzcondensed;
+	color:#fff;
+	text-transform: uppercase;
+	font-size:24px;
+	letter-spacing: 1.5px;
+	display: block;
+	margin:30px 0 20px;
+}
+
+
+ul.latest_post_list {
+	li {
+		margin:0 0 20px;
+		text-transform: lowercase;
+		span.sidebar_date {
+			color:#fff;
+			display: block;
+			margin:0 0 5px;
+		}
+		a {
+			color:$yellow;
+			text-decoration: none;
+			font-family: $coresansbold;
+			font-size:18px;
+			transition: all .2s ease-in-out;
+			&:hover {
+				color:#fff;
+			}
+		}
+	}
+}
