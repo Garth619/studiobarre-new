@@ -1,7 +1,7 @@
 
 <div class="sidebar">
 	
-	<h1 class="header_script">Blog</h1><!-- header_script -->
+	<h1 class="header_script"><a href="<?php $mypagelink = get_the_permalink(18);echo $mypagelink ?>">Blog</a></h1><!-- header_script -->
 	
 	<span class="latest_posts">Latest Posts</span>
 	

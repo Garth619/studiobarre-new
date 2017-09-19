@@ -10866,6 +10866,61 @@
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/style.css.map",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM-150x150.png": {
+		"ft": 32768,
+		"iS": 37193,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM-241x300.png": {
+		"ft": 32768,
+		"iS": 111129,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM-241x300.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM-768x954.png": {
+		"ft": 32768,
+		"iS": 932570,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM-768x954.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM-824x1024.png": {
+		"ft": 32768,
+		"iS": 1037313,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM-824x1024.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM.png": {
+		"ft": 32768,
+		"iS": 1173529,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/08\/Screen-Shot-2017-09-18-at-8.33.40-PM.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/wp-migrate-db\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
