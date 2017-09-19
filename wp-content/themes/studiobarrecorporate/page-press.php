@@ -14,32 +14,268 @@
 		
 			
 			<div class="content_wrapper content">
+				
+				<h1 class="press_header"><?php the_title();?></h1>
 			
 				
+				<div class="press_wrapper">
 				
-				
-				<div class="single_press_wrapper">
-			
-					<?php $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+					<div class="single_press_wrapper">
 					
-					<div class="front" style="background: url(<?php echo $press_image[0]; ?>) repeat scroll 0% 0% / 191px 182px;">
-			
-					</div><!-- front -->
- 
-					<div class="back">
-   
-						<h1><a href="<?php the_field('press_link');?>" target="_blank"><?php the_title();?></a></h1>
+						<?php // $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+						
+						<div class="front">
 					
-						<p><a href="<?php the_field('press_link');?>" target="_blank"><?php the_field('sub_titledescription');?></a></p>
-					
-						<a href="<?php the_field('press_link');?>" target="_blank"><img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/></a>
-  
+						</div><!-- front -->
+ 					
+						<div class="back">
+   				
+							<a class="" href="">
+							
+								<h1>Test</h1>
+						
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+						
+								<div class="chain_wrapper">
+								
+									<img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/>
+								
+								</div><!-- chain_wrapper -->
+							
+							</a>
   				
-  				</div><!-- back -->
-  		
-					<div style="margin-top:200px"><?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?></div>
+  					
+  					</div><!-- back -->
+  				
+						
+					
+					</div><!-- single_press_wrapper -->
+					
+					
+					<div class="single_press_wrapper">
+					
+						<?php // $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+						
+						<div class="front">
+					
+						</div><!-- front -->
+ 					
+						<div class="back">
+   				
+							<a class="" href="">
+							
+								<h1>Test</h1>
+						
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+						
+								<div class="chain_wrapper">
+								
+									<img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/>
+								
+								</div><!-- chain_wrapper -->
+							
+							</a>
+  				
+  					
+  					</div><!-- back -->
+  				
+						
+					
+					</div><!-- single_press_wrapper -->
+					
+					
+					<div class="single_press_wrapper">
+					
+						<?php // $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+						
+						<div class="front">
+					
+						</div><!-- front -->
+ 					
+						<div class="back">
+   				
+							<a class="" href="">
+							
+								<h1>Test</h1>
+						
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+						
+								<div class="chain_wrapper">
+								
+									<img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/>
+								
+								</div><!-- chain_wrapper -->
+							
+							</a>
+  				
+  					
+  					</div><!-- back -->
+  				
+						
+					
+					</div><!-- single_press_wrapper -->
+					
+					
+					<div class="single_press_wrapper">
+					
+						<?php // $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+						
+						<div class="front">
+					
+						</div><!-- front -->
+ 					
+						<div class="back">
+   				
+							<a class="" href="">
+							
+								<h1>Test</h1>
+						
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+						
+								<div class="chain_wrapper">
+								
+									<img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/>
+								
+								</div><!-- chain_wrapper -->
+							
+							</a>
+  				
+  					
+  					</div><!-- back -->
+  				
+						
+					
+					</div><!-- single_press_wrapper -->
+					
+					
+					<div class="single_press_wrapper">
+					
+						<?php // $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+						
+						<div class="front">
+					
+						</div><!-- front -->
+ 					
+						<div class="back">
+   				
+							<a class="" href="">
+							
+								<h1>Test</h1>
+						
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+						
+								<div class="chain_wrapper">
+								
+									<img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/>
+								
+								</div><!-- chain_wrapper -->
+							
+							</a>
+  				
+  					
+  					</div><!-- back -->
+  				
+						
+					
+					</div><!-- single_press_wrapper -->
+					
+					
+					<div class="single_press_wrapper">
+					
+						<?php // $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+						
+						<div class="front">
+					
+						</div><!-- front -->
+ 					
+						<div class="back">
+   				
+							<a class="" href="">
+							
+								<h1>Test</h1>
+						
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+						
+								<div class="chain_wrapper">
+								
+									<img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/>
+								
+								</div><!-- chain_wrapper -->
+							
+							</a>
+  				
+  					
+  					</div><!-- back -->
+  				
+						
+					
+					</div><!-- single_press_wrapper -->
+					
+					
+					<div class="single_press_wrapper">
+					
+						<?php // $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+						
+						<div class="front">
+					
+						</div><!-- front -->
+ 					
+						<div class="back">
+   				
+							<a class="" href="">
+							
+								<h1>Test</h1>
+						
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+						
+								<div class="chain_wrapper">
+								
+									<img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/>
+								
+								</div><!-- chain_wrapper -->
+							
+							</a>
+  				
+  					
+  					</div><!-- back -->
+  				
+						
+					
+					</div><!-- single_press_wrapper -->
+					
+					
+					<div class="single_press_wrapper">
+					
+						<?php // $press_image = wp_get_attachment_image_src(get_field('press_image'), 'press'); ?>
+						
+						<div class="front">
+					
+						</div><!-- front -->
+ 					
+						<div class="back">
+   				
+							<a class="" href="">
+							
+								<h1>Test</h1>
+						
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+						
+								<div class="chain_wrapper">
+								
+									<img class="chain" src="<?php bloginfo('template_directory');?>/images/chain.png"/>
+								
+								</div><!-- chain_wrapper -->
+							
+							</a>
+  				
+  					
+  					</div><!-- back -->
+  				
+						
+					
+					</div><!-- single_press_wrapper -->
 				
-				</div><!-- single_press_wrapper -->
+				</div><!-- press_wrapper -->
 				
 			</div><!-- content -->
 			

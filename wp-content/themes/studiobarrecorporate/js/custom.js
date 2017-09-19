@@ -71,6 +71,28 @@ $('span.case_results_read_more').click(function(){
 
 
 
+jQuery(document).on('mouseenter', '.single_press_wrapper', function() {
+
+    
+        jQuery(this).find('.front').addClass('flipped_front');
+        jQuery(this).find('.back').addClass('flipped_back');
+  
+
+});
+
+
+jQuery(document).on('mouseleave', '.single_press_wrapper', function() {
+
+    
+        jQuery(this).find('.front').removeClass('flipped_front');
+        jQuery(this).find('.back').removeClass('flipped_back');
+  
+
+});
+
+
+
+
 }); // Document Ready
 
 
