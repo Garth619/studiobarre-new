@@ -71,24 +71,59 @@ $('span.case_results_read_more').click(function(){
 
 
 
-jQuery(document).on('mouseenter', '.single_press_wrapper', function() {
+function checkWidth() {
+    
+    if ($(window).width() < 985) {
+        
+        
+        $('.single_press_wrapper').click(function(){
+        	
+        	 jQuery(this).find('.front').toggleClass('flipped_front');
+					 jQuery(this).find('.back').toggleClass('flipped_back');
+        	
+        	
+        });
+        
+        
+           	   		
+    		
+    } else {
+	    
+	    
+	    
+	    
+	    
+	    $(document).on('mouseenter', '.single_press_wrapper', function() {
 
     
-        jQuery(this).find('.front').addClass('flipped_front');
-        jQuery(this).find('.back').addClass('flipped_back');
+        $(this).find('.front').addClass('flipped_front');
+        $(this).find('.back').addClass('flipped_back');
   
 
-});
+			});
 
 
-jQuery(document).on('mouseleave', '.single_press_wrapper', function() {
+			$(document).on('mouseleave', '.single_press_wrapper', function() {
 
     
-        jQuery(this).find('.front').removeClass('flipped_front');
-        jQuery(this).find('.back').removeClass('flipped_back');
+        $(this).find('.front').removeClass('flipped_front');
+        $(this).find('.back').removeClass('flipped_back');
   
 
-});
+			});
+	    
+	    
+	    
+
+    }
+};
+
+
+checkWidth();
+
+
+
+
 
 
 

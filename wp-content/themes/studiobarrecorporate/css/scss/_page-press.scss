@@ -32,7 +32,7 @@ h1.press_header {
 }
 
 .front {
-	background: url(images/test.png) top center no-repeat;
+	background: url(#{$themepath}images/test.png) top center no-repeat;
 	background-size:cover;
 	transform: rotateY(0deg);
 }
