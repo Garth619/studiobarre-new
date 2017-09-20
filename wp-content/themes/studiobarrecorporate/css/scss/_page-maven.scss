@@ -16,7 +16,7 @@
     
   span.maven_form_title {
 	  font-family: $akzcondensed;
-		color: #fff;
+		color: $yellow;
 		text-transform: uppercase;
 		font-size: 24px;
 		letter-spacing: 1.5px;
@@ -30,21 +30,84 @@
    
    .sidebar_form_wrapper {
 	   background:$lightgrey;
-	   padding:25px;
+	   padding:25px 20px;
    }
     
     
    .sidebar_inner_form_wrapper {
 	   ul {
 		   list-style: none;
+		   li#field_3_5 {
+			   display: none;
+		   }
 		   li {
 			   width:100%;
+			   margin-bottom:10px;
+			   text-align: left;
 			   label {
 				   color:#fff;
+				   display: block;
+				   margin-bottom: 4px;
+				   font-size: 15px;
 			   }
 			   input, textarea {
 				   width:100%;
+				   border:none;
+				   padding:3px 5px;
+				   font-size:14px;
 			   }
 		   }
 	   }
+	   gfield_description, .validation_message {
+		   color: $yellow;
+		   font-size: 13px;
+		   margin-top:3px;
+	   }
+	   input[type="submit"] {
+		   background: $yellow;
+		   border:none;
+		   font-size:16px;
+		   padding:5px 15px;
+		   margin-top:0px;
+		   cursor: pointer;
+		   transition: all .2s ease-in-out;
+		   text-transform: lowercase;
+		   &:hover {
+			   background: #000;
+			   color:#fff;
+		   }
+	   }
+   }
+   
+   
+   
+   
+   span.how_to_be_title {
+	   color:$yellow;
+	   display: block;
+	   margin:20px 0 0 5px;
+	   text-transform: lowercase;
+	   cursor: pointer;
+	   &:hover {
+		   text-decoration: underline;
+	   }
+	   &:before {
+		   content:"+";
+		   display: inline-block;
+		   margin-right:0px;
+		   width:20px;
+	   }
+   }
+   
+   span.how_to_be_title.open {
+	   
+	   &:before {
+		   content:"-";
+		  }
+   }
+   
+   
+   
+   .maven_requirements {
+	   display: none;
    }

@@ -69,7 +69,7 @@ $('span.case_results_read_more').click(function(){
 });
 
 
-
+// Press
 
 function checkWidth() {
     
@@ -123,7 +123,16 @@ checkWidth();
 
 
 
+// Maven 
 
+
+$('.how_to_be_title').click(function(){
+	
+	$(this).next('.maven_requirements').slideToggle(200);
+	
+	$(this).toggleClass('open');
+	
+});
 
 
 
