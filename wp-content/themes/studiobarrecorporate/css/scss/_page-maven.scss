@@ -1,0 +1,50 @@
+    
+   body.page-template-page-maven {
+	   .inner_main {
+		   overflow: visible;
+		   &:after {
+			   content:"";
+			   display: block;
+			   clear:both;
+		   }
+	   }
+	   .sidebar {
+	   	width:230px;
+		 	margin-left:-70px;
+   	}
+	} 
+    
+  span.maven_form_title {
+	  font-family: $akzcondensed;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 24px;
+		letter-spacing: 1.5px;
+		display: block;
+		margin: 0px auto 20px;
+		max-width:170px;
+		
+   }
+    
+   
+   
+   .sidebar_form_wrapper {
+	   background:$lightgrey;
+	   padding:25px;
+   }
+    
+    
+   .sidebar_inner_form_wrapper {
+	   ul {
+		   list-style: none;
+		   li {
+			   width:100%;
+			   label {
+				   color:#fff;
+			   }
+			   input, textarea {
+				   width:100%;
+			   }
+		   }
+	   }
+   }

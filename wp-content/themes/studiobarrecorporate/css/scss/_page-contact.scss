@@ -9,6 +9,9 @@ body.page-template-page-contact .content_wrapper {
 	ul {
 		list-style: none;
 		margin:0;
+		li#field_2_7 {
+			display: none;
+		}
 		li {
 			margin-bottom:10px;
 			label {
