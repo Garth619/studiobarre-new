@@ -141,16 +141,17 @@ $('.how_to_be_title').click(function(){
 
 $('.single_bio_grid').mouseenter(function() {
 	
-	$(this).find('img.black_white').fadeIn(200);
+	$(this).find('img.color').fadeIn(200);
 	
 });
 
 
 $('.single_bio_grid').mouseleave(function(){
 	
-	$(this).find('img.black_white').fadeOut(200);
+	$(this).find('img.color').fadeOut(200);
 	
 });
+
 
 
 
@@ -163,11 +164,18 @@ $('.single_bio_grid').click(function() {
 
 
 
+
+
+
 $('.bio_overlay_close').click(function() {
 	
-	$('.bio_overlay_bg').removeClass('open');
+	$('body').hide();
 	
 });
+
+
+
+
 
 
 

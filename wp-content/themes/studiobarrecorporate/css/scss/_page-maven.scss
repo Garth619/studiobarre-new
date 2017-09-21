@@ -8,9 +8,13 @@
 			   clear:both;
 		   }
 	   }
+	   .inner_container {
+		    width: calc(100% - 230px);
+				padding-left: 3%;
+	   }
 	   .sidebar {
 	   	width:230px;
-		 	margin-left:-70px;
+// 		 	margin-left:-70px;
    	}
 	} 
     
