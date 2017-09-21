@@ -16,7 +16,13 @@
 	   	width:230px;
 // 		 	margin-left:-70px;
    	}
+   	
 	} 
+	
+	
+	h1.maven_mobile_title {
+	  display: none;
+   }
     
   span.maven_form_title {
 	  font-family: $akzcondensed;
@@ -115,3 +121,52 @@
    .maven_requirements {
 	   display: none;
    }
+   
+   
+   
+   
+   @media screen and (max-width: 800px) {
+	   
+	   span.maven_form_title {
+		   display: none;
+	   }
+	   
+	   	h1.maven_mobile_title {
+		 		display: block;
+   		}
+   		
+   		body.page-template-page-maven {
+	 			.inner_container {
+	 				width: 100%;
+	 				padding-left: 0%;
+	 				float:none;
+				}
+				#gform_wrapper_3 {
+					display: none;
+					position: fixed;
+					bottom:0;
+					left:0;
+					width:100%;
+					height:100%;
+					background: $lightgrey;
+				}
+				.sidebar {
+					width:100%;
+				}
+				.sidebar_form_wrapper {
+					padding:0;
+				}
+				span.maven_form_title {
+					margin-bottom: 0;
+				}
+			}
+			
+			
+			
+	   
+	   
+   } /* Media Query */
+   
+   
+   
+   

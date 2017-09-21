@@ -207,6 +207,7 @@ footer {
 		padding-right:15px;
 		width:100%;
 		margin-top:40px;
+		background: $darkgrey;
 	}
 	
 	.social_media_wrapper {
@@ -271,10 +272,12 @@ footer {
 	}
 	
 	.copyright {
-		padding-left:15px;
-		padding-right:15px;
+		
 		width:100%;
-		margin-top:25px;
+		
+		background: $darkgrey;
+		padding:60px 15px 20px;
+		margin-top:0;
 		.inner_copyright {
 			border-top:1px solid $bordergrey;
 			overflow: hidden;

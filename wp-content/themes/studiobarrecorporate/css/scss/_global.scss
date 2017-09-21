@@ -2,7 +2,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
-	background: $darkgrey;
+	background: #444;
 	font-size:16px;
 	font-family: $coresanslight;
 	line-height: 1;
@@ -144,8 +144,8 @@ img.aligncenter {
 @media screen and (max-width: 800px) {
 	
 	.wrapper {
-		padding:0;
-		margin-bottom:20px;
+		padding:0 0 0px 0;
+		margin-bottom:0px;
 	}
 	
 	.content {
@@ -166,6 +166,9 @@ img.aligncenter {
 // Global Inner Templates
 
 
+.inner_banner {
+	margin-bottom:19px;
+}
 
 .inner_main {
 	width:100%;
@@ -250,6 +253,13 @@ img.aligncenter {
 	}
 	
 	
+	
+	.inner_main {
+		padding-bottom:23px;
+		background: #4d4d4f;
+	}
+	
+	
 	.sidebar {
 		width:100%;
 		float:none;
@@ -269,7 +279,7 @@ img.aligncenter {
 	}
 	
 	.content_wrapper {
-		padding:15px;
+		padding:15px 15px 0;
 	}
 	
 	

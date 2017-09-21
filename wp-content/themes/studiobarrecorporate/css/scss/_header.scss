@@ -133,7 +133,7 @@ nav {
 				text-decoration: none;
 			}
 			ul.sub-menu {
-				background: $darkgrey;
+				background: #444;
 				display: block;
 				position: absolute;
 				top:25px;
@@ -171,9 +171,9 @@ nav {
 	}
 	
 	header {
-		margin-top:10px;
+		padding-top:10px;
 		position: relative;
-		
+		background: $darkgrey;
 	}
 	
 	.mobile_menu {
@@ -338,7 +338,7 @@ padding: 0 42px;
 				}
 			}
 			ul.sub-menu {
-				
+				background: $darkgrey;
 				overflow: hidden;
 				opacity: 1;
 				visibility: visible;
@@ -406,7 +406,7 @@ padding: 0 42px;
 		background: #4d4d4f;
 		h1 {
 			padding: 11px 10px 3px;
-			font-size: 53px;
+			font-size: 46px;
 		}
 	}
 	
