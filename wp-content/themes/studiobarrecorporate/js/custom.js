@@ -135,6 +135,40 @@ $('.how_to_be_title').click(function(){
 });
 
 
+// Bio Grid
+
+
+
+$('.single_bio_grid').mouseenter(function() {
+	
+	$(this).find('img.black_white').fadeIn(200);
+	
+});
+
+
+$('.single_bio_grid').mouseleave(function(){
+	
+	$(this).find('img.black_white').fadeOut(200);
+	
+});
+
+
+
+$('.single_bio_grid').click(function() {
+	
+	$(this).find('.bio_overlay_bg').addClass('open');
+	
+});
+
+
+
+
+$('.bio_overlay_close').click(function() {
+	
+	$('.bio_overlay_bg').removeClass('open');
+	
+});
+
 
 
 }); // Document Ready
