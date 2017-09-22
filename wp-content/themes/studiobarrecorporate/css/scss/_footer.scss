@@ -206,7 +206,8 @@ footer {
 		padding-left:15px;
 		padding-right:15px;
 		width:100%;
-		margin-top:40px;
+		padding-top:40px;
+		margin-top:0;
 		background: $darkgrey;
 	}
 	
@@ -258,7 +259,7 @@ footer {
 			font-size: 16px;
 			font-style: normal;
 			font-weight: 300;
-			margin:50px 0 15px;
+			margin:40px 0 15px;
 		}
 		.newsletter_form {
 			max-width:400px;
@@ -272,11 +273,9 @@ footer {
 	}
 	
 	.copyright {
-		
 		width:100%;
-		
 		background: $darkgrey;
-		padding:60px 15px 20px;
+		padding:40px 15px 20px;
 		margin-top:0;
 		.inner_copyright {
 			border-top:1px solid $bordergrey;

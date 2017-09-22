@@ -53,11 +53,9 @@
 
 <div class="main_intro content">
 	
-	<h1>Welcome</h1>
+	<h1>studio barre is... fun, effective and sassy</h1>
 	
-	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	
-	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>studio barre classes apply the perfect combination of arm, seat, thigh and ab exercises to define and sculpt the body. the 60-minute workout digs deep physically while the music and happy barre{tenders} keep you mentally in the moment and push you toward your best.</p>
 	
 	
 </div><!-- main_intro -->
