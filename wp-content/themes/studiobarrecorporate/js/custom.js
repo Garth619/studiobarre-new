@@ -155,21 +155,16 @@ $('.single_bio_grid').mouseleave(function(){
 
 
 
-$('.single_bio_grid').click(function() {
+$('.single_bio_grid .image_wrapper').click(function() {
 	
-	$(this).find('.bio_overlay_bg').addClass('open');
+	$(this).next('.bio_overlay_bg').addClass('open');
 	
 });
 
 
-
-
-
-
-
 $('.bio_overlay_close').click(function() {
 	
-	$('body').hide();
+	$('.bio_overlay_bg').removeClass('open');
 	
 });
 
