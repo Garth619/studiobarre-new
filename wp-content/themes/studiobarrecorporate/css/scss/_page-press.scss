@@ -113,6 +113,20 @@ h1.press_header {
   
   
   
+  @media screen and (max-width: 800px) {
+	  
+	  
+	  
+	  h1.press_header {
+		  padding:0;
+		  text-align: center;
+	  }
+	  
+	  
+  } /* Media Query */
+  
+  
+  
   
     @media screen and (max-width: 600px) {
 	  
