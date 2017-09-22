@@ -170,7 +170,14 @@ $('.bio_overlay_close').click(function() {
 
 
 
-
+/*
+$('span.maven_form_title').click(function(){
+	
+	$('#gform_wrapper_3').addClass('garrett');
+	
+	
+});
+*/
 
 
 
