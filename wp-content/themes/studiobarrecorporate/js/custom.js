@@ -143,15 +143,30 @@ function biogridMobile() {
     if (jQuery(window).width() < 700) {
         
        
-      $('.single_bio_grid').click(function() {
+      $('.single_bio_grid .image_wrapper').click(function() {
 	      
-	    	$(this).find('.image_wrapper').toggleClass('fade');
+	    	$(this).toggleClass('fade');
 	
 				$(this).find('img.color').toggleClass('fade');
 				
-				$(this).find('.bio_overlay_bg').slideToggle(200);
+				$(this).siblings('.bio_overlay_bg').slideToggle(200);
 			
-				$(this).find('span.read_bio').toggleClass('open');
+				$(this).siblings('.bio_content').find('span.read_bio').toggleClass('open');
+				
+			});
+			
+			
+			$('span.read_bio').click(function(){
+				
+				
+				$(this).parents('.bio_content').siblings('.image_wrapper').toggleClass('fade');
+				
+				$(this).parents('.bio_content').siblings('.image_wrapper').find('img.color').toggleClass('fade');
+				
+				$(this).parents('.bio_content').siblings('.bio_overlay_bg').slideToggle(200);
+				
+				$(this).toggleClass('open');
+				
 				
 			});
     		
@@ -159,14 +174,14 @@ function biogridMobile() {
     } else {
 	    
 	    
-	    $('.single_bio_grid .image_wrapper').mouseenter(function() {
+	    $('.single_bio_grid').mouseenter(function() {
 	
 				$(this).find('img.color').fadeIn(200);
 	
 			});
 
 
-			$('.single_bio_grid .image_wrapper').mouseleave(function(){
+			$('.single_bio_grid').mouseleave(function(){
 	
 				$(this).find('img.color').fadeOut(200);
 	
@@ -184,6 +199,26 @@ function biogridMobile() {
 				$('.bio_overlay_bg').removeClass('open');
 	
 			});
+			
+			
+			$('.single_bio_grid .image_wrapper').click(function() {
+	
+				$(this).siblings('.bio_overlay_bg').addClass('open');
+	
+			});
+
+
+			$('span.read_bio').click(function() {
+	
+				$(this).parents('.bio_content').siblings('.bio_overlay_bg').addClass('open');
+	
+			});
+			
+			
+			
+			
+			
+			
 
 	    
 	  }
@@ -209,7 +244,27 @@ function sidebarMobile() {
     
     if (jQuery(window).width() < 800) {
         
-       
+      
+			window.onload = function(){
+				var hash = (window.location.hash).replace('#', '');
+				
+				if (hash.length == 0) {
+        	//no hash do something
+    		
+    		}
+				
+				else {
+        	
+    			
+    			$('span.maven_form_title').addClass('clicked');
+					$('#gform_wrapper_3, header, body').addClass('fixed');
+					$('#gform_wrapper_3').fadeIn(100);
+					$('span.back_to_page').addClass('fixed');
+    		
+    		
+    		}
+			}	
+			
      
 			$('span.maven_form_title').click(function(){
 				
@@ -230,6 +285,8 @@ function sidebarMobile() {
 				
 				
 			});
+			
+			
 
     	   		
     		

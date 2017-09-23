@@ -9922,6 +9922,12 @@
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/archive.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/studiobarrecorporate\/bio-grid.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/bio-grid.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/studiobarrecorporate\/category.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -10901,6 +10907,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/page-maven.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/page-mentor.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/page-mentor.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/page-press.php": {
