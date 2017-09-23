@@ -137,7 +137,14 @@ img.aligncenter {
 	margin-bottom: 12px;
 }
 
-
+.gform_wrapper {
+	input,textarea {
+		border-radius: 0;
+	}
+	input[type="submit"] {
+		-webkit-appearance: none;
+	}
+}
 
 
 

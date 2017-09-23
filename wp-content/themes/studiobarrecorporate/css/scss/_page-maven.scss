@@ -33,8 +33,10 @@
 		display: block;
 		margin: 0px auto 20px;
 		max-width:170px;
-		
-   }
+	}
+	span.back_to_page {
+		display: none;
+	}
     
    
    
@@ -134,19 +136,28 @@
 		   }
 	   }
 	   
+	   span.maven_form_title.clicked {
+		   font-size: 35px;
+		   padding: 10px 10px 0px;
+		   font-family: $asnapperscript;
+		   text-transform: lowercase;
+		   top:115px;
+		   background: #666;
+		   color:$yellow;
+	   }
 	   
 	   span.maven_form_title {
 		   position: fixed;
 		   bottom:0;
 		   left:0;
 		   background: $yellow;
-		   color:#4d4d4f;
+		  
 		   width:100%;
 		   max-width: 100%;
 		   z-index:5;
 		   text-transform: lowercase;
 			 font-family: $coresansbold;
-			 color: $darkgrey;
+			 color: #4d4d4f;
 			 font-size: 18px;
 			 font-style: normal;
 			 font-weight: 300;
@@ -154,26 +165,78 @@
 			 padding:5px 0;
 			 display: block;
 			 cursor: pointer;
-  		}
+  	}
+  	
+  	span.back_to_page.fixed {
+			display: block;
+			position: fixed;
+			top:180px;
+			z-index:5;
+			width:100%;
+			color:#fff;
+			
+		}
+  	
+  	
 	   h1.maven_mobile_title {
 		 		display: block;
    		}
    		
+   		body.page-template-page-maven.fixed {
+	   		overflow-y: hidden;
+   		}
+   		
    		body.page-template-page-maven {
+	   		
+	   		header.fixed {
+		   		position: fixed;
+		   		top:0;
+		   		left:0;
+		   		width:100%;
+		   		z-index: 100;
+		   		.mobile_menu {
+			   		display: none;
+		   		}
+	   		}
+	   		
 	 			.inner_container {
 	 				width: 100%;
 	 				padding-left: 0%;
 	 				float:none;
 				}
+				#gform_wrapper_3.fixed {
+					position: fixed;
+					top:205px;
+					z-index:10;
+					overflow-y: scroll;
+					padding-bottom: 200px;
+					left:0;
+					//display: block;
+				}
+				
 				#gform_wrapper_3 {
 					display: none;
-					position: fixed;
-					bottom:0;
-					z-index:4;
-					left:0;
+					
 					width:100%;
-					height:100%;
+					height:100%; 
 					background: $lightgrey;
+					padding:10px 45px 45px;
+					ul {
+						max-width:500px;
+						margin-left:auto;
+						margin-right:auto;
+						li {
+							margin-bottom:20px;
+							label {
+								text-align: center;
+							}
+							input {
+								padding:8px 5px;
+								text-align: center;
+							}
+						}
+						
+					}
 				}
 				.sidebar {
 					width:100%;

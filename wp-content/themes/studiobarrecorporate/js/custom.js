@@ -145,19 +145,17 @@ function biogridMobile() {
        
       $('.single_bio_grid').click(function() {
 	      
-	    $(this).find('.image_wrapper').toggleClass('fade');
+	    	$(this).find('.image_wrapper').toggleClass('fade');
 	
-			$(this).find('img.color').toggleClass('fade');
+				$(this).find('img.color').toggleClass('fade');
 				
-			$(this).find('.bio_overlay_bg').slideToggle(200);
+				$(this).find('.bio_overlay_bg').slideToggle(200);
 			
-			$(this).find('span.read_bio').toggleClass('open');
+				$(this).find('span.read_bio').toggleClass('open');
 				
-	
 			});
     		
     	   		
-    		
     } else {
 	    
 	    
@@ -202,20 +200,56 @@ biogridMobile();
 
 
 
+// Mobile Form
 
 
 
 
-
-
-/*
-$('span.maven_form_title').click(function(){
+function sidebarMobile() {
+    
+    if (jQuery(window).width() < 800) {
+        
+       
+     
+			$('span.maven_form_title').click(function(){
+				
+				$(this).addClass('clicked');
+				$('#gform_wrapper_3, header, body').addClass('fixed');
+				$('#gform_wrapper_3').fadeIn(100);
+				$('span.back_to_page').addClass('fixed');
 	
-	$('#gform_wrapper_3').addClass('garrett');
-	
-	
-});
-*/
+			});
+			
+			
+			$('span.back_to_page').click(function(){
+				
+				$('span.maven_form_title').removeClass('clicked');
+				$('#gform_wrapper_3, header, body').removeClass('fixed');
+				$('#gform_wrapper_3').fadeOut(100);
+				$(this).removeClass('fixed');
+				
+				
+			});
+
+    	   		
+    		
+    } else {
+	    
+	    
+	   
+	    
+	  }
+
+};
+
+
+sidebarMobile();
+
+
+
+
+
+
 
 
 
