@@ -138,35 +138,73 @@ $('.how_to_be_title').click(function(){
 // Bio Grid
 
 
-
-$('.single_bio_grid').mouseenter(function() {
+function biogridMobile() {
+    
+    if (jQuery(window).width() < 700) {
+        
+       
+      $('.single_bio_grid').click(function() {
+	      
+	    $(this).find('.image_wrapper').toggleClass('fade');
 	
-	$(this).find('img.color').fadeIn(200);
+			$(this).find('img.color').toggleClass('fade');
+				
+			$(this).find('.bio_overlay_bg').toggleClass('open');
+			
+			$(this).find('span.read_bio').toggleClass('open');
+				
 	
-});
-
-
-$('.single_bio_grid').mouseleave(function(){
+			});
+    		
+    	   		
+    		
+    } else {
+	    
+	    
+	    $('.single_bio_grid .image_wrapper').mouseenter(function() {
 	
-	$(this).find('img.color').fadeOut(200);
+				$(this).find('img.color').fadeIn(200);
 	
-});
+			});
 
 
-
-
-$('.single_bio_grid .image_wrapper').click(function() {
+			$('.single_bio_grid .image_wrapper').mouseleave(function(){
 	
-	$(this).next('.bio_overlay_bg').addClass('open');
+				$(this).find('img.color').fadeOut(200);
 	
-});
+			});
+			
+			$('.single_bio_grid .image_wrapper').click(function() {
+	
+				$(this).siblings('.bio_overlay_bg').addClass('open');
+	
+			});
 
 
-$('.bio_overlay_close').click(function() {
+			$('.bio_overlay_close').click(function() {
 	
-	$('.bio_overlay_bg').removeClass('open');
+				$('.bio_overlay_bg').removeClass('open');
 	
-});
+			});
+
+	    
+	  }
+
+};
+
+
+biogridMobile();
+
+
+
+
+
+
+
+
+
+
+
 
 
 

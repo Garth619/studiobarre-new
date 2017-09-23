@@ -25,6 +25,7 @@
 		display: block;
 		max-width: 100%;
 		height:auto;
+		width:100%;
 	}
 	img.color {
 		position: absolute;
@@ -43,12 +44,6 @@
 	.image_wrapper {
 		border:5px solid $yellow;
 	}
-	.bio_content {
-		span.read_bio {
-			color:$yellow;
-		}
-	}
-	
 }
 
 
@@ -60,6 +55,11 @@
 	}
 	span.read_bio {
 		transition: all .2s ease-in-out;
+		color:$yellow;
+	}
+	h2 {
+		font-size: 17px;
+		margin-bottom: 0px;
 	}
 }
 
@@ -151,6 +151,12 @@
 		margin-right:3%;
 	}
 }
+
+
+
+
+
+
 	
 	
 	
@@ -164,16 +170,153 @@
 	
 	
 	
+.bio_grid {
+	display: block;
+}
+	
+	
 .single_bio_grid {
-	width:48.5%;
-	margin-right:3%;
+	width:100%;
+	margin-right:0%;
+	max-width:290px;
+	display: block;
+	
+	&:hover {
+		.image_wrapper {
+			border:5px solid #999;
+		}
+		.image_wrapper.fade {
+			border:5px solid $yellow;
+		}
+	}
 	&:nth-of-type(3n + 3) {
-		margin-right:3%;
+		margin-right:0%;
 	}
 	&:nth-of-type(2n + 2) {
 		margin-right:0%;
 	}
 }
+
+
+.bio_overlay_bg {
+	
+	position: relative;
+	background: transparent;
+	max-height:0;
+	transition: all .6s ease-in-out;
+	.bio_overlay_wrapper {
+		background: transparent;
+		padding:0;
+		span.bio_overlay_close {
+			display: none;
+		}
+		h2 {
+			display: none;
+		}
+		img {
+			display: none;
+		}
+	}
+	
+}
+
+
+.bio_overlay_bg.open {
+	opacity: 1;
+	visibility: visible;
+	max-height: 3000px;
+}
+
+
+
+.image_wrapper.fade {
+		border: 5px solid $yellow;
+	}
+
+
+
+.image_wrapper {
+	cursor: pointer;
+	&:hover {
+		
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		height:auto;
+		width:100%;
+	}
+	img.color {
+		display: block;
+		opacity: 0;
+		visibility: hidden;
+		transition: all .2s ease-in-out;
+	}
+	img.color.fade {
+		opacity: 1;
+		visibility: visible;
+	}
+	img.black_white {
+		
+	}
+}
+	
+	
+	
+.bio_content {
+	
+	span.read_bio {
+		&:before {
+			content:"+";
+			display:inline-block;
+			color:$yellow;
+			margin-right:10px;
+			position: relative;
+			top:1px;
+		}
+	}
+	span.read_bio.open {
+		&:before {
+			content:"-";
+		}
+	}
+}
+
+
+
+
+
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 600px) {
+	
+	
+/*
+.single_bio_grid {
+	width:100%;
+	margin-right:0%;
+	&:nth-of-type(3n + 3) {
+		margin-right:0%;
+	}
+	&:nth-of-type(2n + 2) {
+		margin-right:0%;
+	}
+	&:nth-of-type(1n + 1) {
+		margin-right:0%;
+	}
+}
+*/
+
+
+
+
+
+
+
 	
 	
 	
