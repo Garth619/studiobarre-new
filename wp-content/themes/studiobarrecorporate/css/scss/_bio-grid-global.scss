@@ -199,14 +199,18 @@
 
 
 .bio_overlay_bg {
-	
+	z-index:0;
 	position: relative;
 	background: transparent;
-	max-height:0;
-	transition: all .6s ease-in-out;
+	display: none;
+	
+	opacity: 1;
+	visibility: visible;
+	transition: none;
 	.bio_overlay_wrapper {
 		background: transparent;
 		padding:0;
+		
 		span.bio_overlay_close {
 			display: none;
 		}
@@ -218,13 +222,6 @@
 		}
 	}
 	
-}
-
-
-.bio_overlay_bg.open {
-	opacity: 1;
-	visibility: visible;
-	max-height: 3000px;
 }
 
 

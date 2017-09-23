@@ -149,7 +149,7 @@ function biogridMobile() {
 	
 			$(this).find('img.color').toggleClass('fade');
 				
-			$(this).find('.bio_overlay_bg').toggleClass('open');
+			$(this).find('.bio_overlay_bg').slideToggle(200);
 			
 			$(this).find('span.read_bio').toggleClass('open');
 				
