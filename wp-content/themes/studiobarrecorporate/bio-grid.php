@@ -14,9 +14,9 @@
 							
 							<h2 class="bio_name">Name</h2>
 							
-							<span class="location">{somerville, nj}</span><!-- bio_name -->
+							<span class="location"><a href="">{somerville, nj}</a></span><!-- bio_name -->
 							
-							<span class="bio_position">Position</span><!-- bio_position -->
+							<span class="bio_position">"das asd gasg agsd "</span><!-- bio_position -->
 							
 							<span class="read_bio">Read Bio</span><!-- read_bio -->
 							
