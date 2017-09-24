@@ -1,0 +1,29 @@
+label.my_password_protect_label {
+	margin-bottom: 25px;
+	display: block;
+}
+
+input.my_password_protect {
+	padding:0px 10px;
+	font-size: 15px;
+	height:30px;
+	border: none;
+	float:left;
+}
+
+input.my_password_protect_submit {
+	background: $yellow;
+	border:none;
+	color:#444;
+	height:30px;
+	float:left;
+	padding:0 20px;
+	text-transform: lowercase;
+	font-size:15px;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: #000;
+		color:#fff;
+	}
+}

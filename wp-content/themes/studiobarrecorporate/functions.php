@@ -142,3 +142,40 @@ function cc_mime_types($mimes)
 
 add_filter('upload_mimes', 'cc_mime_types');
 
+
+
+
+
+function my_password_form() {
+    global $post;
+    $label = 'pwbox-'.( empty( $post->ID ) ? rand() : $post->ID );
+    $o = '<form action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" method="post">
+    ' . __( "To view this page, enter the password below:" ) . '
+    <label class="my_password_protect_label" for="' . $label . '">' . __( "" ) . ' </label><input class="my_password_protect" name="post_password" id="' . $label . '" type="password" size="20" maxlength="20" /><input class="my_password_protect_submit" type="submit" name="Submit" value="' . esc_attr__( "Submit" ) . '" />
+    </form>
+    ';
+    return $o;
+}
+add_filter( 'the_password_form', 'my_password_form' );
+
+
+
+function the_title_trim($title) {
+
+	$title = attribute_escape($title);
+
+	$findthese = array(
+		'#Protected:#',
+		'#Private:#'
+	);
+
+	$replacewith = array(
+		'', // What to replace "Protected:" with
+		'' // What to replace "Private:" with
+	);
+
+	$title = preg_replace($findthese, $replacewith, $title);
+	return $title;
+}
+add_filter('the_title', 'the_title_trim');
+
