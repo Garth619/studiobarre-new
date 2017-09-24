@@ -1,22 +1,22 @@
 .sidebar {
+	text-align: left;
 	h1.location {
 		font-family:$coresansbold;
     color: #FFE000;
     text-transform: lowercase;
     font-size: 19px;
-    text-align: left;
-    font-style: normal;
+		font-style: normal;
     font-weight: 300;
     margin-bottom: 5px;
     line-height: 20px;
+    padding-top:5px;
 	}
 }
 
 
 .location_menu {
-	text-align: left;
+	
 	ul {
-		
 		&:before {
 			content:"";
 			display: block;
@@ -67,12 +67,54 @@
 }
 
 
-/*
-    font-family: "AkzidenzGroteskBE-Cn";
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 1.5px;
-    display: block;
-    margin: 30px 0 20px;
-*/
+.sidebar_social {
+	margin-top:30px;
+	img {
+		height:21px;
+	}
+}
+
+
+.store_hours {
+	color:#fff;
+	
+	span.hours_title {
+		display: block;
+		color:#fff;
+		font-family: $akzcondensed;
+		text-transform: uppercase;
+		font-size: 24px;
+		letter-spacing: 1.5px;
+		display: block;
+		margin: 25px 0 10px;
+	}
+	span.days, span.hours {
+		line-height: 20px;
+		display: block;
+	}
+	span.days {
+		font-weight: 600;
+	}
+	span.hours {
+		margin-bottom:10px;
+	}
+}
+
+
+.sidebar {
+	.address {
+		margin-top:20px;
+		font-size:14px;
+		line-height: 16px;
+		a {
+			color:#fff;
+			text-decoration: none;
+			display: block;
+			margin-bottom:10px;
+		}
+	}
+	
+}
+
+
+
