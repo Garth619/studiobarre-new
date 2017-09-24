@@ -1,5 +1,7 @@
 
-
-
-	<?php dynamic_sidebar( 'sidebar' ); ?>
+<div class="sidebar">
+	
+	<h1 class="location">Carmel Valley, CA</h1>
+	
+</div><!-- sidebar -->
 			

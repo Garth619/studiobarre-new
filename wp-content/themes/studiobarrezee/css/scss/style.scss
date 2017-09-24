@@ -3,7 +3,7 @@
 		Author: Garrett Cullen */
 
 
-// Global Styling is found in the studiobarrecorporate theme
+// Global Styling is found in the "studiobarrecorporate" theme
 
 
 @import "../../../studiobarrecorporate/css/scss/variables",
@@ -11,6 +11,7 @@
 				"../../../studiobarrecorporate/css/scss/fonts",
 				"../../../studiobarrecorporate/css/scss/slick",
 				"../../../studiobarrecorporate/css/scss/global",
+				"global-local", // This overrides any global stlyes for the "studiobarrezee"
 				"../../../studiobarrecorporate/css/scss/header",
 				"../../../studiobarrecorporate/css/scss/homepage",
 				"footer";
