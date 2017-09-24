@@ -118,3 +118,52 @@
 
 
 
+.newsletter_signup {
+	ul {
+		list-style: none;
+		li#field_1_2 {
+			display: none;
+		}
+		li {
+			position: relative;
+			label {
+				display: none;
+			}
+			input[type="text"] {
+				background: $bordergrey;
+				border:none;
+				width:100%;
+				color:$darkgrey;
+				font-size: 15px;
+				text-transform: lowercase;
+				padding:5px 12px;
+				border-radius: 0;
+			}
+		}
+		
+		.gfield_description, .validation_message {
+			font-size: 11px;
+			margin-top:4px;
+			color:$yellow;
+// 			position: absolute;
+			top:28px;
+			left:0;
+		}
+	}
+	.validation_error {
+		display: none;
+	}
+	input[type="submit"] {
+		background: $bordergrey;
+		border:none;
+		font-size:15;
+		padding:6px 10px;
+		text-transform: lowercase;
+		color:$darkgrey;
+		margin-top:10px;
+		cursor: pointer;
+	}
+}
+
+
+

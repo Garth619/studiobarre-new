@@ -54,14 +54,19 @@
 		<a href="" target="_blank">
 			7845 Highland Village Place,
 			Suite C-103
-			San Diego, CA 92129
+			San Diego, CA 92129<br/>
+			{map}
 		</a>
 		
 		<a href="tel:858.365.7169">Phone: 858.365.7169</a>
 		
-		
-		
 	</div><!-- address -->
+	
+	<div class="newsletter_signup">
+		
+		<?php gravity_form(1, false, false, false, '', true, 12); ?>
+		
+	</div><!-- newsletter_signup -->
 	
 </div><!-- sidebar -->
 			
