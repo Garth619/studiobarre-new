@@ -157,3 +157,10 @@ function cc_mime_types($mimes)
 
 add_filter('upload_mimes', 'cc_mime_types');
 
+
+
+function custom_menu_page_removing() {
+    remove_menu_page( $menu_slug );
+}
+add_action( 'admin_menu', 'custom_menu_page_removing' );
+
