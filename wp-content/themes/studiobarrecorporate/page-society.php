@@ -14,32 +14,28 @@
 			
 			<div class="inner_banner">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/about-banner.jpg"/>
+			<img src="<?php bloginfo('template_directory');?>/images/slide4.jpg"/>
+			
 			
 			</div><!-- inner_banner -->
 			
 			<div class="content_wrapper content">
 			
-				<h2 class="white">Stronger, Leaner, More Confident</h2>
-				
-				
-				<h2>What is Studio Barre?</h2>
-				
-				<p>Studio Barre {strength. defined.} is a specialized barre workout class that focuses on building core strength, improving posture and developing long and lean muscles, like those of a dancer.</p>
-				
-				<p>Former professional dancer and fitness expert Shannon Higgins founded Studio Barre in 2012. Our mission is to give every client a results-oriented, full-body sculpting workout that is fun, effective and sassy. Walk into any Studio Barre for a community-loving barre class and walk out stronger, leaner and more confident.</p>
-				
-				<h2>Get Stronger</h2>
-				
-				<p>Studio Barre applies the perfect combination of arm, seat, thigh and ab exercises to define and sculpt the body. The 60-minute workout digs deep physically while the music and happy barre{tenders} keep you mentally in the moment and push you toward your best.</p>
-				
-				<h2>Get Leaner</h2>
-				
-				<p>Come to class once and feel a difference; come to class 3-4 times per week for a month and you will see a difference! Showing up to the barre consistently and regularly will create lean, long and strong muscles we all love. Our clients are proof that Studio Barre works.</p>
-				
-				<h2>Gain More Confidence</h2>
-				
-				<p>We help you build strong shoulders, core and back to literally raise you up. Stand taller and present a more confident stature. As you gain more strength, meet your goals and make new friends, your inner confidence matches your exterior. When you feel good, you look good… happy!</p>
+				<h2>Why is Studio Barre Society right for you?</h2>
+<p>Want to see and feel results faster? Of course you do! <a href="http://studiobarre.com/client-results">Our clients</a> who come at least 3 times per week see and feel a transformation within the first month. Showing up to Studio Barre consistently and regularly creates a positive habit you will love and crave. When you join Studio Barre Society, the more you tuck the more you save.</p>
+
+<p>Studio Barre Society is not just a monthly membership, it’s loaded with perks that will keep you tucking happy!</p>
+<h2>Studio Barre Society Perks</h2>
+<ul>
+ 	<li>Exclusive boutique sales and promotions</li>
+ 	<li>Take more, save more</li>
+ 	<li>Unlimited seat lifting, arm toning, defined thighs and sculpted abs</li>
+ 	<li>Exclusive Society Swag</li>
+ 	<li>Free or discounted access to workshops</li>
+ 	<li>Vacation pauses allowed</li>
+ 	<li>Barre hop to multiple locations</li>
+</ul>
+<p>Ask your local studio for more details. <a href="http://studiobarre.com/find-your-studio">FIND YOUR STUDIO</a></p>
 				
 			</div><!-- content -->
 			
