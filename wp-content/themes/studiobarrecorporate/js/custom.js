@@ -321,11 +321,14 @@ function localMenu() {
        $('.location_menu_title').click(function(){
        	
        	
-       		// $(this).siblings('.location_menu_dropdown').toggleClass('clicked');
+       		
 			 		
 			 		$(this).siblings('.location_menu_dropdown').slideToggle(200, function() {
+			 		
+			 		// $('.yellow_home_buttons a').fadeOut(200);
+			 		
+			 		
 			 				
-			 				if ($(this).css('display') == 'block') $(this).css('display', 'flex'); // enter desired display type
     			
     			});
        	

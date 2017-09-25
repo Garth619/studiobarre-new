@@ -6,21 +6,23 @@
 	<div class="location_menu">
 		<span class="location_menu_title">Newport Studio Menu</span><!-- location_menu_title -->
 		<div class="location_menu_dropdown">
-			<ul>
-				<li><a href="">About this Barre</a></li>
-				<li><a href="">Contact Us</a></li>
-			</ul>
-			
-			<ul>
-				<li><a href="">Schedule</a></li>
-				<li><a href="">Pricing</a></li>
-				<li><a href="">Promos</a></li>
-			</ul>
-			
-			<ul>
-				<li><a href="">Barre {tenders}</a></li>
-				<li><a href="">Events</a></li>
-			</ul>
+			<div class="location_menu_flex_fix">
+				<ul>
+					<li><a href="">About this Barre</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+				
+				<ul>
+					<li><a href="">Schedule</a></li>
+					<li><a href="">Pricing</a></li>
+					<li><a href="">Promos</a></li>
+				</ul>
+				
+				<ul>
+					<li><a href="">Barre {tenders}</a></li>
+					<li><a href="">Events</a></li>
+				</ul>
+			</div><!-- location_menu_flex_fix -->
 		</div><!-- location_menu_dropdown -->
 	</div><!-- location_menu -->
 	
@@ -68,6 +70,18 @@
 		<?php gravity_form(1, false, false, false, '', true, 12); ?>
 		
 	</div><!-- newsletter_signup -->
+	
+	<?php if(is_front_page()) { ?>
+	
+	<div class="yellow_home_buttons">
+		
+		<a class="" href="">Class Schedule</a>
+		
+		<a class="" href="">Pricing</a>
+		
+	</div><!-- yellow_home_buttons -->
+	
+	<?php  } ?>
 	
 </div><!-- sidebar -->
 			

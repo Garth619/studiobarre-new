@@ -17,7 +17,6 @@
 			
 			</div><!-- inner_banner -->
 		
-		
 		<?php get_sidebar(); ?>
 		
 		<div class="inner_container">

@@ -80,7 +80,6 @@
 
 .store_hours {
 	color:#fff;
-	
 	span.hours_title {
 		display: block;
 		color:#fff;
@@ -122,7 +121,6 @@
 
 
 .newsletter_signup {
-	
 	ul {
 		list-style: none;
 		li#field_1_2 {
@@ -171,7 +169,9 @@
 	display: none;
 }
 
-
+.yellow_home_buttons {
+	display: none;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -185,6 +185,12 @@
 	
 	.inner_banner.inner_home_mobile {
 		display: block;
+	}
+	
+	.sidebar {
+		h1.location {
+			font-size:20px;
+		}
 	}
 	
 	
@@ -202,7 +208,7 @@
 			order:3;
 		}
 		.location_menu {
-			order:4;
+			order:5;
 		}
 		
 		.store_hours {
@@ -210,7 +216,7 @@
 		}
 		
 		.newsletter_signup {
-			order:5;
+			order:4;
 		}
 	}
 	
@@ -225,7 +231,7 @@
 	}
 	
 	.sidebar_social {
-		margin-top:15px;
+		margin-top:5px;
 		img {
 			height:24px;
 		}
@@ -236,11 +242,9 @@
 .location_menu {
 	background: #fff;
 	max-width: 325px;
-	margin-left:auto;
-	margin-right:auto;
 	width:93%;
 	border:2px solid #999;
-	margin-top:20px;
+	margin:0 auto 20px;
 	span.location_menu_title {
 		display: inline-block;
 		font-family:$akzcondensed;
@@ -265,59 +269,119 @@
 	}
 	.location_menu_dropdown {
 		display: none;
-		flex-direction: column;
-		ul {
-			&:before {
-				display: none;
-			}
-			li {
-				font-family: $coresanslight;
-				border-bottom:2px solid #999;
-				line-height: 1;
-				margin-bottom: 0;
-				a {
-					color:$darkgrey;
-					display: block;
-					padding:15px 5px;
-					&:hover {
-						color:$darkgrey;
-					}
+		.location_menu_flex_fix {
+			display: flex;
+			flex-direction: column;
+			ul {
+				&:before {
+					display: none;
 				}
-			}
-		}
-		ul {
-			&:first-of-type {
-				order:3;
 				li {
-					&:last-of-type {
-						border:none;
+					font-family: $coresanslight;
+					border-bottom:2px solid #999;
+					line-height: 1;
+					margin-bottom: 0;
+					a {
+						color:$darkgrey;
+						display: block;
+						padding:15px 5px;
+						&:hover {
+							color:$darkgrey;
+						}
 					}
 				}
 			}
-		}
-		ul {
-			&:nth-of-type(2) {
-				order:1;
+			ul {
+				&:first-of-type {
+					order:3;
+					li {
+						&:last-of-type {
+							border:none;
+						}
+					}
+				}
 			}
-		}
-		ul {
-			&:last-of-type {
-				order:2;
+			ul {
+				&:nth-of-type(2) {
+					order:1;
+				}
+			}
+			ul {
+				&:last-of-type {
+					order:2;
+				}
 			}
 		}
 	}
 }
 
 	
-	
-/*
-.location_menu {
-	.location_menu_dropdown {
+.newsletter_signup {
+	max-width: 325px;
+	width:93%;
+	margin: 16px auto 20px;
+	&:before {
+		content:"Subscribe:";
+		display:block;
+		text-align: center;
+		margin-bottom:6px;
+		font-size:15px;
+		color:#999;
+	}
+	ul {
+		
+		li#field_1_2 {
+			
+		}
+		li {
+			width:calc(100% - 102px);
+			float:left;
+			label {
+				
+			}
+			input[type="text"] {
+				height:30px;
+				width:100%;
+			}
+		}
+		
+		.gfield_description, .validation_message {
+			
+		}
+	}
+	.validation_error {
 		
 	}
+	.gform_footer {
+		width:100px;
+		float:right;
+		input[type="submit"] {
+			width:100%;
+			margin-top:0;
+			height:30px;
+		}
+	}
 }
-	
-*/
+
+
+.yellow_home_buttons {
+	display: block;
+	order:6;
+	max-width: 325px;
+	width:93%;
+	margin: 0px auto 20px;
+	a {
+		display: block;
+		background: $yellow;
+		color:$darkgrey;
+		margin-bottom:10px;
+		font-family: $coresansbold;
+		text-decoration: none;
+		padding:8px;
+		text-transform: lowercase;
+	}
+}
+
 	
 	
 	
