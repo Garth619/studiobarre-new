@@ -140,7 +140,7 @@ $('.how_to_be_title').click(function(){
 
 function biogridMobile() {
     
-    if (jQuery(window).width() < 700) {
+    if ($(window).width() < 700) {
         
        
       $('.single_bio_grid .image_wrapper').click(function() {
@@ -242,7 +242,7 @@ biogridMobile();
 
 function sidebarMobile() {
     
-    if (jQuery(window).width() < 800) {
+    if ($(window).width() < 800) {
         
       
 			window.onload = function(){
@@ -305,6 +305,42 @@ sidebarMobile();
 
 
 
+// Locations
+
+
+
+// Local Menu
+
+
+
+function localMenu() {
+    
+    if ($(window).width() < 800) {
+        
+       
+       $('.location_menu_title').click(function(){
+       	
+       	
+       		// $(this).siblings('.location_menu_dropdown').toggleClass('clicked');
+			 		
+			 		$(this).siblings('.location_menu_dropdown').slideToggle(200, function() {
+			 				
+			 				if ($(this).css('display') == 'block') $(this).css('display', 'flex'); // enter desired display type
+    			
+    			});
+       	
+			 		
+       });    		
+    	   		
+    		
+    } else {
+
+    }
+
+};
+
+
+localMenu();
 
 
 

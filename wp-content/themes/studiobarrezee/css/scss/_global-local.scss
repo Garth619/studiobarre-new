@@ -15,8 +15,11 @@
 
 
 .location_menu {
-	
+	.location_menu_title {
+		display: none;
+	}
 	ul {
+		list-style: none;
 		&:before {
 			content:"";
 			display: block;
@@ -119,6 +122,7 @@
 
 
 .newsletter_signup {
+	
 	ul {
 		list-style: none;
 		li#field_1_2 {
@@ -145,10 +149,7 @@
 			font-size: 11px;
 			margin-top:4px;
 			color:$yellow;
-// 			position: absolute;
-			top:28px;
-			left:0;
-		}
+}
 	}
 	.validation_error {
 		display: none;
@@ -165,5 +166,162 @@
 	}
 }
 
+
+.inner_banner.inner_home_mobile {
+	display: none;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+	
+	
+	.inner_banner.inner_home_desktop {
+		display: none;
+	}
+	
+	
+	
+	.inner_banner.inner_home_mobile {
+		display: block;
+	}
+	
+	
+	.sidebar {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		h1.location {
+			order:1;
+		}
+		.address {
+			order:2;
+		}
+		.sidebar_social {
+			order:3;
+		}
+		.location_menu {
+			order:4;
+		}
+		
+		.store_hours {
+			display: none;
+		}
+		
+		.newsletter_signup {
+			order:5;
+		}
+	}
+	
+	
+	.sidebar {
+		.address {
+			max-width:220px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:7px;
+		}
+	}
+	
+	.sidebar_social {
+		margin-top:15px;
+		img {
+			height:24px;
+		}
+	}
+	
+	
+	
+.location_menu {
+	background: #fff;
+	max-width: 325px;
+	margin-left:auto;
+	margin-right:auto;
+	width:93%;
+	border:2px solid #999;
+	margin-top:20px;
+	span.location_menu_title {
+		display: inline-block;
+		font-family:$akzcondensed;
+		text-transform: uppercase;
+		font-size:22px;
+		color:#999999;
+		padding:8px 8px 6px;
+		width:100%;
+		cursor: pointer;
+		&:after {
+			content:"";
+			display: inline-block;
+			width: 0; 
+			height: 0; 
+			border-left: 7px solid transparent;
+			border-right: 7px solid transparent;
+			border-top: 7px solid #999999;
+			position: relative;
+			top:-3px;
+			left:9px;
+		}
+	}
+	.location_menu_dropdown {
+		display: none;
+		flex-direction: column;
+		ul {
+			&:before {
+				display: none;
+			}
+			li {
+				font-family: $coresanslight;
+				border-bottom:2px solid #999;
+				line-height: 1;
+				margin-bottom: 0;
+				a {
+					color:$darkgrey;
+					display: block;
+					padding:15px 5px;
+					&:hover {
+						color:$darkgrey;
+					}
+				}
+			}
+		}
+		ul {
+			&:first-of-type {
+				order:3;
+				li {
+					&:last-of-type {
+						border:none;
+					}
+				}
+			}
+		}
+		ul {
+			&:nth-of-type(2) {
+				order:1;
+			}
+		}
+		ul {
+			&:last-of-type {
+				order:2;
+			}
+		}
+	}
+}
+
+	
+	
+/*
+.location_menu {
+	.location_menu_dropdown {
+		
+	}
+}
+	
+*/
+	
+	
+	
+	
+} /* Media Query */
 
 
