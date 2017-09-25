@@ -181,12 +181,46 @@ function my_global_menu() {
 }
 
 
+// Events
 
 
+  add_action('init', 'events');    
+   	 
+	function events() {    
+    	$args = array(    
+        	'label' => __('Events'),    
+        	'singular_label' => __('Event'),    
+        	'public' => true,    
+        	'show_ui' => true,
+        	'has_archive' => false,	 
+        	'capability_type' => 'post',    
+        	'hierarchical' => false,    
+        	'rewrite' => array('with_front' => false,'slug' => 'events'),   
+        	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
+       	);    
+   	 
+    	register_post_type( 'events' , $args );    
+	}    
+	
+	
+	// Remove Posts
+	
 
+add_action('admin_menu', 'post_remove'); 
+	
+	function post_remove ()    
+{ 
+   remove_menu_page('edit.php');
+}
 
+add_action( 'admin_bar_menu', 'remove_wp_nodes', 999 );
 
-
-
+function remove_wp_nodes() 
+{
+    global $wp_admin_bar;   
+    $wp_admin_bar->remove_node( 'new-post' );
+    $wp_admin_bar->remove_node( 'new-link' );
+    $wp_admin_bar->remove_node( 'new-media' );
+}
 
 
