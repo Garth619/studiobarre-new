@@ -17,21 +17,11 @@
 		<span class="location_menu_title">Newport Studio Menu</span><!-- location_menu_title -->
 		<div class="location_menu_dropdown">
 			<div class="location_menu_flex_fix">
-				<ul>
-					<li><a href="">About this Barre</a></li>
-					<li><a href="">Contact Us</a></li>
-				</ul>
 				
-				<ul>
-					<li><a href="">Schedule</a></li>
-					<li><a href="">Pricing</a></li>
-					<li><a href="">Promos</a></li>
-				</ul>
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'local_menu_classes' ) ); ?>
 				
-				<ul>
-					<li><a href="">Barre {tenders}</a></li>
-					<li><a href="">Events</a></li>
-				</ul>
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'local_menu_our_studio' ) ); ?>
+				
 			</div><!-- location_menu_flex_fix -->
 		</div><!-- location_menu_dropdown -->
 	</div><!-- location_menu -->

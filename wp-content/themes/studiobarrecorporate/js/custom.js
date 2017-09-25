@@ -30,6 +30,7 @@ $('.slideshow').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows:false,
+  pauseOnHover:false,
   dots:true,
   autoplay:true,
   autoplaySpeed:3000,

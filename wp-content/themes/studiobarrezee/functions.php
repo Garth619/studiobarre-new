@@ -83,7 +83,8 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 -------------------------------------------------------------- */
 
 register_nav_menus(array(
-    'main_menu' => 'Main Menu',
+    'local_menu_classes' => 'Local Menu Classes',
+    'local_menu_our_studio' => 'Local Menu Our Studio',
  ));
 
 /* Widgets

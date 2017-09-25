@@ -1,5 +1,12 @@
+body.page-template-page-home {
+	.inner_container {
+		margin-top:25px;
+	}
+}
+
 .sidebar {
 	text-align: left;
+	margin-top:25px;
 	a.location, h1.location {
 		font-family:$coresansbold;
     color: #FFE000;
@@ -51,24 +58,21 @@
 			}
 		}
 	}
-	ul {
+	.menu-header {
 		&:first-of-type {
-			&:before {
-				content:"Home";
+			ul {
+				&:before {
+					content:"Classes";
+				}
 			}
 		}
 	}
-	ul {
+	.menu-header {
 		&:nth-of-type(2) {
-			&:before {
-				content:"Classes";
-			}
-		}
-	}
-	ul {
-		&:last-of-type {
-			&:before {
-				content:"Our Studio";
+			ul {
+				&:before {
+					content:"Our Studio";
+				}
 			}
 		}
 	}
@@ -183,7 +187,38 @@ nav {
 }
 
 
+.location_content {
+	padding:0;
+	h1 {
+		font-family: $inoutitalic;
+		font-size:65px;
+		padding-top:25px;
+		margin-bottom:35px;
+	}
+}
+
+header.location_header {
+	margin-bottom:0;
+}
+
+
 @media screen and (max-width: 800px) {
+	
+	
+	
+
+	
+	
+	.location_content {
+		padding:0 15px 15px;
+		h1 {
+			text-align: center;
+			font-size:47px;
+			margin-bottom: 25px;
+		}
+	}
+	
+	
 	
 	
 	nav {
@@ -307,22 +342,22 @@ nav {
 			}
 			ul {
 				&:first-of-type {
-					order:3;
+					// order:2;
 					li {
 						&:last-of-type {
-							border:none;
+							// border:none;
 						}
 					}
 				}
 			}
 			ul {
 				&:nth-of-type(2) {
-					order:1;
-				}
-			}
-			ul {
-				&:last-of-type {
-					order:2;
+					// order:1;
+					li {
+						&:last-of-type {
+							border:none;
+						}
+					}
 				}
 			}
 		}

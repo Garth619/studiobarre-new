@@ -36,7 +36,7 @@
 <div class="wrapper">
 	
 	
-	<header>
+	<header class="location_header">
 		
 		<div class="mobile_menu">
 			
@@ -68,7 +68,7 @@
 				
 				<nav>
 					
-					<?php  my_global_menu();?>
+					<?php my_global_menu();?>
 					
 				</nav>
 				
