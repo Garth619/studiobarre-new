@@ -68,6 +68,12 @@
 				
 				<nav>
 					
+					<ul class="back_to_main">
+						
+						<li><a href="/">< Back to Main Site</a></li>
+					
+					</ul>
+					
 					<?php my_global_menu();?>
 					
 				</nav>

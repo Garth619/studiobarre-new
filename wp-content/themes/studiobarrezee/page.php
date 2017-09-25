@@ -9,20 +9,25 @@
 		<div class="inner_container">
 			
 			
+			<div class="content_wrapper content location_content">
 			
-			<div class="content_wrapper content">
-			
-				<?php get_template_part( 'loop', 'page' );?>
+				<h1><?php the_title();?></h1>
 				
+				
+				
+							
+			
 			</div><!-- content -->
+			
+			
+			
+			
 			
 			
 		</div><!-- inner_container -->
 	
 		
 	</div><!-- inner_main -->
-
-
 
 
 
