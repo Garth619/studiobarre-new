@@ -1,7 +1,17 @@
 
 <div class="sidebar">
 	
-	<h1 class="location"><a href="<?php bloginfo('url');?>">Carmel Valley, CA</a></h1>
+	
+	<?php if(is_front_page()) : ?> 
+	
+		<h1 class="location">Carmel Valley, CA</h1>
+	
+	<?php else:?>
+	
+		<a class="location" href="<?php bloginfo('url');?>">Carmel Valley, CA</a>
+	
+	<?php endif; ?>
+	
 	
 	<div class="location_menu">
 		<span class="location_menu_title">Newport Studio Menu</span><!-- location_menu_title -->

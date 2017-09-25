@@ -84,8 +84,7 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 
 register_nav_menus(array(
     'main_menu' => 'Main Menu',
-    
-));
+ ));
 
 /* Widgets
 -------------------------------------------------------------- */
@@ -163,4 +162,36 @@ function custom_menu_page_removing() {
     remove_menu_page( $menu_slug );
 }
 add_action( 'admin_menu', 'custom_menu_page_removing' );
+
+
+// My custom menu pulled in from main site options page
+
+
+function my_global_menu() {
+	
+	switch_to_blog(1);
+		
+		if(get_field('custom_menu','option')) {
+		 
+			while(has_sub_field('custom_menu','option')) {
+		 
+				echo get_sub_field('menu_item');
+		    
+			}
+		 
+		}
+		
+	restore_current_blog();
+
+}
+
+
+
+
+
+
+
+
+
+
 

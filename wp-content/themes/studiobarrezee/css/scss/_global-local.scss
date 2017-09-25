@@ -1,6 +1,6 @@
 .sidebar {
 	text-align: left;
-	h1.location {
+	a.location, h1.location {
 		font-family:$coresansbold;
     color: #FFE000;
     text-transform: lowercase;
@@ -10,6 +10,11 @@
     margin-bottom: 5px;
     line-height: 20px;
     padding-top:5px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    &:hover {
+	    color:#fff;
+    }
 	}
 }
 
@@ -188,7 +193,7 @@
 	}
 	
 	.sidebar {
-		h1.location {
+		span.location {
 			font-size:20px;
 		}
 	}
@@ -198,7 +203,7 @@
 		text-align: center;
 		display: flex;
 		flex-direction: column;
-		h1.location {
+		a.location, h1.location {
 			order:1;
 		}
 		.address {
@@ -387,5 +392,9 @@
 	
 	
 } /* Media Query */
+
+
+
+
 
 
