@@ -164,22 +164,16 @@ function custom_menu_page_removing() {
 add_action( 'admin_menu', 'custom_menu_page_removing' );
 
 
-// My custom menu pulled in from main site options page
+// menu pulled in from main site page
 
 
 function my_global_menu() {
 	
 	switch_to_blog(1);
-		
-		if(get_field('custom_menu','option')) {
-		 
-			while(has_sub_field('custom_menu','option')) {
-		 
-				echo get_sub_field('menu_item');
-		    
-			}
-		 
-		}
+	
+	
+		wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) );
+	
 		
 	restore_current_blog();
 

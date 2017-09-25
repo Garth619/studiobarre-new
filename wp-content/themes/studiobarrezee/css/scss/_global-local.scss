@@ -178,8 +178,17 @@
 	display: none;
 }
 
+nav {
+	display: none;
+}
+
 
 @media screen and (max-width: 800px) {
+	
+	
+	nav {
+		display: block;
+	}
 	
 	
 	.inner_banner.inner_home_desktop {

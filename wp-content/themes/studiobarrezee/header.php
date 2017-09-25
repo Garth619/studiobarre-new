@@ -68,9 +68,9 @@
 				
 				<nav>
 					
-					<?php my_global_menu();?>
+					<?php  my_global_menu();?>
 					
-					<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?></nav>
+				</nav>
 				
 			</div><!-- nav_wrapper -->
 			
