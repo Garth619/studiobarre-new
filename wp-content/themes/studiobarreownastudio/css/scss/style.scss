@@ -1,0 +1,21 @@
+/*! Css Main Stylesheet isn't meant to update, please use the scss partials in /css/scss */
+/*! Theme Name: Studio Barre Own A Studio
+		Author: Garrett Cullen */
+
+
+
+// Global Styling is found in both the "studiobarrecorporate" theme and the "studiobarrezee" theme
+
+
+@import "../../../studiobarrecorporate/css/scss/variables",
+				"../../../studiobarrecorporate/css/scss/reset",
+				"../../../studiobarrecorporate/css/scss/fonts",
+				"../../../studiobarrecorporate/css/scss/slick",
+				"../../../studiobarrecorporate/css/scss/global",
+				
+				//"../../../studiobarrezee/global-local", // This overrides any global stlyes from the "studiobarrezee"
+				
+				"../../../studiobarrecorporate/css/scss/header",
+				"../../../studiobarrezee/css/scss/footer";
+
+
