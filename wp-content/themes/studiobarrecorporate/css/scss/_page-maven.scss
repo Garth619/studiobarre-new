@@ -1,5 +1,5 @@
     
-   body.page-template-page-maven {
+   body.page-template-page-maven, body.page-template-page-franchising  { // body.page-template-page-franchising is being used in "studiobarreownastudio" theme
 	   .inner_main {
 		   overflow: visible;
 		   &:after {
@@ -47,9 +47,12 @@
     
     
    .sidebar_inner_form_wrapper {
+	   .validation_error {
+						display: none;
+					}
 	   ul {
 		   list-style: none;
-		   li#field_3_5 {
+		   li#field_3_5, li#field_3_11 {
 			   display: none;
 		   }
 		   li {
@@ -182,11 +185,11 @@
 		 		display: block;
    		}
    		
-   		body.page-template-page-maven.fixed {
+   		body.page-template-page-maven.fixed, body.page-template-page-franchising.fixed {
 	   		overflow-y: hidden;
    		}
    		
-   		body.page-template-page-maven {
+   		body.page-template-page-maven, body.page-template-page-franchising {
 	   		
 	   		header.fixed {
 		   		position: fixed;
@@ -237,6 +240,7 @@
 						}
 						
 					}
+					
 				}
 				.sidebar {
 					width:100%;

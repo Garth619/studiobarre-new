@@ -48,21 +48,25 @@
 		
 		<div class="logo_wrapper">
 			
-			<a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/studio-barre.png"/></a>
+			<a href="/"><img src="<?php bloginfo('template_directory');?>/images/studio-barre.png"/></a>
 			
 		</div><!-- logo_wrapper -->
 		
 		<div class="header_right">
 			
-			<a href="" class="find_button">Find Your Studio</a>
+			
+			<!-- UPDATE URL WITH ACF!!!!!!!!!!!!! -->
+			
+			
+			<a href="http://studiobarre-demo.com/find-your-studio" class="find_button">Find Your Studio</a>
 			
 			<div class="nav_wrapper">
 				
 				<div class="tagline">
 					
-					<span class="brackets">{</span><!-- brackets -->
-					<span class="tagline_content">Strength. Defined</span><!-- tagline_content -->
-					<span class="brackets">}</span><!-- brackets -->
+					
+					<span class="franchise_tagline">Franchising</span><!-- franchise_tagline -->
+					
 					
 				</div><!-- tagline -->
 				

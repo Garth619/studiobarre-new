@@ -54,7 +54,7 @@
 		
 		<div class="header_right">
 			
-			<a href="" class="find_button">Find Your Studio</a>
+			<a href="<?php the_permalink(8);?>" class="find_button">Find Your Studio</a>
 			
 			<div class="nav_wrapper">
 				

@@ -39,8 +39,8 @@
 		
 	<ul>
 			
-		<li><a href="">barre{tender} login</a></li>
-		<li><a href="">owner login</a></li>
+		<li><a href="http://studiobarre-demo.com/teachers/">barre{tender} login</a></li>
+		<li><a href="http://studiobarre-demo.com/owner-resources/">owner login</a></li>
 	
 	</ul>
 	

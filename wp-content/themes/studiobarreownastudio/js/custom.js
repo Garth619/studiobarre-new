@@ -1,3 +1,1 @@
-jQuery(document).ready(function(){
-  
-}); // document ready
+// JS is global and is located in the "studiobarrscorporate" theme

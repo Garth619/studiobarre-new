@@ -27,7 +27,7 @@
 				
 				<div class="contact_form_wrapper">
 					
-					<?php gravity_form(2, false, false, false, '', true, 12); ?>
+					<?php gravity_form(2, false, false, false, '', true, 1233); ?>
 					
 				</div><!-- form_wrapper -->
 				

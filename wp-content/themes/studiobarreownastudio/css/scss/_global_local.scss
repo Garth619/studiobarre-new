@@ -1,0 +1,46 @@
+// Alot of styles for this template are coming from the _page-maven.scss partial from the "stuiobarrcorporate" since the styles are similar, other styles in file are minor overrides
+
+
+
+.content_wrapper {
+	padding-top:0;
+}
+
+
+
+nav {
+	ul {
+		li#menu-item-16 {
+			display: none;
+		}
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	
+	
+body.page-template-page-franchising {
+	header {
+		margin-bottom: 0;
+	}
+	
+}
+
+
+nav {
+	ul {
+		li#menu-item-16 {
+			display: block;
+		}
+	}
+}
+
+body.page-template-page-franchising {
+	.copyright {
+		padding-bottom: 50px;
+	}
+}
+	
+	
+} /* Media Query */

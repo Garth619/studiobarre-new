@@ -45,10 +45,10 @@
 		"oAP": "\/readme.html",
 		"oF": 0
 		},
-	"\/studiobarre-migrate-20170925062457.sql.gz": {
+	"\/studiobarre-migrate-20170926052028.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/studiobarre-migrate-20170925062457.sql.gz",
+		"oAP": "\/studiobarre-migrate-20170926052028.sql.gz",
 		"oF": 0
 		},
 	"\/wp-activate.php": {
@@ -26234,6 +26234,19 @@
 		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/category.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/studiobarreownastudio\/css\/scss\/_global_local.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/css\/scss\/_global_local.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/studiobarreownastudio\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -26302,22 +26315,38 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/wp-content\/themes\/studiobarreownastudio\/images\/studio-barre copy.png": {
+	"\/wp-content\/themes\/studiobarreownastudio\/images\/studio-barre.png": {
 		"ft": 32768,
 		"iS": 6944,
 		"oA": 0,
-		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/images\/studio-barre copy.png",
+		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/images\/studio-barre.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/themes\/studiobarreownastudio\/images\/StudioBarreFranchiseApplication.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/images\/StudioBarreFranchiseApplication.pdf",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/studiobarreownastudio\/index.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/index.php",
 		"oF": 0
+		},
+	"\/wp-content\/themes\/studiobarreownastudio\/js\/custom-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/js\/custom-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/wp-content\/themes\/studiobarreownastudio\/js\/custom.js": {
 		"ft": 64,
@@ -26347,10 +26376,10 @@
 		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/loop.php",
 		"oF": 0
 		},
-	"\/wp-content\/themes\/studiobarreownastudio\/page-home.php": {
+	"\/wp-content\/themes\/studiobarreownastudio\/page-franchising.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/page-home.php",
+		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/page-franchising.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/studiobarreownastudio\/page.php": {
@@ -26933,6 +26962,12 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/3\/2017\/09\/StudioBarreFranchiseApplication.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/sites\/3\/2017\/09\/StudioBarreFranchiseApplication.pdf",
+		"oF": 0
 		},
 	"\/wp-content\/uploads\/wp-migrate-db\/.htaccess": {
 		"ft": 8192,
