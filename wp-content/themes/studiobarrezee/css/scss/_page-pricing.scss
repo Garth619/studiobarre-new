@@ -1,0 +1,60 @@
+.pricing_wrapper {
+	margin:80px 0 0 0;
+}
+
+
+.box_wrapper {
+	border:2px solid $yellow;
+}
+
+.box_title_wrapper {
+	background: $yellow;
+	color:$darkgrey;
+	font-size: 20px;
+	padding:20px;
+}
+
+.box_description_wrapper {
+	padding:20px;
+}
+
+.box_single_description {
+	span.box_single_title {
+		display: block;
+		padding-bottom:10px;
+		margin-bottom:10px;
+		text-transform: uppercase;
+		border-bottom:1px solid #fff;
+		font-size:20px;
+	}
+}
+
+
+.box_single_content {
+	text-transform: lowercase;
+	overflow: hidden;
+	position: relative;
+	margin-bottom:4px;
+	&:before {
+		content:"...............................................................................................................................................................................";
+		color:#fff;
+		position: absolute;
+		bottom:0;
+		left:0;
+	}
+	span {
+		position: relative;
+		z-index:5;
+	}
+	span.single_line_left {
+		float:left;
+		background: #444;
+		padding-right:8px;
+	}
+	span.single_line_right {
+		float:right;
+		background: #444;
+		padding-left:8px;
+	}
+
+}

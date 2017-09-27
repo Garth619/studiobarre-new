@@ -18,7 +18,47 @@
 				<h1><?php the_title();?></h1>
 				
 				
-				
+				<div class="pricing_wrapper">
+					
+					
+					<div class="box_wrapper">
+						
+						<div class="box_title_wrapper">Most Popular</div><!-- box_title_wrapper -->
+						
+						<div class="box_description_wrapper">
+							
+							<div class="box_single_description">
+								
+								<span class="box_single_title">sTUDIO BARRE SOCIETY</span><!-- box_single_title -->
+								
+								<div class="box_single_content">
+									
+									
+									<span class="single_line_left">unlimited classes, exclusive sales and swag, 2 vacation pauses</span>
+									
+									<span class="single_line_right">$129.00</span><!-- single_line_right -->
+									
+									
+								</div><!-- box_single_content -->
+								
+								<div class="box_single_content">
+									
+									
+									<span class="single_line_left">unlimited classes, exclusive sales and swag, 2 vacation pauses</span>
+									
+									<span class="single_line_right">$129.00</span><!-- single_line_right -->
+									
+									
+								</div><!-- box_single_content -->
+								
+							</div><!-- box_single_description -->
+							
+						</div><!-- box_description_wrapper -->
+						
+					</div><!-- box_wrapper -->
+					
+					
+				</div><!-- pricing_wrapper -->
 							
 			
 			</div><!-- content -->
