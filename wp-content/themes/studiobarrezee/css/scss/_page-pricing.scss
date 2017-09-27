@@ -6,23 +6,43 @@
 .box_wrapper {
 	border:2px solid $yellow;
 	margin-bottom:45px;
+	position: relative;
+	max-width:800px;
+	a.buy_now {
+		position: absolute;
+		bottom:-15px;
+		right:30px;
+		display: block;
+		background: $yellow;
+		color:$darkgrey;
+		text-transform: uppercase;
+		font-family: $coresansbold;
+		text-transform: lowercase;
+		font-size: 19px;
+		padding:5px 10px;
+		transition: all .2s ease-in-out;
+		&:hover {
+			text-decoration: none;
+			background: #000;
+			color:#fff;
+		}
+	}
 }
 
 .box_title_wrapper {
 	background: $yellow;
 	color:$darkgrey;
-	font-size: 20px;
+	font-size: 40px;
+	text-transform: lowercase;
 	padding:20px;
+	font-family:$inoutitalic;
 }
 
 .box_description_wrapper {
 	padding:20px;
 	max-width:750px;
 	.box_description_inner_wrapper {
-		margin-bottom:25px;
-		&:last-of-type {
-			margin-bottom:0;
-		}
+		
 	}
 }
 
@@ -75,8 +95,143 @@ content:".......................................................................
 			background: #444;
 			padding-left:8px;
 		}
-		span.single_line {
-			display: block;
-		}
+		
+	}
+	span.single_line {
+		display: block;
+	}
+	
+}
+
+
+
+
+
+
+.reg_price_wrapper {
+	max-width:700px;
+	margin-bottom:40px;
+	margin-left:25px;
+	span.reg_price_title {
+		color:$yellow;
+		font-family: $coresansbold;
+		text-transform: lowercase;
+		border-bottom:1px solid #fff;
+		padding-bottom:5px;
+		display: block;
+		margin-bottom: 5px;
+		font-size:17px;
+	}
+	span.single_line {
+		margin-top:10px;
+		display: block;
+	}
+	span.reg_ast {
+		font-size:14px;
+		font-style: italic;
+		display: block;
+		margin-top:10px;
 	}
 }
+
+
+
+
+.reg_single_line_wrapper {
+	overflow: hidden;
+	position: relative;
+	&:before {
+content:"...............................................................................................................................................................................";
+		color:#fff;
+		position: absolute;
+		bottom:0;
+		left:0;
+	}
+	span {
+		background:#444;
+		position: relative;
+		z-index: 5;
+		margin-top:10px;
+	}
+	span.single_line_left {
+		float:left;
+		padding-right:8px;
+	}
+	span.single_line_right {
+		float:right;
+		padding-left:8px;
+	}
+}
+
+
+
+@media screen and (max-width: 1020px) {
+	
+	
+	
+	.reg_price_wrapper {
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 800px) {
+	
+	
+	
+	
+	
+.box_single_content {
+	
+	.single_line_wrapper {
+		
+		
+		
+		span.single_line_left {
+			
+			background: #4d4d4f;
+			
+		}
+		span.single_line_right {
+			
+			background: #4d4d4f;
+			
+		}
+		
+	}
+		
+}
+	
+	
+	
+.reg_single_line_wrapper {
+	
+	
+	span {
+		background:#4d4d4f;
+		
+	}
+	span.single_line_left {
+		
+	}
+	span.single_line_right {
+		
+	}
+}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
