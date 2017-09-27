@@ -18,6 +18,12 @@
 .box_description_wrapper {
 	padding:20px;
 	max-width:750px;
+	.box_description_inner_wrapper {
+		margin-bottom:25px;
+		&:last-of-type {
+			margin-bottom:0;
+		}
+	}
 }
 
 .box_single_description {
