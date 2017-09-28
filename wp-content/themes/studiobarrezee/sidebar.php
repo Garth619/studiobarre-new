@@ -54,7 +54,7 @@
 	
 	<div class="address">
 		
-		<a href="" target="_blank">
+		<a href="https://www.google.com/maps/place/Studio+Barre+Carmel+Valley/@32.9619726,-117.1541906,15z/data=!4m2!3m1!1s0x0:0x219fb055ae52aeb1?sa=X&ved=0ahUKEwjzrP70mcjWAhVX1GMKHTmsBMAQ_BIIhwEwCg" target="_blank">
 			7845 Highland Village Place,
 			Suite C-103
 			San Diego, CA 92129<br/>
@@ -75,9 +75,9 @@
 	
 	<div class="yellow_home_buttons">
 		
-		<a class="" href="">Class Schedule</a>
+		<a class="" href="<?php bloginfo('url');?>/schedule">Class Schedule</a>
 		
-		<a class="" href="">Pricing</a>
+		<a class="" href="<?php bloginfo('url');?>/pricing">Pricing</a>
 		
 	</div><!-- yellow_home_buttons -->
 	
