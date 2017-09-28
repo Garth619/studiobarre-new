@@ -14,7 +14,7 @@
 			
 			<div class="inner_banner">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/maven.png"/>
+				<img src="<?php bloginfo('template_directory');?>/images/banner-maven.jpg"/>
 			
 			</div><!-- inner_banner -->
 			

@@ -26,6 +26,11 @@ body.page-template-page-home {
 }
 
 
+.inner_banner.inner_home_desktop {
+		border: 8px solid #999;
+	}
+
+
 .location_menu {
 	.location_menu_title {
 		display: none;
@@ -328,6 +333,9 @@ body.page-template-page-barretenders {
 	
 	.inner_banner.inner_home_mobile {
 		display: block;
+		img {
+			width:100%;
+		}
 	}
 	
 	.sidebar {

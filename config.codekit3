@@ -25557,6 +25557,56 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/banner-carmel.jpg": {
+		"ft": 16384,
+		"iS": 174044,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/banner-carmel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/banner-maven.jpg": {
+		"ft": 16384,
+		"iS": 140770,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/banner-maven.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/banner-mentor.jpg": {
+		"ft": 16384,
+		"iS": 159645,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/banner-mentor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/banner-ourstory.jpg": {
+		"ft": 16384,
+		"iS": 101919,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/banner-ourstory.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/banner-society.jpg": {
+		"ft": 16384,
+		"iS": 94284,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/banner-society.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/bio_bw.png": {
 		"ft": 32768,
 		"iS": 80610,
@@ -25736,6 +25786,56 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/slide-clientresults.jpg": {
+		"ft": 16384,
+		"iS": 123484,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/slide-clientresults.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/slide-findclass.jpg": {
+		"ft": 16384,
+		"iS": 145922,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/slide-findclass.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/slide-ourstory.jpg": {
+		"ft": 16384,
+		"iS": 87630,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/slide-ourstory.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/slide-society.jpg": {
+		"ft": 16384,
+		"iS": 107503,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/slide-society.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/images\/slide-video.jpg": {
+		"ft": 16384,
+		"iS": 149577,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/slide-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/slide1.jpg": {
@@ -26576,6 +26676,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/themes\/studiobarrezee\/images\/banner-carmel.jpg": {
+		"ft": 16384,
+		"iS": 174044,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrezee\/images\/banner-carmel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/studiobarrezee\/images\/banner.jpg": {
 		"ft": 16384,
 		"iS": 100121,
@@ -26615,7 +26725,7 @@
 		"oAP": "\/wp-content\/themes\/studiobarrezee\/images\/carmel.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/themes\/studiobarrezee\/images\/email.png": {

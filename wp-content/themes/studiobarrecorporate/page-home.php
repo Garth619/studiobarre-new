@@ -6,23 +6,23 @@
 <div class="slideshow">
 	
 	<a href="">
-		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide1.jpg"/>
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide-video.jpg"/>
 	</a>
 	
-	<a href="">
-		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide2.jpg"/>
+	<a href="<?php bloginfo('url');?>/our-story/">
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide-ourstory.jpg"/>
 	</a>
 	
-	<a href="">
-		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide3.jpg"/>
+	<a href="<?php bloginfo('url');?>/client-results">
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide-clientresults.jpg"/>
 	</a>
 
-	<a href="">
-		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide4.jpg"/>
+	<a href="<?php bloginfo('url');?>/studio-barre-society">
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide-society.jpg"/>
 	</a>
 	
-	<a href="">
-		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide5.jpg"/>
+	<a href="<?php bloginfo('url');?>/find-your-studio/">
+		<img data-lazy="<?php bloginfo('template_directory');?>/images/slide-findclass.jpg"/>
 	</a>
 
 </div><!-- slideshow -->

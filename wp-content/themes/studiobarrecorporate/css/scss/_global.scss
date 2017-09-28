@@ -53,7 +53,7 @@ header, section, nav, footer {
 	}
 	
 	h1.header_script {
-		font-family: $asnapperscript;
+		font-family: $inoutreg;
 		color:$yellow;
 		// text-transform: none;
 		font-size:55px;
@@ -240,14 +240,14 @@ img.aligncenter {
 		}
 	}
 	h1 {
-		font-family: $asnapperscript;
+		font-family: $inoutreg;
 		color:$yellow;
 		text-transform: lowercase;
 		font-size:55px;
 		font-style: normal;
 		font-weight: 300;
 		padding-top:14px;
-		line-height: 50px;
+		line-height: 45px;
 		a {
 			transition: all .2s ease-in-out;
 			text-decoration: none;

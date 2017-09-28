@@ -14,7 +14,7 @@
 			
 			<div class="inner_banner">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/slide4.jpg"/>
+			<img src="<?php bloginfo('template_directory');?>/images/banner-society.jpg"/>
 			
 			
 			</div><!-- inner_banner -->

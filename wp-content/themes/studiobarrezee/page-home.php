@@ -13,7 +13,7 @@
 		
 		<div class="inner_banner inner_home_mobile">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/banner.jpg"/>
+				<img src="<?php bloginfo('template_directory');?>/images/carmel.jpg"/>
 			
 			</div><!-- inner_banner -->
 		
@@ -24,7 +24,7 @@
 			
 			<div class="inner_banner inner_home_desktop">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/banner.jpg"/>
+				<img src="<?php bloginfo('template_directory');?>/images/banner-carmel.jpg"/>
 			
 			</div><!-- inner_banner -->
 			
