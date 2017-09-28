@@ -239,11 +239,36 @@ body.page-template-page-barretenders {
 }
 
 
+.login {
+	margin-bottom:20px;
+	a {
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:#fff;
+			text-decoration: none;
+		}
+	}
+}
+
+.schedule {
+	background:#e5e5e5;
+	padding:10px;
+	h1 {
+			font-family:$coresanslight;
+			color:$darkgrey;
+		}
+		a {
+			color:$darkgrey;
+		}
+}
+
+
 @media screen and (min-width: 800px) {
 	
 	
 	.location_menu_dropdown {
 		display: block !important;
+		
 	}
 	
 	
