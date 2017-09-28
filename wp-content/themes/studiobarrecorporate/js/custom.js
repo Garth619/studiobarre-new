@@ -347,6 +347,18 @@ function localMenu() {
 localMenu();
 
 
+// Change Header Color on Franchise Site
+
+
+
+$('header.franchise .mobile_menu').click(function(){
+	
+	$('header.franchise').toggleClass('white');
+	$('header.franchise nav').toggleClass('white');
+	
+	
+});
+
 
 
 

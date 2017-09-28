@@ -17,15 +17,43 @@
 			<div class="content_wrapper content">
 			
 				
-				<h1><?php the_title();?></h1>
+				<div class="franchise_header_wrapper">
+				
+				<?php if(get_field('back')) { ?>
+					
+					<a class="top_buttons" href="<?php the_field('back');?>"><</a>
+						
+					<?php }?>
+					
+					
+					<h1 class="franchise_title"><?php the_field( 'h1_titles_first_word' ); ?> <span>{<?php the_field( 'h1_titles_word_in_brackets' ); ?>}</span></h1>
+					
+					
+					<?php if(get_field('next')) { ?>
+					
+					<a class="top_buttons" href="<?php the_field('next');?>">></a>
+						
+					<?php }?>
+					
+					</div><!-- franchise_header_wrapper -->
 				
 				<?php get_template_part( 'loop', 'index' );?>
 				
 				
 				<div class="button_wrapper">
 					
-					<a class="" href="">Back</a>
-					<a class="" href="">Next</a>
+					<?php if(get_field('back')) { ?>
+					
+					<a class="" href="<?php the_field('back');?>">< Back</a>
+						
+					<?php }?>
+					
+					
+					<?php if(get_field('next')) { ?>
+					
+					<a class="" href="<?php the_field('next');?>"> Next ></a>
+						
+					<?php }?>
 					
 				</div><!-- button_wrapper -->
 				

@@ -36,7 +36,7 @@
 <div class="wrapper">
 	
 	
-	<header>
+	<header class="franchise">
 		
 		<div class="mobile_menu">
 			
@@ -60,12 +60,12 @@
 			
 			<a href="http://studiobarre-demo.com/find-your-studio" class="find_button">Find Your Studio</a>
 			
-			<div class="nav_wrapper">
+			<div class="nav_wrapper franchise">
 				
 				<div class="tagline">
 					
 					
-					<span class="franchise_tagline">Franchising</span><!-- franchise_tagline -->
+					<span class="franchise_tagline">Franchise</span><!-- franchise_tagline -->
 					
 					
 				</div><!-- tagline -->
