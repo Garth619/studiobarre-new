@@ -14,7 +14,7 @@
 	
 	
 	<div class="location_menu">
-		<span class="location_menu_title">Newport Studio Menu</span><!-- location_menu_title -->
+		<span class="location_menu_title">Carmel Valley Studio Menu</span><!-- location_menu_title -->
 		<div class="location_menu_dropdown">
 			<div class="location_menu_flex_fix">
 				

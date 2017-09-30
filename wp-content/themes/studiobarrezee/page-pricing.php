@@ -64,7 +64,7 @@
 						</div><!-- box_description_wrapper -->
 						
 						
-						<a class="buy_now" href="">Buy Now</a><!-- buy_now -->
+						<a class="buy_now" href="https://clients.mindbodyonline.com/classic/ws?studioid=167596&stype=40&prodId=105" target="_blank">Buy Now</a><!-- buy_now -->
 						
 						
 					</div><!-- box_wrapper -->
@@ -111,7 +111,7 @@
 						</div><!-- box_description_wrapper -->
 						
 						
-						<a class="buy_now" href="">Buy Now</a><!-- buy_now -->
+						<a class="buy_now" href="https://clients.mindbodyonline.com/classic/ws?studioid=167596&stype=41&sTG=22&prodId=10119" target="_blank">Buy Now</a><!-- buy_now -->
 						
 						
 					</div><!-- box_wrapper -->
@@ -251,7 +251,13 @@
 						
 					</div><!-- reg_price_wrapper -->
 										
+					<div class="shop_all_wrapper">
 					
+						<a class="shop_all" href="">Shop All Class Packages</a>
+						
+						<a class="shop_all" href="">Shop Gift Cards</a>
+					
+					</div><!-- pricing_wrapper -->
 					
 					
 				</div><!-- pricing_wrapper -->

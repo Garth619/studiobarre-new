@@ -164,6 +164,32 @@ content:".......................................................................
 }
 
 
+.shop_all_wrapper {
+	text-align: center;
+	padding-left:25px;
+	max-width:700px;
+	margin-top:60px;
+	
+	a.shop_all {
+		background: $yellow;
+		display: inline-block;
+		color:$darkgrey;
+		font-family: $coresansbold;
+		text-transform: lowercase;
+		font-size: 19px;
+		padding:5px 10px;
+		transition: all .2s ease-in-out;
+		margin:0 auto 10px;
+		&:hover {
+			background: #000;
+			color:#fff;
+			text-decoration: none;
+		}
+	}
+
+}
+
+
 
 @media screen and (max-width: 1020px) {
 	
@@ -189,6 +215,11 @@ content:".......................................................................
 	
 	
 	.pricing_wrapper {
+		margin-top:40px;
+	}
+	
+	.shop_all_wrapper {
+		padding-left:0;
 		margin-top:40px;
 	}
 	
@@ -232,6 +263,27 @@ content:".......................................................................
 }
 	
 	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 440px) {
+	
+	
+	
+	.shop_all_wrapper {
+	
+	
+	a.shop_all {
+		
+	width:250px;
+	}
+
+}
+
 	
 	
 	

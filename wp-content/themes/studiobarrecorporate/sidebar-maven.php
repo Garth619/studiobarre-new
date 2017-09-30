@@ -5,7 +5,7 @@
 		
 		<div class="sidebar_inner_form_wrapper">
 			
-			<span class="maven_form_title">Apply to be a bar maven</span><!-- maven_form_title -->
+			<span class="maven_form_title">Apply to be a barre maven</span><!-- maven_form_title -->
 			
 			<span class="back_to_page">< back to barre mavens page</span><!-- back_to_page -->
 			

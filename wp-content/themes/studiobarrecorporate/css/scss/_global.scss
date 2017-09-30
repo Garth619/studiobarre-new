@@ -275,10 +275,12 @@ img.aligncenter {
 }
 
 .inner_banner {
-	
+	border: 8px solid #999;
 	img {
 		max-width: 100%;
 		height:auto;
+		display: block;
+		
 	}
 }
 
@@ -295,6 +297,10 @@ img.aligncenter {
 		}
 	}
 	
+	
+	.inner_banner {
+		border:none;
+	}
 	
 	
 	.inner_main {
