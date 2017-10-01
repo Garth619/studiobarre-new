@@ -6,104 +6,37 @@
 <div class="slideshow">
 	
 	
-	<?php if(get_field('slideshow')): ?>
+<?php if(get_field('slideshow')) {
 	
-		<?php $count = 1; ?>
+	$count = 1;
 	 
-		<?php while(has_sub_field('slideshow')): ?>
+	while(has_sub_field('slideshow')) {
 	 
-			
-	    
-		<?php if(get_sub_field( 'video_or_linked_slide' ) == 'Video'):?>
+		include ('slideshow.php');  
 		
-			<div class="slide_wrapper video_wrapper video_wrapper_<?php echo $count;?>">
-			
-				<a href="#">
-		
-					<img class="video_slide" data-lazy="<?php the_sub_field( 'slide' ); ?>"/>
-		
-				</a>
-			
-			</div><!-- slide_wrapper -->
-			
-	
-			
-			<?php else:?>
-			
-			
-			<div class="slide_wrapper">
-			
-				<a href="<?php the_sub_field( 'page_link' ); ?>">
-			
-					<img data-lazy="<?php the_sub_field( 'slide' ); ?>"/>
-	
-				</a>
-			
-			</div><!-- slide_wrapper -->
-		
-			
-		
-		
-		<?php endif;?>
-		
-		<?php $count++; ?>
-		
-		<?php endwhile; ?>
-	 
-	<?php endif; ?>
+	}
+} ?>
 	
 	
-
-
 </div><!-- slideshow -->
 
 <div class="mobile_slides">
 	
 	
-	<?php if(get_field('mobile_slideshow')): ?>
+<?php if(get_field('mobile_slideshow')) {
 	
+	$count = 1;
 	 
-		<?php while(has_sub_field('mobile_slideshow')): ?>
-		
-		
-		
-			<?php if(get_sub_field( 'video_or_linked_slide' ) == 'Video'):?>
-			
-				<a href="#">
-		
-					<img class="video_slide" src="<?php the_sub_field( 'slide' ); ?>"/>
-	
-				</a>
-			
-			<?php else:?>
-			
-				<a href="<?php the_sub_field( 'page_link' ); ?>">
-					
-					<img src="<?php the_sub_field( 'slide' ); ?>"/>
-				
-				</a>
-			
-			<?php endif;?>
+	while(has_sub_field('mobile_slideshow')) {
 	 
-			
-	    
-		<?php endwhile; ?>
-	 
-	<?php endif; ?>
-	
-	
-
+		include ('slideshow_mobile.php');  
+		
+	}
+} ?>
 	
 </div><!-- mobile_slides -->
 
 
-
-
-
-				
-		
-					
-			
 			<?php if(get_field('slideshow')): ?>
 			
 				<?php $count = 1; ?>
@@ -113,29 +46,21 @@
 					<?php if(get_sub_field( 'video_or_linked_slide' ) == 'Video'):?>
 					
 					
-					<div class="video_overlay_wrapper video_overlay_wrapper_<?php echo $count;?>">
+					<div class="desktop video_overlay_wrapper video_overlay_wrapper_<?php echo $count;?>">
 			
-			<div class="video_inner_overlay">
+						<div class="video_inner_overlay">
 		
-		<span class="video_close">CLOSE X</span><!-- video_close -->
+							<span class="video_close">CLOSE X</span><!-- video_close -->
 					
-					
-					
-					
-						<div class='embed-container'>
+								<div class='embed-container'>
 							
-							<iframe id="youtube_player_<?php echo $count;?>" src='https://www.youtube.com/embed/<?php the_sub_field( 'video_link' ); ?>?enablejsapi=1&version=3&playerapiid=ytplayer' frameborder='0' allowfullscreen></iframe>
+								<iframe class="youtube_player_<?php echo $count;?>" src='https://www.youtube.com/embed/<?php the_sub_field( 'video_link' ); ?>?enablejsapi=1&version=3&playerapiid=ytplayer' frameborder='0' allowfullscreen></iframe>
 							
-						</div><!-- embed-container -->
+							</div><!-- embed-container -->
 					
-				
-					
-					
-									
-	</div><!-- video_inner_overlay -->
+					</div><!-- video_inner_overlay -->
 			
-			
-</div><!-- video_overlay_wrapper -->
+				</div><!-- video_overlay_wrapper -->
 
 					
 					<?php endif;?>
@@ -148,11 +73,39 @@
 			
 			
 			
+			<?php if(get_field('mobile_slideshow')): ?>
 			
-	
+				<?php $count = 1; ?>
+			 
+				<?php while(has_sub_field('mobile_slideshow')): ?>
+			 
+					<?php if(get_sub_field( 'video_or_linked_slide' ) == 'Video'):?>
+					
+					
+					<div class="mobile video_overlay_wrapper video_overlay_wrapper_<?php echo $count;?>">
+			
+						<div class="video_inner_overlay">
+		
+							<span class="video_close">CLOSE X</span><!-- video_close -->
+					
+								<div class='embed-container'>
+							
+								<iframe class="youtube_player_<?php echo $count;?>" src='https://www.youtube.com/embed/<?php the_sub_field( 'video_link' ); ?>?enablejsapi=1&version=3&playerapiid=ytplayer' frameborder='0' allowfullscreen></iframe>
+							
+							</div><!-- embed-container -->
+					
+					</div><!-- video_inner_overlay -->
+			
+				</div><!-- video_overlay_wrapper -->
 
-
-
+					
+					<?php endif;?>
+					
+					<?php $count++;?>
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 
 
 

@@ -72,8 +72,6 @@ $('.video_overlay_wrapper').on('click', function(e) {
   
   $('.video_overlay_wrapper').fadeOut(200);
   
-  
-  
 });
 
 

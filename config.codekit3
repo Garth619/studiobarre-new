@@ -26037,6 +26037,12 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/wp-content\/themes\/studiobarrecorporate\/js\/footerjs.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/js\/footerjs.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/studiobarrecorporate\/js\/slick\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -26394,6 +26400,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/single.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/slideshow.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/slideshow.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/slideshow_mobile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/slideshow_mobile.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/style.css": {
