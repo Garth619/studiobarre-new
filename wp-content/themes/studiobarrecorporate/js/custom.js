@@ -30,6 +30,7 @@ $('.slideshow').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows:false,
+  slide:'.slide_wrapper',
   pauseOnHover:false,
   dots:true,
   autoplay:true,
@@ -38,6 +39,45 @@ $('.slideshow').slick({
   speed:1000,
   lazyLoad: 'ondemand'
 });
+
+// Video Overlay
+
+
+
+$('.video_wrapper').on('click', function(event) {
+	
+	event.preventDefault();
+	
+	$('.slideshow').slick('slickPause');
+	
+});
+
+
+$('span.video_close').on('click', function(e) {
+	
+	$('.slideshow').slick('slickPlay');
+	
+	$('.video_overlay_wrapper').fadeOut(200);
+	
+
+
+});
+
+
+
+$('.video_overlay_wrapper').on('click', function(e) {
+  
+  if (e.target !== this)
+    return;
+  
+  $('.video_overlay_wrapper').fadeOut(200);
+  
+  
+  
+});
+
+
+
 
 
 $('ul#menu-top-nav li.menu-item-has-children > a').click(function(){
