@@ -4,7 +4,7 @@
 			
 				<a href="#">
 		
-					<img class="video_slide" src="<?php the_sub_field( 'slide' ); ?>"/>
+					<img class="video_slide" src="<?php the_sub_field( 'slide' ); ?>" alt="<?php the_sub_field( 'alt_tag' ); ?>"/>
 		
 				</a>
 			
@@ -19,7 +19,7 @@
 			
 				<a href="<?php the_sub_field( 'page_link' ); ?>">
 			
-					<img src="<?php the_sub_field( 'slide' ); ?>"/>
+					<img src="<?php the_sub_field( 'slide' ); ?>" alt="<?php the_sub_field( 'alt_tag' ); ?>"/>
 	
 				</a>
 			

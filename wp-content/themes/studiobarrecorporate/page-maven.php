@@ -24,29 +24,16 @@
 			
 			<div class="content_wrapper content">
 			
-				<?php // get_template_part( 'loop', 'page' );?>
+				<?php the_field( 'maven_page_content' ); ?>
 				
-				<h2 class="white">Become a Barre Maven</h2>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								
 				
 				
-				
-				<span class="how_to_be_title">How to be a barre maven</span><!-- how_to_be_title -->
+				<span class="how_to_be_title"><?php the_field( 'how_to_be_a_barre_maven_title' ); ?></span><!-- how_to_be_title -->
 				
 				<div class="maven_requirements">
 				
-					<p>Lorem Ipsum dlor sit:</p>
-				
-					<ul>
-						<li>Lorem Ipsum</li>
-						<li>Lorem Ipsum</li>
-						<li>Lorem Ipsum</li>
-						<li>Lorem Ipsum</li>
-						<li>Lorem Ipsum</li>
-					</ul>
+					<?php the_field( 'how_to_be_a_barre_maven_text' ); ?>
 				
 				</div><!-- maven_requirements -->
 				

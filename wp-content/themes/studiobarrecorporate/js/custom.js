@@ -69,6 +69,8 @@ $('.video_overlay_wrapper').on('click', function(e) {
   
   if (e.target !== this)
     return;
+    
+  $('.slideshow').slick('slickPlay');
   
   $('.video_overlay_wrapper').fadeOut(200);
   

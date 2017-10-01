@@ -39,8 +39,6 @@
 										<?php $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); ?>
 										<?php $result_one = wp_get_attachment_image_src($imageID, 'caseresultsimage'); ?>
 										
-<!-- 										<img alt="<?php echo $alt_text; ?>" id="inner_menu_1" class="inner_menu_thumbs" src="<?php echo $menu_one[0]; ?>"/> -->
-										
 										<img src="<?php echo $result_one[0]; ?>" alt="<?php echo $alt_text; ?>"/>
 							
 								</div><!-- case_image_wrapper -->
