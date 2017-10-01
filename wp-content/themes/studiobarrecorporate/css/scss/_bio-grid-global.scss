@@ -191,12 +191,13 @@
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
-	max-width:290px;
+	max-width:450px;
 	display: block;
 	
 	&:hover {
 		.image_wrapper {
 			border:5px solid #999;
+			
 		}
 		.image_wrapper.fade {
 			border:5px solid $yellow;
@@ -249,6 +250,8 @@
 
 .image_wrapper {
 	cursor: pointer;
+	max-width:290px;
+	
 	&:hover {
 		
 	}
