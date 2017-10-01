@@ -8,8 +8,7 @@
 		
 	<ul>
 			
-		<li><a href="http://studiobarre-demo.com/teachers/">barre{tender} login</a></li>
-		<li><a href="http://studiobarre-demo.com/owner-resources/">owner login</a></li>
+		<?php my_global_footer_links();?>
 	
 	</ul>
 	
@@ -21,6 +20,7 @@
 
 <?php wp_footer();?>
 
+<?php the_field( 'footer','options'); ?>
 
 </body>
 </html>

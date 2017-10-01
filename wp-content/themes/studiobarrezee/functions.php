@@ -139,12 +139,20 @@ add_filter('body_class', 'add_slug_body_class');
 -------------------------------------------------------------- */
 if (function_exists('acf_add_options_page')) {
     acf_add_options_page(array(
-        'page_title' => 'Theme General Settings',
-        'menu_title' => 'Theme Settings',
-        'menu_slug' => 'theme-general-settings',
+        'page_title' => 'Header',
+        'menu_title' => 'Header',
+        'menu_slug' => 'theme-header-settings',
         'capability' => 'edit_posts',
         'redirect' => false
     ));
+    acf_add_options_page(array(
+        'page_title' => 'Footer',
+        'menu_title' => 'Footer',
+        'menu_slug' => 'theme-footer-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
+
 }
 
 /* ALLOW SVGs IN MEDIA UPLOAD
@@ -179,6 +187,28 @@ function my_global_menu() {
 	restore_current_blog();
 
 }
+
+
+
+// footer links
+
+
+function my_global_footer_links() {
+	
+	switch_to_blog(1);
+	
+		$teachers = get_the_permalink(92);
+		$owners = get_the_permalink(89);
+		
+		print '<li><a href="'.$teachers.'">barre {tender} login</a></li><li><a href="'.$owners.'">owners login</a></li>';
+		
+	
+	restore_current_blog();
+
+}
+
+
+
 
 
 // Events

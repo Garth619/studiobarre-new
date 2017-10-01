@@ -27,6 +27,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head(); ?>
+<?php the_field( 'header_scripts','option'); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -54,7 +55,7 @@
 		
 		<div class="header_right">
 			
-			<a href="" class="find_button">Book a Class</a>
+			<a href="<?php the_permalink(28);?>" class="find_button">Book a Class</a>
 			
 			<div class="nav_wrapper">
 				
