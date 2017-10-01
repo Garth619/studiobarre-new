@@ -106,6 +106,9 @@
 		background: #363636;
 		margin-top:14px;
 		color:#999999;
+		p:last-of-type {
+			margin-bottom: 0;
+		}
 		h1 {
 			font-size: 16px;
 		}
@@ -127,6 +130,9 @@
 		p {
 			margin-bottom: 0;
 			padding-bottom:14px;
+			&:last-of-type {
+				padding-bottom: 0;
+			}
 		}
 	}
 	

@@ -111,9 +111,7 @@
 
 <div class="main_intro content">
 	
-	<h1>studio barre is... fun, effective and sassy</h1>
-	
-	<p>studio barre classes apply the perfect combination of arm, seat, thigh and ab exercises to define and sculpt the body. the 60-minute workout digs deep physically while the music and happy barre{tenders} keep you mentally in the moment and push you toward your best.</p>
+	<?php the_field( 'homepage_content' ); ?>
 	
 	
 </div><!-- main_intro -->

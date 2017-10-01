@@ -27078,6 +27078,46 @@
 		"oAP": "\/wp-content\/themes\/studiobarrezee\/style.css.map",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2017\/07\/banner-ourstory-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7323,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/banner-ourstory-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/07\/banner-ourstory-300x152.jpg": {
+		"ft": 16384,
+		"iS": 11550,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/banner-ourstory-300x152.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/07\/banner-ourstory-768x389.jpg": {
+		"ft": 16384,
+		"iS": 39947,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/banner-ourstory-768x389.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/07\/banner-ourstory.jpg": {
+		"ft": 16384,
+		"iS": 101919,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/banner-ourstory.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/2017\/07\/m1-150x150.jpg": {
 		"ft": 16384,
 		"iS": 8211,
@@ -27473,6 +27513,126 @@
 		"iS": 243268,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/07\/slide-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-maven-150x150.jpg": {
+		"ft": 16384,
+		"iS": 8440,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-maven-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-maven-300x152.jpg": {
+		"ft": 16384,
+		"iS": 13651,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-maven-300x152.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-maven-768x389.jpg": {
+		"ft": 16384,
+		"iS": 51909,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-maven-768x389.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-maven.jpg": {
+		"ft": 16384,
+		"iS": 140770,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-maven.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-mentor-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7790,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-mentor-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-mentor-300x152.jpg": {
+		"ft": 16384,
+		"iS": 13921,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-mentor-300x152.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-mentor-768x389.jpg": {
+		"ft": 16384,
+		"iS": 55442,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-mentor-768x389.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-mentor.jpg": {
+		"ft": 16384,
+		"iS": 159645,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-mentor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-society-150x150.jpg": {
+		"ft": 16384,
+		"iS": 6419,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-society-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-society-300x152.jpg": {
+		"ft": 16384,
+		"iS": 9040,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-society-300x152.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-society-768x389.jpg": {
+		"ft": 16384,
+		"iS": 34755,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-society-768x389.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/09\/banner-society.jpg": {
+		"ft": 16384,
+		"iS": 94284,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-society.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

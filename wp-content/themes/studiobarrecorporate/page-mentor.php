@@ -12,11 +12,15 @@
 		
 		<div class="inner_container">
 			
-			<div class="inner_banner">
+			<?php if(get_field('inner_banners')):?>
 			
-				<img src="<?php bloginfo('template_directory');?>/images/banner-mentor.jpg"/>
+				<div class="inner_banner">
 			
-			</div><!-- inner_banner -->
+					<img src="<?php the_field( 'inner_banners' ); ?>"/>
+			
+				</div><!-- inner_banner -->
+			
+			<?php endif;?>
 			
 			<div class="content_wrapper content">
 			
