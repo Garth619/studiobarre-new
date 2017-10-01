@@ -1,6 +1,6 @@
 <?php 
 	
-	/* Template Name: Owner Resources */
+	/* Template Name: Teacher Login */
 	
 	get_header(); ?>
 
@@ -15,17 +15,7 @@
 			
 			
 			<div class="content_wrapper content">
-			
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				
-					<?php the_content();?>
-				
-				<?php endwhile; // end of loop ?> 
-
-				<?php endif; ?>
-				
-				
-				<?php if ( ! post_password_required() ) { ?>
 				
 				<?php if(get_field('owner_resources')): ?>
 				 
@@ -35,7 +25,7 @@
 				 
 						<h2>
 							
-							<?php if(get_sub_field('link_or_file') == 'External Link'):?>
+							<?php if(get_field('link_or_file') == 'External Link'):?>
 							
 								<a href="<?php the_sub_field( 'external_link' ); ?>" target="_blank">
 								
@@ -56,13 +46,8 @@
 					<?php endwhile; ?>
 				 
 				<?php endif; ?>
-				
-				<?php }
-?>
-				
-				
-
-				
+			
+								
 				
 				
 			</div><!-- content -->
