@@ -54,8 +54,5 @@
 
 <?php include('js/footerjs.php');?>
 
-
-
-
 </body>
 </html>
