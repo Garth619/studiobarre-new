@@ -23,174 +23,64 @@
 				<div class="case_results_wrapper">
 					
 					
-					<div class="single_case_results">
-						
-						<div class="case_image_wrapper">
+					
+					<?php if(get_field('case_results')): ?>
+					 
+						<?php while(has_sub_field('case_results')): ?>
+					 
 							
-							<img src="<?php bloginfo('template_directory');?>/images/case-results.jpg"/>
-							
-						</div><!-- case_image_wrapper -->
-						
-						
-						
-						<div class="case_results_content">
-							
-							<p>Ann Minckler</p>
-							<p>Location: Encinitas</p>
-							<p>Years Tucking: 8 years</p>
-							
-							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
-							
-							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
-							
-							<div class="read_more_case">
 								
-								<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my body, improved my bone health, and greatly helped relieve stress! Shannon and her team are amazing instructors and inspiring women with whom to interact. They have amassed a clientele of fun, intelligent women (of all ages) who make a very hard workout lively and invigorating. In 60 minutes, every muscle in your body is exercised to near exhaustion utilizing both a ballet barre, floor mats and weights, mostly emphasizing core muscles. I am in my late sixties and I am stronger and in better shape than when I was in my thirties. My husband, a physician, is annoyingly complimentary. These classes are filled with women with different goals in a totally non-judgemental environment. The instructors are highly skilled at leading the classes in unique moves to great and continually updated music. Studio Barre has been one of my best experiences ever and I hope to continue for years to come. A.M.</p>
+								<div class="single_case_results">
+						
+									<div class="case_image_wrapper">
+										
+										
+										<?php $imageID = get_sub_field('results_image'); ?>
+										<?php $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); ?>
+										<?php $result_one = wp_get_attachment_image_src($imageID, 'caseresultsimage'); ?>
+										
+<!-- 										<img alt="<?php echo $alt_text; ?>" id="inner_menu_1" class="inner_menu_thumbs" src="<?php echo $menu_one[0]; ?>"/> -->
+										
+										<img src="<?php echo $result_one[0]; ?>" alt="<?php echo $alt_text; ?>"/>
+							
+								</div><!-- case_image_wrapper -->
+						
+						
+						
+								<div class="case_results_content">
+							
+									<span class="case_results_title"><?php the_sub_field( 'name' ); ?></span>
+									<p>Location: <?php the_sub_field( 'location' ); ?></p>
+									<p>Years Tucking: <?php the_sub_field( 'years_tucking' ); ?></p>
+							
+									<p><?php the_sub_field( 'excerpt' ); ?>...</p>
+							
+									<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
+							
+									<div class="read_more_case">
+								
+									<?php the_sub_field( 'read_more' ); ?>
 
 								
-							</div><!-- read_more_case -->
+								</div><!-- read_more_case -->
 
 							
-						</div><!-- case_results_content -->
+							</div><!-- case_results_content -->
 						
 						
-					</div><!-- single_case_results -->
+						</div><!-- single_case_results -->
+							
+							
+							
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
 					
 					
-					<div class="single_case_results">
-						
-						<div class="case_image_wrapper">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/case-results.jpg"/>
-							
-						</div><!-- case_image_wrapper -->
-						
-						
-						
-						<div class="case_results_content">
-							
-							<p>Ann Minckler</p>
-							<p>Location: Encinitas</p>
-							<p>Years Tucking: 8 years</p>
-							
-							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
-							
-							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
-							
-							<div class="read_more_case">
-								
-								<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my body, improved my bone health, and greatly helped relieve stress! Shannon and her team are amazing instructors and inspiring women with whom to interact. They have amassed a clientele of fun, intelligent women (of all ages) who make a very hard workout lively and invigorating. In 60 minutes, every muscle in your body is exercised to near exhaustion utilizing both a ballet barre, floor mats and weights, mostly emphasizing core muscles. I am in my late sixties and I am stronger and in better shape than when I was in my thirties. My husband, a physician, is annoyingly complimentary. These classes are filled with women with different goals in a totally non-judgemental environment. The instructors are highly skilled at leading the classes in unique moves to great and continually updated music. Studio Barre has been one of my best experiences ever and I hope to continue for years to come. A.M.</p>
-
-								
-							</div><!-- read_more_case -->
-
-							
-						</div><!-- case_results_content -->
-						
-						
-					</div><!-- single_case_results -->
 					
 					
-					<div class="single_case_results">
-						
-						<div class="case_image_wrapper">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/case-results.jpg"/>
-							
-						</div><!-- case_image_wrapper -->
-						
-						
-						
-						<div class="case_results_content">
-							
-							<p>Ann Minckler</p>
-							<p>Location: Encinitas</p>
-							<p>Years Tucking: 8 years</p>
-							
-							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
-							
-							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
-							
-							<div class="read_more_case">
-								
-								<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my body, improved my bone health, and greatly helped relieve stress! Shannon and her team are amazing instructors and inspiring women with whom to interact. They have amassed a clientele of fun, intelligent women (of all ages) who make a very hard workout lively and invigorating. In 60 minutes, every muscle in your body is exercised to near exhaustion utilizing both a ballet barre, floor mats and weights, mostly emphasizing core muscles. I am in my late sixties and I am stronger and in better shape than when I was in my thirties. My husband, a physician, is annoyingly complimentary. These classes are filled with women with different goals in a totally non-judgemental environment. The instructors are highly skilled at leading the classes in unique moves to great and continually updated music. Studio Barre has been one of my best experiences ever and I hope to continue for years to come. A.M.</p>
-
-								
-							</div><!-- read_more_case -->
-
-							
-						</div><!-- case_results_content -->
-						
-						
-					</div><!-- single_case_results -->
 					
-					
-					<div class="single_case_results">
-						
-						<div class="case_image_wrapper">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/case-results.jpg"/>
-							
-						</div><!-- case_image_wrapper -->
-						
-						
-						
-						<div class="case_results_content">
-							
-							<p>Ann Minckler</p>
-							<p>Location: Encinitas</p>
-							<p>Years Tucking: 8 years</p>
-							
-							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
-							
-							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
-							
-							<div class="read_more_case">
-								
-								<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my body, improved my bone health, and greatly helped relieve stress! Shannon and her team are amazing instructors and inspiring women with whom to interact. They have amassed a clientele of fun, intelligent women (of all ages) who make a very hard workout lively and invigorating. In 60 minutes, every muscle in your body is exercised to near exhaustion utilizing both a ballet barre, floor mats and weights, mostly emphasizing core muscles. I am in my late sixties and I am stronger and in better shape than when I was in my thirties. My husband, a physician, is annoyingly complimentary. These classes are filled with women with different goals in a totally non-judgemental environment. The instructors are highly skilled at leading the classes in unique moves to great and continually updated music. Studio Barre has been one of my best experiences ever and I hope to continue for years to come. A.M.</p>
-
-								
-							</div><!-- read_more_case -->
-
-							
-						</div><!-- case_results_content -->
-						
-						
-					</div><!-- single_case_results -->
-					
-					
-					<div class="single_case_results">
-						
-						<div class="case_image_wrapper">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/case-results.jpg"/>
-							
-						</div><!-- case_image_wrapper -->
-						
-						
-						
-						<div class="case_results_content">
-							
-							<p>Ann Minckler</p>
-							<p>Location: Encinitas</p>
-							<p>Years Tucking: 8 years</p>
-							
-							<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my...</p>
-							
-							<span class="case_results_read_more">Read</span><!-- case_results_read_more -->
-							
-							<div class="read_more_case">
-								
-								<p>Now in my eighth year of multiple weekly classes totaling over 1000 at Studio Barre, I can speak with some authority about this fabulous workout and the wonderful people I have met here. The standard one hour workout has changed my body, improved my bone health, and greatly helped relieve stress! Shannon and her team are amazing instructors and inspiring women with whom to interact. They have amassed a clientele of fun, intelligent women (of all ages) who make a very hard workout lively and invigorating. In 60 minutes, every muscle in your body is exercised to near exhaustion utilizing both a ballet barre, floor mats and weights, mostly emphasizing core muscles. I am in my late sixties and I am stronger and in better shape than when I was in my thirties. My husband, a physician, is annoyingly complimentary. These classes are filled with women with different goals in a totally non-judgemental environment. The instructors are highly skilled at leading the classes in unique moves to great and continually updated music. Studio Barre has been one of my best experiences ever and I hope to continue for years to come. A.M.</p>
-
-								
-							</div><!-- read_more_case -->
-
-							
-						</div><!-- case_results_content -->
-						
-						
-					</div><!-- single_case_results -->
 					
 					
 				</div><!-- case_results_wrapper -->

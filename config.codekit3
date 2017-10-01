@@ -19970,6 +19970,253 @@
 		"oAP": "\/wp-content\/plugins\/simple-history\/uninstall.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/simple-image-sizes\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/.gitignore",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/css\/sis-style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/css\/sis-style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/css\/sis-style.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/css\/sis-style.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/dist\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/dist\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/dist\/app.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/dist\/app.js.map",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/dist\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/dist\/app.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/dist\/app.min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/dist\/app.min.js.map",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/src\/attachments.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/src\/attachments-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/src\/featured.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/src\/featured-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/src\/sis.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/assets\/js\/src\/sis-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/classes\/admin\/main.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/classes\/admin\/main.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/classes\/admin\/media.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/classes\/admin\/media.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/classes\/admin\/post.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/classes\/admin\/post.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/classes\/main.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/classes\/main.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-de_DE.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-de_DE.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-de_DE.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-de_DE.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-fr_FR.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-fr_FR.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-fr_FR.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-fr_FR.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-he_IL.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-he_IL.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-he_IL.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes-he_IL.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/languages\/simple-image-sizes.pot",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/screenshot-1.png": {
+		"ft": 32768,
+		"iS": 31126,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/screenshot-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/screenshot-2.png": {
+		"ft": 32768,
+		"iS": 88165,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/screenshot-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/screenshot-3.png": {
+		"ft": 32768,
+		"iS": 9495,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/screenshot-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/simple_image_sizes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/simple_image_sizes.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/templates\/admin-js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/templates\/admin-js.html",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-image-sizes\/templates\/options-media.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/templates\/options-media.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/ajax.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -27633,6 +27880,206 @@
 		"iS": 94284,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/09\/banner-society.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Christine-Paulsen-Studio-Barre-382x372-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7206,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Christine-Paulsen-Studio-Barre-382x372-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Christine-Paulsen-Studio-Barre-382x372-231x225.jpg": {
+		"ft": 16384,
+		"iS": 13446,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Christine-Paulsen-Studio-Barre-382x372-231x225.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Christine-Paulsen-Studio-Barre-382x372-300x292.jpg": {
+		"ft": 16384,
+		"iS": 19595,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Christine-Paulsen-Studio-Barre-382x372-300x292.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Christine-Paulsen-Studio-Barre-382x372.jpg": {
+		"ft": 16384,
+		"iS": 54114,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Christine-Paulsen-Studio-Barre-382x372.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Nancy-Gackstetter-Studio-Barre-382x372-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7363,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Nancy-Gackstetter-Studio-Barre-382x372-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Nancy-Gackstetter-Studio-Barre-382x372-231x225.jpg": {
+		"ft": 16384,
+		"iS": 12905,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Nancy-Gackstetter-Studio-Barre-382x372-231x225.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Nancy-Gackstetter-Studio-Barre-382x372-300x292.jpg": {
+		"ft": 16384,
+		"iS": 18186,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Nancy-Gackstetter-Studio-Barre-382x372-300x292.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Nancy-Gackstetter-Studio-Barre-382x372.jpg": {
+		"ft": 16384,
+		"iS": 46921,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Nancy-Gackstetter-Studio-Barre-382x372.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Paula-Matuskovic-Studio-Barre-382x372-150x150.jpg": {
+		"ft": 16384,
+		"iS": 8037,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Paula-Matuskovic-Studio-Barre-382x372-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Paula-Matuskovic-Studio-Barre-382x372-231x225.jpg": {
+		"ft": 16384,
+		"iS": 15706,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Paula-Matuskovic-Studio-Barre-382x372-231x225.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Paula-Matuskovic-Studio-Barre-382x372-300x292.jpg": {
+		"ft": 16384,
+		"iS": 23497,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Paula-Matuskovic-Studio-Barre-382x372-300x292.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Paula-Matuskovic-Studio-Barre-382x372.jpg": {
+		"ft": 16384,
+		"iS": 59673,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Paula-Matuskovic-Studio-Barre-382x372.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Samantha-Helsel-Studio-Barre-382x372-150x150.jpg": {
+		"ft": 16384,
+		"iS": 6336,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Samantha-Helsel-Studio-Barre-382x372-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Samantha-Helsel-Studio-Barre-382x372-231x225.jpg": {
+		"ft": 16384,
+		"iS": 11406,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Samantha-Helsel-Studio-Barre-382x372-231x225.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Samantha-Helsel-Studio-Barre-382x372-300x292.jpg": {
+		"ft": 16384,
+		"iS": 16371,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Samantha-Helsel-Studio-Barre-382x372-300x292.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Samantha-Helsel-Studio-Barre-382x372.jpg": {
+		"ft": 16384,
+		"iS": 45387,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Samantha-Helsel-Studio-Barre-382x372.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Studio-Barre-382x372-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7853,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Studio-Barre-382x372-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Studio-Barre-382x372-231x225.jpg": {
+		"ft": 16384,
+		"iS": 15078,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Studio-Barre-382x372-231x225.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Studio-Barre-382x372-300x292.jpg": {
+		"ft": 16384,
+		"iS": 22402,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Studio-Barre-382x372-300x292.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/10\/Studio-Barre-382x372.jpg": {
+		"ft": 16384,
+		"iS": 58872,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/10\/Studio-Barre-382x372.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

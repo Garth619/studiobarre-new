@@ -28,7 +28,7 @@
 		float:right;
 		margin-left:45px;
 		border-bottom: 1px solid #fff;
-		padding-bottom:50px; 
+		padding-bottom:30px; 
 		
 		
 	}
@@ -51,6 +51,20 @@
 		display: none;
 	}
 }
+
+
+.case_results_title {
+	font-family: $coresansbold;
+  color: #FFE000;
+  text-transform: lowercase;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 15px;
+  display: block;
+}
+
+    
 
 
 @media screen and (max-width: 800px) {
@@ -80,7 +94,7 @@
 		margin-right:auto;
 		float:none;
 		img {
-			
+			display: block;
 		}
 	}
 	.case_results_content {

@@ -123,9 +123,9 @@ add_filter('body_class', 'add_slug_body_class');
 -------------------------------------------------------------- */
 if (function_exists('acf_add_options_page')) {
     acf_add_options_page(array(
-        'page_title' => 'Theme General Settings',
-        'menu_title' => 'Theme Settings',
-        'menu_slug' => 'theme-general-settings',
+        'page_title' => 'Footer',
+        'menu_title' => 'Footer',
+        'menu_slug' => 'theme-footer-settings',
         'capability' => 'edit_posts',
         'redirect' => false
     ));
