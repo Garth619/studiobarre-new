@@ -146,6 +146,13 @@ if (function_exists('acf_add_options_page')) {
         'redirect' => false
     ));
     acf_add_options_page(array(
+        'page_title' => 'Sidebar',
+        'menu_title' => 'Sidebar',
+        'menu_slug' => 'theme-sidebar-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
+    acf_add_options_page(array(
         'page_title' => 'Footer',
         'menu_title' => 'Footer',
         'menu_slug' => 'theme-footer-settings',
