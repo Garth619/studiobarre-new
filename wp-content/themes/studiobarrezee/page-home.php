@@ -13,7 +13,9 @@
 		
 		<div class="inner_banner inner_home_mobile">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/carmel.jpg"/>
+				<?php $mobile_banner = get_field( 'mobile_banner' ); ?>
+			
+				<img src="<?php echo $mobile_banner['url']; ?>" alt="<?php echo $mobile_banner['alt']; ?>"/>
 			
 			</div><!-- inner_banner -->
 		
@@ -24,7 +26,10 @@
 			
 			<div class="inner_banner inner_home_desktop">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/banner-carmel.jpg"/>
+				
+				<?php $inner_banner = get_field( 'inner_banner' ); ?>
+				
+				<img src="<?php echo $inner_banner['url']; ?>" alt="<?php echo $inner_banner['alt']; ?>" />
 			
 			</div><!-- inner_banner -->
 			

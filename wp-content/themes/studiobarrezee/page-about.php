@@ -18,23 +18,31 @@
 				<h1><?php the_title();?></h1>
 				
 				
-				<p>Studio Barre is a premier exercise boutique offering an exceptionally effective and personalized, goal oriented workout that raises the “barre” on fitness. Our talented staff is highly trained to ensure that you will receive quality instruction designed to challenge you at any fitness level. In addition you can expect motivating, personalized training in a musically driven, dance studio inspired environment. We also offer an upscale fitness apparel boutique offering stylish and “fun”ctional workout apparel as well as accessories and gifts.</p>
+			<?php get_template_part('loop','page');?>
 				
 			
 			<div class="slideshow about_slideshow">
-	
-				<div>
-					<img data-lazy="<?php bloginfo('template_directory');?>/images/about1.jpg"/>
-				</div>
 				
-				<div>
-					<img data-lazy="<?php bloginfo('template_directory');?>/images/about2.jpg"/>
-				</div>
-				
-				<div>
-					<img data-lazy="<?php bloginfo('template_directory');?>/images/about3.jpg"/>
-				</div>
-				
+				<?php if(get_field('about_slideshow')): ?>
+				 
+					<?php while(has_sub_field('about_slideshow')): ?>
+				 
+					
+						
+						<div class="slide_wrapper">
+							
+							<?php $slide = get_sub_field( 'slide' ); ?>
+							
+							<img data-lazy="<?php echo $slide['url']; ?>" alt="<?php echo $slide['alt']; ?>"/>
+							
+						</div>
+					
+					
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
+					
 	
 			</div><!-- slideshow -->
 			

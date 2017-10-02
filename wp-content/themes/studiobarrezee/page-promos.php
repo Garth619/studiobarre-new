@@ -20,50 +20,32 @@
 				
 				<div class="promo_wrapper">
 					
+					<?php if(get_field('promo')): ?>
+					 
+						<?php while(has_sub_field('promo')): ?>
+					 
+					    
+					    <div class="single_promo">
 					
-					<div class="single_promo">
-					
-						<h2>student special</h2>
+								<h2><?php the_sub_field( 'promo_title' ); ?></h2>
+								
+								<?php $promo_image = get_sub_field( 'promo_image' ); ?>
 				
-						<img src="<?php bloginfo('template_directory');?>/images/promo.png"/>
+								<img src="<?php echo $promo_image['url']; ?>" alt="<?php echo $promo_image['alt']; ?>"/>
 					
-					</div><!-- single_promo -->
-					
-					<div class="single_promo">
-					
-						<h2>student special</h2>
-				
-						<img src="<?php bloginfo('template_directory');?>/images/promo.png"/>
-					
-					</div><!-- single_promo -->
-					
-					<div class="single_promo">
-					
-						<h2>student special</h2>
-				
-						<img src="<?php bloginfo('template_directory');?>/images/promo.png"/>
-					
-					</div><!-- single_promo -->
-					
-					<div class="single_promo">
-					
-						<h2>student special</h2>
-				
-						<img src="<?php bloginfo('template_directory');?>/images/promo.png"/>
-					
-					</div><!-- single_promo -->
-					
+							</div><!-- single_promo -->
+						
+						
+						
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
+										
 					
 				</div><!-- promo_wrapper -->
 				
 				
-							
-			
 			</div><!-- content -->
-			
-			
-			
-			
 			
 			
 		</div><!-- inner_container -->

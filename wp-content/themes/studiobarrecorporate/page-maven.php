@@ -37,7 +37,7 @@
 				
 				</div><!-- maven_requirements -->
 				
-				<?php if(get_field('bio_grid')): ?>
+	<?php if(get_field('bio_grid')): ?>
 
 	<div class="bio_grid">
  

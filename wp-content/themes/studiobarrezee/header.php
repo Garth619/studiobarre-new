@@ -49,7 +49,7 @@
 		
 		<div class="logo_wrapper">
 			
-			<a href="//studiobarre-demo.com"><img src="<?php bloginfo('template_directory');?>/images/studio-barre.png"/></a>
+			<a href="<?php my_main_site_link();?>"><img src="<?php bloginfo('template_directory');?>/images/studio-barre.png"/></a>
 			
 		</div><!-- logo_wrapper -->
 		
@@ -71,7 +71,7 @@
 					
 					<ul class="back_to_main">
 						
-						<li><a href="/">< Back to Main Site</a></li>
+						<li><a href="<?php my_main_site_link();?>">< Back to Main Site</a></li>
 					
 					</ul>
 					

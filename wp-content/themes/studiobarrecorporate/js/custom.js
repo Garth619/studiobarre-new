@@ -242,6 +242,12 @@ function biogridMobile() {
 			});
 			
 			
+
+    	
+    	
+    	
+			
+			
 			$('.single_bio_grid .image_wrapper').click(function() {
 	
 				$(this).siblings('.bio_overlay_bg').addClass('open');
