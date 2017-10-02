@@ -20,22 +20,15 @@
 				
 				<div class="login">
 					
-					<healcode-widget data-type="account-link" data-version="0.2" data-site-id="8738" data-inner-html="Login | Register"></healcode-widget>
+					<?php the_field( 'mb_code' ); ?>
 					
 				</div>
 				
 				<div class="schedule">
 					
-					<script type="text/javascript">
-					  healcode_widget_id = "48159077da9";
-  healcode_widget_name = "schedules";
-  healcode_widget_type = "mb";
-  document.write(unescape("%3Cscript src='https://www.healcode.com/javascripts/hc_widget.js' type='text/javascript'%3E%3C/script%3E"));
-  // Healcode Schedule Widget for Studio Barre - Carmel Valley : One Week Class Schedule
-  
-  					</script>
+					<?php the_field( 'mb_code_-_schedule' ); ?>	
 				
-					</div><!-- schedule -->
+				</div><!-- schedule -->
 							
 			
 			</div><!-- content -->
