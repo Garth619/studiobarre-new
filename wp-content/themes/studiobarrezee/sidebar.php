@@ -28,12 +28,12 @@
 	
 	<div class="sidebar_social">
 		
-		<a href="<?php the_field( 'twitter','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/twitter.png"/></a>
-		<a href="<?php the_field( 'pinterest','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/pinterest.png"/></a>
-		<a href="<?php the_field( 'instagram','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/instagram.png"/></a>
-		<a href="<?php the_field( 'facebook','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/facebook.png"/></a>
-		<a href="<?php the_field( 'google_+','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.png"/></a>
-		<a href="mailto:<?php the_field( 'email','option'); ?>"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png"/></a>
+		<a href="<?php the_field( 'twitter','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/twitter.png" alt="Twitter"/></a>
+		<a href="<?php the_field( 'pinterest','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/pinterest.png" alt="Pinterest"/></a>
+		<a href="<?php the_field( 'instagram','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/instagram.png" alt="Instagram"/></a>
+		<a href="<?php the_field( 'facebook','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/facebook.png" alt="Facebook"/></a>
+		<a href="<?php the_field( 'google_+','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.png" alt="Google"/></a>
+		<a href="mailto:<?php the_field( 'email','option'); ?>"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png" alt="Email"/></a>
 		
 	</div><!-- sidebar_social -->
 	
@@ -41,12 +41,15 @@
 		
 		<?php if(get_field('store_hours','options')): ?>
 			
-			<span class="hours_title">Store Hours</span><!-- hours_title -->
+			<span class="hours_title">Studio Hours</span><!-- hours_title -->
 		 
 			<?php while(has_sub_field('store_hours','options')): ?>
 		 
 				<span class="days"><?php the_sub_field( 'days' ); ?></span><!-- days -->
+				
+				<?php if(get_sub_field('hours','option')):?>
 				<span class="hours"><?php the_sub_field( 'hours' ); ?></span><!-- days -->
+				<?php endif;?>
 		    
 			<?php endwhile; ?>
 			
@@ -59,7 +62,7 @@
 		
 		<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 		
-		<a href="https://www.google.com/maps/place/Studio+Barre+Carmel+Valley/@32.9619726,-117.1541906,15z/data=!4m2!3m1!1s0x0:0x219fb055ae52aeb1?sa=X&ved=0ahUKEwjzrP70mcjWAhVX1GMKHTmsBMAQ_BIIhwEwCg" target="_blank">
+		<a href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank">
 			<span itemprop="streetAddress"><?php the_field( 'street_address','option'); ?></span>
 			<span itemprop="addressLocality"><?php the_field( 'city','option'); ?></span>, <span itemprop="addressRegion"><?php the_field( 'state_abr','option'); ?></span> <span itemprop="postalCode"><?php the_field( 'zip_code','option'); ?></span><br/>
 			{map}
