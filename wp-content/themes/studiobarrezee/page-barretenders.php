@@ -31,6 +31,14 @@
 						
 						<div class="image_wrapper">
 							
+														
+							<?php if(! get_sub_field('black_and_white_image')):?>
+							
+							<img class="" src="<?php bloginfo('template_directory');?>/images/profile.jpg" alt="No Profile"/>
+							
+							<?php else:?>
+							
+							
 							<?php 
 							
 								$imageIDbw = get_sub_field('black_and_white_image');
@@ -42,7 +50,13 @@
 							
 							<img class="black_white" src="<?php echo $result_onebw[0]; ?>" alt="<?php the_sub_field( 'name' ); ?> - black and white"/>
 							
+							
+							
 							<img class="color" src="<?php echo $result_one[0]; ?>" alt="<?php the_sub_field( 'name' ); ?>"/>
+
+							
+							<?php endif;?>
+						
 							
 						</div><!-- image_wrapper -->
 						
