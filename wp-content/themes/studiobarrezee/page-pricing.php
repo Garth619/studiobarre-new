@@ -73,8 +73,11 @@
 							
 						</div><!-- box_description_wrapper -->
 						
+						<?php if(get_field('most_popular_link')):?>
 						
-						<a class="buy_now" href="<?php the_field( 'most_popular_link' ); ?>" target="_blank">Buy Now</a><!-- buy_now -->
+							<a class="buy_now" href="<?php the_field( 'most_popular_link' ); ?>" target="_blank">Buy Now</a><!-- buy_now -->
+						
+						<?php endif;?>
 						
 						
 					</div><!-- box_wrapper -->
@@ -135,7 +138,11 @@
 						</div><!-- box_description_wrapper -->
 						
 						
-						<a class="buy_now" href="<?php the_field( 'new_to_the_studio_link' ); ?>" target="_blank">Buy Now</a><!-- buy_now -->
+						<?php if(get_field('new_to_the_studio_link')):?>
+						
+							<a class="buy_now" href="<?php the_field( 'new_to_the_studio_link' ); ?>" target="_blank">Buy Now</a><!-- buy_now -->
+							
+						<?php endif;?>
 						
 						
 					</div><!-- box_wrapper -->
