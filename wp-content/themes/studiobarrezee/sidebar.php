@@ -28,12 +28,19 @@
 	
 	<div class="sidebar_social">
 		
-		<a href="<?php the_field( 'twitter','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/twitter.png" alt="Twitter"/></a>
+		<?php if(get_field( 'twitter','option')):?>
+		
+			<a href="<?php the_field( 'twitter','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/twitter.png" alt="Twitter"/></a>
+		
+		<?php endif;?>
 		<a href="<?php the_field( 'pinterest','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/pinterest.png" alt="Pinterest"/></a>
 		<a href="<?php the_field( 'instagram','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/instagram.png" alt="Instagram"/></a>
 		<a href="<?php the_field( 'facebook','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/facebook.png" alt="Facebook"/></a>
+		
 		<?php if(get_field( 'google_+','option')):?>
-		<a href="<?php the_field( 'google_+','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.png" alt="Google"/></a>
+		
+			<a href="<?php the_field( 'google_+','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.png" alt="Google"/></a>
+		
 		<?php endif;?>
 		<a href="mailto:<?php the_field( 'email','option'); ?>"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png" alt="Email"/></a>
 		
