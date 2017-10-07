@@ -11,6 +11,8 @@
 
 <div class="inner_main">
 		
+		
+		
 		<div class="inner_banner inner_home_mobile">
 			
 				<?php $mobile_banner = get_field( 'mobile_banner' ); ?>
@@ -24,14 +26,17 @@
 		<div class="inner_container">
 			
 			
-			<div class="inner_banner inner_home_desktop">
+			<?php if(get_field('inner_banner')):?>
 			
-				
-				<?php $inner_banner = get_field( 'inner_banner' ); ?>
-				
-				<img src="<?php echo $inner_banner['url']; ?>" alt="<?php echo $inner_banner['alt']; ?>" />
+				<div class="inner_banner inner_home_desktop">
 			
-			</div><!-- inner_banner -->
+					<?php $inner_banner = get_field( 'inner_banner' ); ?>
+				
+					<img src="<?php echo $inner_banner['url']; ?>" alt="<?php echo $inner_banner['alt']; ?>" />
+			
+				</div><!-- inner_banner -->
+			
+			<?php endif;?>
 			
 			
 			<div class="content_wrapper content">
