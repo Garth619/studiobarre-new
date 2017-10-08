@@ -28,7 +28,25 @@
 				
 				<?php if ( ! post_password_required() ) { ?>
 				
-				conent
+				
+				
+				
+				<?php $posts = get_field('video_pages');
+				
+				if( $posts ): ?>
+				    
+				    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+				        <?php setup_postdata($post); ?>
+				       
+								<h2 style="margin-bottom:20px;"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+				       
+				    <?php endforeach; ?>
+				    
+				    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+				<?php endif; ?>
+				
+				
+				
 				
 				<?php } ?>			
 								

@@ -4,9 +4,9 @@
 <div class="inner_main">
 		
 		
-		<?php get_sidebar(); ?>
+		<?php // get_sidebar(); ?>
 		
-		<div class="inner_container">
+		<div class="inner_container" style="padding-left:0;width:100%;">
 			
 			
 			

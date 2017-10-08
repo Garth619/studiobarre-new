@@ -20905,6 +20905,66 @@
 		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/templates\/options-media.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/tabby-responsive-tabs\/css\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/tabby-responsive-tabs\/css\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/tabby-responsive-tabs\/css\/tabby-print.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/tabby-responsive-tabs\/css\/tabby-print-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/tabby-responsive-tabs\/css\/tabby.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/tabby-responsive-tabs\/css\/tabby-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/tabby-responsive-tabs\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/tabby-responsive-tabs\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/tabby-responsive-tabs\/js\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/tabby-responsive-tabs\/js\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/tabby-responsive-tabs\/js\/tabby.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/tabby-responsive-tabs\/js\/tabby-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/tabby-responsive-tabs\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/tabby-responsive-tabs\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/tabby-responsive-tabs\/tabby-responsive-tabs.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/tabby-responsive-tabs\/tabby-responsive-tabs.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/ajax.php": {
 		"ft": 8192,
 		"oA": 2,
