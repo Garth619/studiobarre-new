@@ -5,7 +5,7 @@
 		
 		<div class="sidebar_inner_form_wrapper">
 			
-			<span class="maven_form_title desktop">Get Started</span><!-- maven_form_title -->
+			<span class="maven_form_title desktop" onClick="ga('send', 'event', 'button', 'click', 'Mobile - Apply for More Franchise Info');">Get Started</span><!-- maven_form_title -->
 			
 			
 			
