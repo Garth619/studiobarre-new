@@ -27753,6 +27753,26 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-content\/themes\/studiobarreownastudio\/js\/slide-text-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/js\/slide-text-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/studiobarreownastudio\/js\/slide-text.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/js\/slide-text-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/wp-content\/themes\/studiobarreownastudio\/loop-page.php": {
 		"ft": 8192,
 		"oA": 2,

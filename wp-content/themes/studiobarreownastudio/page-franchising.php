@@ -36,8 +36,18 @@
 					<?php }?>
 					
 					</div><!-- franchise_header_wrapper -->
+					
+					
+			
+			
+					<?php the_field( 'video' ); ?>		
+					
 				
-				<?php get_template_part( 'loop', 'index' );?>
+				<div class="slide_text_wrapper">
+				
+					<?php get_template_part( 'loop', 'index' );?>
+				
+				</div><!-- slide_text_wrapper -->
 				
 				
 				<div class="button_wrapper">

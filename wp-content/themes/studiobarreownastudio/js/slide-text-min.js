@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){$(".slide_text_wrapper h2").each(function(e){$(this).nextUntil("h2").wrapAll('<div class="single_slide_text" />')}),$("h2").on("click",function(e){$(this).next(".single_slide_text").slideToggle(200),$(this).toggleClass("open")})});

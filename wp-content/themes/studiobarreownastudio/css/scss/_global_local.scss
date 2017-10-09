@@ -61,6 +61,36 @@ h1.franchise_title {
 }
 
 
+.slide_text_wrapper {
+	h2 {
+		cursor: pointer;
+		&:after {
+			content:"+";
+			display: inline-block;
+			margin-left:5px;
+		}
+	}
+	h2.open:after {
+		content:"-";
+	}
+}
+
+.single_slide_text {
+	display: none;
+}
+
+.get_started {
+	display: inline;
+}
+
+a.get_started_content {
+	color:#fff;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
 @media screen and (max-width: 800px) {
 	
 	header.franchise {
@@ -118,6 +148,14 @@ h1.franchise_title {
 	span {
 		font-family: $coresanslight;
 		
+	}
+}
+
+
+a.get_started_content {
+	color:$yellow;
+	&:hover {
+		text-decoration: none;
 	}
 }
 

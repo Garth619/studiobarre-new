@@ -25,6 +25,7 @@ function my_jquery_enqueue() {
 
      // Load my global javascripts from "studiobarrecorporate" theme 
      wp_enqueue_script( 'jquery-addon', '../../wp-content/themes/studiobarrecorporate/js/custom-min.js', array('jquery'), '', true );
+     wp_enqueue_script( 'jquery-addon-slide-text', get_template_directory_uri() . '/js/slide-text-min.js', array('jquery'), '', true );
  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
@@ -156,4 +157,12 @@ function cc_mime_types($mimes)
 }
 
 add_filter('upload_mimes', 'cc_mime_types');
+
+
+
+
+
+
+
+
 

@@ -313,9 +313,9 @@ function sidebarMobile() {
 			}	
 			
      
-			$('span.maven_form_title').click(function(){
+			$('span.maven_form_title, a.get_started_content').click(function(){
 				
-				$(this).addClass('clicked');
+				$('span.maven_form_title').addClass('clicked');
 				$('#gform_wrapper_3, header, body').addClass('fixed');
 				$('#gform_wrapper_3').fadeIn(100);
 				$('span.back_to_page').addClass('fixed');
