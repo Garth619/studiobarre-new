@@ -55,10 +55,7 @@
 		<div class="header_right">
 			
 			
-			<!-- UPDATE URL WITH ACF!!!!!!!!!!!!! -->
-			
-			
-			<a href="http://studiobarre-demo.com/find-your-studio" class="find_button">Find Your Studio</a>
+			<a href="<?php my_main_site_link();?>/find-your-studio" class="find_button">Find Your Studio</a>
 			
 			<div class="nav_wrapper franchise">
 				
