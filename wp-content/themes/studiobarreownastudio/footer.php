@@ -6,8 +6,8 @@
 		
 	<ul>
 			
-		<li><a href="http://studiobarre-demo.com/teachers/">barre{tender} login</a></li>
-		<li><a href="http://studiobarre-demo.com/owner-resources/">owner login</a></li>
+		<li><a href="<?php my_main_site_link();?>/teachers/">barre{tender} login</a></li>
+		<li><a href="<?php my_main_site_link();?>/owner-resources/">owner login</a></li>
 	
 	</ul>
 	

@@ -160,9 +160,21 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 
 
+// Main Site template tag url
 
+function my_main_site_link() {
+	
+	switch_to_blog(1);
+	
+		$main_url = get_bloginfo('url');
+		
+		
+		print $main_url;
+		
+	
+	restore_current_blog();
 
-
+}
 
 
 

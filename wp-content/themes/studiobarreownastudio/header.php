@@ -48,7 +48,7 @@
 		
 		<div class="logo_wrapper">
 			
-			<a href="/"><img src="<?php bloginfo('template_directory');?>/images/studio-barre.png"/></a>
+			<a href="<?php my_main_site_link();?>"><img src="<?php bloginfo('template_directory');?>/images/studio-barre.png"/></a>
 			
 		</div><!-- logo_wrapper -->
 		
