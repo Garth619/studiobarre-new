@@ -35,6 +35,11 @@ nav {
 	margin-bottom:75px;	
 }
 
+
+.franchise_section:last-of-type {
+		margin-bottom: 0;
+	}
+
 h1.franchise_title, body.page-template-page-franchising .content h2 {
 	font-family: $akzcondensed;
 	font-size:33px;
@@ -182,6 +187,10 @@ h1.franchise_title, body.page-template-page-franchising .content h2 {
 
 a.get_started_content {
 	color:$yellow;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size:15px;
+	cursor: pointer;
 	&:hover {
 		text-decoration: none;
 	}

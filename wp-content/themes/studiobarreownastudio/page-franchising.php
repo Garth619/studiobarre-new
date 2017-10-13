@@ -112,11 +112,15 @@
 	<h2>next <span>{steps}</span></h2>
 
 
+<!--
 	<p>We would like to invite you to now learn more about our franchise opportunity.Our discovery process one of mutual education and evaluation designed to help you determine if the Studio Barre business model is right for YOU.</p>
 
 <p>During this process, we will give you the opportunity to get to know our business, team, franchisees and culture. Usually our discovery process takes 30-45 days and during this time, we also hope to get to know you, your partners, accomplishments and story in order to determine whether a Studio Barre franchise is right for you attain your goals.</p>
+-->
 
-<p>The first step is completing the <a class="get_started_content">Get Started</a> form and you will be connected by a member of the studio barre team. From there, we will discuss an overview of the studio barre opportunity along with expectations from both parties for our discovery process.</p>
+<p><strong>The first step is completing the <a class="get_started_content">Get Started</a> form and you will be connected by a member of the studio barre team. </strong></p>
+
+<p>From there, we will discuss an overview of the studio barre opportunity along with expectations from both parties for our discovery process.</p>
 
 
 
