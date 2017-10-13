@@ -8,10 +8,10 @@ jQuery(document).ready(function(){
 
 	 // wrap content under an h2 in a div
   
-   $('.slide_text_wrapper h2').each(function(i){ 
+   $('.slide_text_wrapper h3').each(function(i){ 
     
    
-   	var $set = $(this).nextUntil("h2");
+   	var $set = $(this).nextUntil("h3");
     
     $set.wrapAll('<div class="single_slide_text" />');
     
@@ -23,7 +23,7 @@ jQuery(document).ready(function(){
    
    
    
-   $('h2').on('click', function(e) {
+   $('h3').on('click', function(e) {
       
     	$(this).next('.single_slide_text').slideToggle(200);
     	$(this).toggleClass('open');
