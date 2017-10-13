@@ -49,10 +49,44 @@
 				
 				
 				
-					<?php // get_template_part( 'loop', 'index' );?>
+				
+				<?php if(get_field('sections_franchise')): ?>
+				 
+					<?php while(has_sub_field('sections_franchise')): ?>
+				 
+						
+				    
+							<div class="franchise_section">
 					
-				<div class="franchise_section">
 					
+								<?php if(get_sub_field('h2_first_word')):?>
+								
+									<h2><?php the_sub_field( 'h2_first_word' ); ?> <span>{<?php the_sub_field( 'h2_word_in_brackets' ); ?>}</span></h2>
+								
+								<?php endif; ?>
+					
+					
+								<?php the_sub_field( 'section_content' ); ?>
+					
+								
+				
+							</div><!-- franchise_section -->
+					
+					
+					
+					
+					
+					
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
+				
+				
+				
+				
+				
+					
+<!--
 					<p>Studio Barre is a true representation of the partnership created when dancers and fitness professionals came together to work as a team.   This business is truly the culmination of years of professional dance experience, a strong focus on personal training, health and wellness, and a desire to create a program appealing to all fitness levels. The success of the Studio Barre program is quite simple – it creates results. Barre technique has been modified to allow all levels to participate, a fun atmosphere has been added to encourage instructors to add their own personality and personal touch to each class, and physical transformations among the clients are a common occurrence.</p>
 
 					<div class="slide_text_wrapper">
@@ -69,13 +103,15 @@
 
 						<p>As a Studio Barre Franchisee, you are in the advantageous position of owning your own business, but not being left on your own. Your success is important to us. You are part of a family that wants to grow and pass along its vision, and as in any newer business opportunity, securing your spot on the ground floor is critical. Studio Barre has been built on a an absolute dedication to customer service, and a staff that understands and supports the need for experience, training, and a commitment to providing each and every member with the full barre experience.</p>
 
-					</div><!-- slide_text_wrapper -->
+					</div>
+-->
 
-				</div><!-- franchise_section -->
+				
 
 
-	<div class="franchise_section">
+
 	
+<!--
 	
 	<h2>about <span>{you}</span></h2>
 
@@ -97,26 +133,15 @@
 	<p>The territory protection will be deemed upon the submission of your location.</p>
 
 
-</div><!-- slide_text_wrapper -->
+</div>
+-->
 
-
-</div><!-- franchise_section -->
-
-
-
-
-
-<div class="franchise_section">
 	
 	
+<!--
 	<h2>next <span>{steps}</span></h2>
 
 
-<!--
-	<p>We would like to invite you to now learn more about our franchise opportunity.Our discovery process one of mutual education and evaluation designed to help you determine if the Studio Barre business model is right for YOU.</p>
-
-<p>During this process, we will give you the opportunity to get to know our business, team, franchisees and culture. Usually our discovery process takes 30-45 days and during this time, we also hope to get to know you, your partners, accomplishments and story in order to determine whether a Studio Barre franchise is right for you attain your goals.</p>
--->
 
 <p><strong>The first step is completing the <a class="get_started_content">Get Started</a> form and you will be connected by a member of the studio barre team. </strong></p>
 
@@ -141,14 +166,8 @@
 <p>Let’s get started! Briefly tell us who you are on the form to the left and we look forward to speaking with you.</p>
 
 
-</div><!-- slide_text_wrapper -->
-
-
-</div><!-- franchise_section -->
-
-				
-			
-				
+</div>
+-->		
 				
 				<div class="button_wrapper" style="display: none;">
 					
