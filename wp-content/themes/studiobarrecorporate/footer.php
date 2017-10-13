@@ -7,7 +7,7 @@
 		
 		<a href="<?php the_field( 'twitter','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/twitter.png" alt="twitter"/></a>
 		<a href="<?php the_field( 'pinterest','option' ); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/pinterest.png" alt="Pinterest"/></a>
-		<a href="<?php the_field( 'instagram' ,'option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/instagram.png" alt="Instagram"/></a>
+		<a href="<?php the_field( 'instagram' ,'option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/instagram2.png" alt="Instagram"/></a>
 		<a href="<?php the_field( 'facebook','option' ); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/facebook.png" alt="Facebook"/></a>
 		<a href="<?php the_field( 'google','option' ); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.png" alt="Google"/></a>
 		<a class="email_link mobile" href="mailto:<?php the_field( 'facebook','option' ); ?>"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png" alt="Email"/></a>

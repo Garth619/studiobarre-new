@@ -42,7 +42,7 @@
 		
 		<?php if(get_field( 'instagram','option')):?>
 		
-			<a href="<?php the_field( 'instagram','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/instagram.png" alt="Instagram"/></a>
+			<a href="<?php the_field( 'instagram','option'); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/instagram2.png" alt="Instagram"/></a>
 		
 		<?php endif;?>
 		
@@ -90,7 +90,7 @@
 		<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 		
 		<a href="<?php the_field( 'google_maps_link','option'); ?>" target="_blank">
-			<span itemprop="streetAddress"><?php the_field( 'street_address','option'); ?></span>
+			<span itemprop="streetAddress"><?php the_field( 'street_address','option'); ?></span><br/>
 			<span itemprop="addressLocality"><?php the_field( 'city','option'); ?></span>, <span itemprop="addressRegion"><?php the_field( 'state_abr','option'); ?></span> <span itemprop="postalCode"><?php the_field( 'zip_code','option'); ?></span><br/>
 			{map}
 		</a>

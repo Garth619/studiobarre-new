@@ -53,10 +53,11 @@ header, section, nav, footer {
 	}
 	
 	h1.header_script {
-		font-family: $inoutreg;
+		font-family: $asnapperscript;
 		color:$yellow;
+		text-transform: capitalize;
 		// text-transform: none;
-		font-size:55px;
+		font-size:42px;
 		font-style: normal;
 		font-weight: 300;
 		padding-top:14px;
@@ -190,7 +191,7 @@ img.aligncenter {
 		}
 		h1.header_script {
 			background: #4d4d4f;
-			font-size:55px;
+			font-size:44px;
 			
 		}
 		h1.header_script.center {
@@ -241,10 +242,10 @@ img.aligncenter {
 		}
 	}
 	h1 {
-		font-family: $inoutreg;
+		font-family: $asnapperscript;
 		color:$yellow;
-		text-transform: lowercase;
-		font-size:55px;
+		text-transform: capitalize;
+		font-size:42px;
 		font-style: normal;
 		font-weight: 300;
 		padding-top:14px;

@@ -195,6 +195,7 @@
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
+	margin-bottom:60px;
 	max-width:450px;
 	display: block;
 	
@@ -285,17 +286,18 @@
 .bio_content {
 	
 	span.read_bio {
-		&:before {
+		&:after {
 			content:"+";
 			display:inline-block;
 			color:$yellow;
 			margin-right:10px;
 			position: relative;
 			top:1px;
+			margin-left:5px;
 		}
 	}
 	span.read_bio.open {
-		&:before {
+		&:after {
 			content:"-";
 		}
 	}

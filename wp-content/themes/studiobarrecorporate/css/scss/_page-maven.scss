@@ -52,7 +52,7 @@
 					}
 	   ul {
 		   list-style: none;
-		   li#field_3_5, li#field_3_11 {
+		   li#field_3_5, li#field_3_11, li#field_3_13 {
 			   display: none;
 		   }
 		   li {
@@ -151,7 +151,7 @@
 	   
 	   span.maven_form_title {
 		   position: fixed;
-		   bottom:0;
+		   bottom:20px;
 		   left:0;
 		   background: $yellow;
 		  
@@ -165,7 +165,7 @@
 			 font-style: normal;
 			 font-weight: 300;
 			 letter-spacing: 0;
-			 padding:5px 0;
+			 padding:7px 0;
 			 display: block;
 			 cursor: pointer;
   	}
@@ -252,6 +252,15 @@
 				}
 				span.maven_form_title {
 					margin-bottom: 0;
+					
+					text-transform: uppercase;
+					font-family: $akzcondensed;
+				
+					font-size: 30px;
+					
+					line-height: 30px;
+					
+   
 				}
 			}
 			
