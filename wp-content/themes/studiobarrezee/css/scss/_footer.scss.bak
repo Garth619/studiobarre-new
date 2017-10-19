@@ -10,11 +10,14 @@
 	padding:40px 0px 20px;
 	.inner_copyright {
 		border-top:1px solid $bordergrey;
-		overflow: hidden;
+		// overflow: hidden;
 		span {
 			display: inline-block;
 			padding-top:10px;
 			padding-left:15px;
+			
+			
+			display: none;
 		}
 		ul {
 			list-style: none;

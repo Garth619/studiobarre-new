@@ -1,0 +1,32 @@
+
+
+<div class="copyright">
+	
+	<div class="inner_copyright">
+	
+	<span>&copy; <?php echo date("Y"); ?> Studio Barre LLC.</span>
+	
+	<div class="newsletter_signup">
+		
+		<?php gravity_form(1, false, false, false, '', true, 12); ?>
+		
+	</div><!-- newsletter_signup -->
+		
+	<ul>
+			
+		<?php my_global_footer_links();?>
+	
+	</ul>
+	
+	</div><!-- inner_copyright -->
+	
+</div><!-- copyright -->
+
+</div><!-- wrapper -->
+
+<?php wp_footer();?>
+
+<?php the_field( 'footer','options'); ?>
+
+</body>
+</html>

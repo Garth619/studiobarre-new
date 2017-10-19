@@ -26,6 +26,7 @@
 		</div><!-- location_menu_dropdown -->
 	</div><!-- location_menu -->
 	
+<!--
 	<div class="sidebar_social">
 		
 		<?php if(get_field( 'twitter','option')):?>
@@ -60,7 +61,8 @@
 		
 		<a href="mailto:<?php the_field( 'email','option'); ?>"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png" alt="Email"/></a>
 		
-	</div><!-- sidebar_social -->
+	</div>
+-->
 	
 	
 		
@@ -101,11 +103,12 @@
 		
 	</div><!-- address -->
 	
+<!--
 	<div class="newsletter_signup">
 		
 		<?php gravity_form(1, false, false, false, '', true, 12); ?>
 		
-	</div><!-- newsletter_signup -->
+	</div> newsletter_signup -->
 	
 	<?php if(is_front_page()) { ?>
 	
