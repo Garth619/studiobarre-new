@@ -8,7 +8,7 @@
 	
 	<ul class="latest_post_list">
 	
-	<?php $mymain_query = new WP_Query( array( 'post_type' => 'post' ,'posts_per_page' => '4', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
+	<?php $mymain_query = new WP_Query( array( 'post_type' => 'post' ,'posts_per_page' => '8', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
 	
 	
 			
