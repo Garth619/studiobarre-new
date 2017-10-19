@@ -78,7 +78,7 @@
 
 <?php wp_footer();?>
 
-<?php include('js/footerjs.php');?>
+
 <?php the_field( 'footer_scripts','option'); ?>
 
 </body>
