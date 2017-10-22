@@ -56,10 +56,12 @@
 
 <?php if(is_page_template('page-locations.php')) {?>
 
+<!--
   <script async defer
     
 	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2jQQ8cVZbR_xEzjb3MHTg1JbbMBfu6Yo&callback=initMap">
    </script>
+-->
    
  <?php } ?>
 
