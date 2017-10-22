@@ -1,4 +1,39 @@
+// SVG Map
+
+
+
+
+
+jQuery(document).ready(function($){
+
+
+
+	$('#usa_map path.active_state').on('click', function(e) {
+	  
+		
+		$('#usa_map path.active_state').removeClass('current_state');
+		$(this).addClass('current_state');
+	
+	});
+	
+	
+	
 /*
+	
+	$('#usa_map path path.active_state').click(function() {
+    this.classList.add('current_state');
+	});
+*/
+
+
+
+
+}); // Document Ready
+
+
+
+
+
 function initMap() {
    
    var uluru = {lat: -25.363, lng: 131.044};
@@ -14,4 +49,4 @@ function initMap() {
    });
 
 }
-*/
+

@@ -38,7 +38,7 @@ function my_jquery_enqueue() {
 	      
 	     // Google Map
 	     
-	     // wp_enqueue_script( 'jquery-map-location-finder', get_template_directory_uri() . '/js/location-finder-min.js', array('jquery'), '', true );
+	     wp_enqueue_script( 'jquery-map-location-finder', get_template_directory_uri() . '/js/location-finder-min.js', array('jquery'), '', true );
 	     
      }
  }

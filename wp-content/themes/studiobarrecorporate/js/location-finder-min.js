@@ -1,0 +1,1 @@
+function initMap(){var t={lat:-25.363,lng:131.044},a=new google.maps.Map(document.getElementById("map"),{zoom:4,center:t}),e=new google.maps.Marker({position:t,map:a})}jQuery(document).ready(function($){$("#usa_map path.active_state").on("click",function(t){$("#usa_map path.active_state").removeClass("current_state"),$(this).addClass("current_state")})});
