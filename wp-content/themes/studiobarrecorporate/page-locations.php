@@ -5,12 +5,13 @@
 	get_header(); ?>
 
 
-<div class="inner_main" style="min-height: 300px;">
+<div class="inner_main">
 		
 		
-		<p style="color:#fff;">Coming Shortly</p>
+		<div id="map"></div><!-- map -->
 		
-	</div><!-- inner_main -->
+
+</div><!-- inner_main -->
 
 
 

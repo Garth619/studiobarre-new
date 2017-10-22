@@ -26642,6 +26642,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/studiobarrecorporate\/css\/scss\/_page-locations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/css\/scss\/_page-locations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/studiobarrecorporate\/css\/scss\/_page-maven.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -27358,6 +27371,26 @@
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/js\/footerjs.php",
 		"oF": 0
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/js\/location-finder-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/js\/location-finder-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/studiobarrecorporate\/js\/location-finder.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/js\/location-finder-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/js\/slick\/.gitignore": {
 		"ft": 8192,
