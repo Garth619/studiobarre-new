@@ -21,21 +21,44 @@ h1.location_header {
 
 
 svg#usa_map {
-	width:calc(100% - 260px);
-	margin-left:-80px;
+	width:calc(100% - 340px);
+	
 	margin-top:60px;
 	float:left;
 }
 
 
-path.cls-1.active_state {
-	fill:#878787;
+.cls-1 {
+	fill:#41423e;
+	stroke:#62635f;
+	stroke-linejoin:round;
+	stroke-width:0.97px;
+}
+
+
+.cls-2 {
+	font-size:19px;
+	fill:#fffdfd;
+	font-family:$akzcondensed;
+	transition: all .2s ease-in-out;
+}
+.cls-2.state_abr_hover, .cls-2.state_abr_current {
+	fill:$darkgrey;
+}
+
+.cls-3{
+	letter-spacing:0.02em;
+}
+
+.cls-1.active_state {
+	fill:#646461;
 	cursor: pointer;
 	transition: all .2s ease-in-out;
 }
 
-path.cls-1.active_state:hover, path.cls-1.active_state.current_state {
+.cls-1.active_state:hover, .cls-1.active_state.current_state {
 	fill:$yellow;
+	
 }
 
 // coming soon/search

@@ -13,8 +13,29 @@ jQuery(document).ready(function($){
 		
 		$('#usa_map path.active_state').removeClass('current_state');
 		$(this).addClass('current_state');
+		
+		$('.cls-2 ').removeClass('state_abr_current');
+		$(this).next('.cls-2 ').addClass('state_abr_current');
 	
 	});
+	
+	
+	
+	$('#usa_map path.active_state').on('mouseenter', function(e) {
+	  
+		$(this).next('.cls-2').addClass('state_abr_hover');
+	
+	});
+	
+	
+	$('#usa_map path.active_state').on('mouseleave', function(e) {
+	  
+		$(this).next('.cls-2').removeClass('state_abr_hover');
+	
+	});
+	
+	
+
 	
 	
 	
