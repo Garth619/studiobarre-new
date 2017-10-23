@@ -1,18 +1,31 @@
-
-#map {
-	height: 400px;
-  width: 100%;
-  background: grey;
-  display: none;
+h1.location_header {
+	font-family: $asnapperscript;
+  color: #FFE000;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-top:45px;
+  // text-transform: lowercase;
+  font-style: normal;
+  font-weight: 300;
+  margin-left:30px;
+  margin-top:65px;
 }
-
 
 .locations_wrapper {
 	position: relative;
+	overflow: hidden;
 }
 
 
 // SVG Map
+
+
+svg#usa_map {
+	width:calc(100% - 260px);
+	margin-left:-80px;
+	margin-top:60px;
+	float:left;
+}
 
 
 path.cls-1.active_state {
@@ -25,12 +38,52 @@ path.cls-1.active_state:hover, path.cls-1.active_state.current_state {
 	fill:$yellow;
 }
 
+// coming soon/search
+
+
+.coming_soon_search {
+	width:260px;
+	float:right;
+}
+
+h2.coming_soon_title {
+	font-family: $asnapperscript;
+  color: #FFE000;
+  font-size: 43px;
+  text-transform: capitalize;
+  margin-top:45px;
+  // text-transform: lowercase;
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+
+
+
+.coming_soon_outer_wrapper {
+	text-align: center;
+}
+
+
+.coming_soon_box {
+	background:#4d4d4d;
+	border:1px solid #636363;
+	padding:20px;
+	//text-align: center;
+	margin-top:20px;
+	span {
+		display: block;
+	}
+}
+
 
 // State Listings
 
 
 .state_listings {
-	margin-top:100px;
+	padding-top:60px;
+	clear:both;
 }
 
 .state_wrapper {
@@ -53,7 +106,10 @@ path.cls-1.active_state:hover, path.cls-1.active_state.current_state {
 }
 
 
-
+.state_wrapper {
+	margin-bottom:50px;
+	overflow: hidden;
+}
 
 
 .single_city {
@@ -86,6 +142,16 @@ path.cls-1.active_state:hover, path.cls-1.active_state.current_state {
    }
 	}
 
+
+// google map
+
+
+#map {
+	height: 400px;
+  width: 100%;
+  background: grey;
+  display: none;
+}
 
 
 
