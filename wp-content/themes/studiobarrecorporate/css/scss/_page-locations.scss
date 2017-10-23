@@ -11,9 +11,10 @@ h1.location_header {
   margin-top:65px;
 }
 
-.locations_wrapper {
+.location_wrapper {
 	position: relative;
 	overflow: hidden;
+	
 }
 
 
@@ -67,6 +68,7 @@ svg#usa_map {
 .coming_soon_search {
 	width:260px;
 	float:right;
+	margin-top:20px;
 }
 
 h2.coming_soon_title {
@@ -86,6 +88,7 @@ h2.coming_soon_title {
 
 .coming_soon_outer_wrapper {
 	text-align: center;
+
 }
 
 
@@ -170,11 +173,15 @@ h2.coming_soon_title {
 
 
 #map {
-	height: 400px;
+	height: 500px;
   width: 100%;
   background: grey;
-  display: none;
+  position: absolute;
+  top:130px;
+  left:0;
 }
+
+
 
 
 
