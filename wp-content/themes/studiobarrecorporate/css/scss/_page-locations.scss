@@ -123,6 +123,7 @@ h2.coming_soon_title {
 
 .state_col {
 	width:50%;
+	padding-left:10%;
 	&:first-of-type {
 		float:left;
 	}
@@ -182,6 +183,28 @@ h2.coming_soon_title {
 }
 
 
+@media screen and (max-width: 900px) {
+	
+	
+.state_col {
+	width:100%;
+	padding-left:0%;
+	text-align: center;
+	&:first-of-type {
+		float:none;
+	}
+	&:last-of-type {
+		float:none;
+	}
+}
 
+.single_city a.schedule_button {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	
+	
+} /* Media Query */
 
 
