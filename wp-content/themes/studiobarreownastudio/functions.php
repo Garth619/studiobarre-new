@@ -21,7 +21,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 2, 'all' ); 
+     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 3, 'all' ); 
 
      // Load my global javascripts from "studiobarrecorporate" theme 
      wp_enqueue_script( 'jquery-addon', '../../wp-content/themes/studiobarrecorporate/js/custom-min.js', array('jquery'), '', true );
