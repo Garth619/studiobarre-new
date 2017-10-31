@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/.maintenance": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.maintenance",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
