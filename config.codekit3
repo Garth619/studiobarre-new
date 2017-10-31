@@ -5021,6 +5021,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-content\/plugins\/acf-content-analysis-for-yoast-seo\/tests\/js\/system\/tests\/acf5\/layout-pro.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/acf-content-analysis-for-yoast-seo\/tests\/js\/system\/tests\/acf5\/layout-pro-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-content\/plugins\/acf-content-analysis-for-yoast-seo\/tests\/js\/system\/tests\/acf5\/relational.js": {
 		"ft": 64,
 		"ma": 0,

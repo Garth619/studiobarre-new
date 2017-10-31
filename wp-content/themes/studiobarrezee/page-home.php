@@ -15,11 +15,20 @@
 		
 		<div class="inner_banner inner_home_mobile">
 			
-				<?php $mobile_banner = get_field( 'mobile_banner' ); ?>
 			
-				<img src="<?php echo $mobile_banner['url']; ?>" alt="<?php echo $mobile_banner['alt']; ?>"/>
+			<?php if(get_field('inner_banner')):?>
 			
-			</div><!-- inner_banner -->
+				<?php $inner_banner_mobile = get_field( 'inner_banner' ); ?>
+				
+					<img src="<?php echo $inner_banner_mobile['url']; ?>" alt="<?php echo $inner_banner_mobile['alt']; ?>" />
+			
+				<?php //  $mobile_banner = get_field( 'mobile_banner' ); ?>
+			
+<!-- 				<img src="<?php echo $mobile_banner['url']; ?>" alt="<?php echo $mobile_banner['alt']; ?>"/> -->
+
+			<?php endif;?>
+			
+			</div><!-- inner_home_mobile -->
 		
 		<?php get_sidebar(); ?>
 		
