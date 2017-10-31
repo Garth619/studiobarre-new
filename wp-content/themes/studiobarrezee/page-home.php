@@ -54,12 +54,12 @@
 				
 				<?php if(get_field('home_page_title')):?>
 				
-					<h2 class="white"><?php the_field( 'home_page_title' ); ?></h2>
+<!-- 					<h2 class="white"><?php the_field( 'home_page_title' ); ?></h2> -->
 					
 				<?php endif;?>
 				
 				
-				<?php get_template_part( 'loop', 'page' );?>
+				<?php // get_template_part( 'loop', 'page' );?>
 				
 				
 			</div><!-- content -->
