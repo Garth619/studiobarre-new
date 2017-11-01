@@ -296,7 +296,7 @@ Bozeman, MT 59718
 					
 					<div class="location_address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 					
-						<a class="city_map" href="https://www.google.com/maps/place/867+S+29th+Ave+%23106,+Bozeman,+MT+59718/@45.6707916,-111.0793912,17z/data=!3m1!4b1!4m5!3m4!1s0x53454598cebe2149:0x2a7ace9c18cd716a!8m2!3d45.6707879!4d-111.0772025" target="_blank">
+						<a class="city_map" href="https://www.google.com/maps/place/8-12+W+Main+St,+Somerville,+NJ+08876/@40.5685061,-74.6142057,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3954b968ebb41:0xc113969af7d8af72!8m2!3d40.568502!4d-74.612017" target="_blank">
 						
 						8 W Main Street<br/>
 Somerville, NJ 08876
@@ -426,7 +426,7 @@ Charleston, SC 29412
 					
 					<div class="location_address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 					
-						<a class="city_map" href="https://www.google.com/maps/place/1956+Maybank+Hwy,+Meyer+Park+Plaza+Shopping+Center,+Charleston,+SC+29412/@32.763088,-79.985724,16z/data=!4m2!3m1!1s0x88fe7960a2abb841:0xcd6237d7f87dc6c3" target="_blank">
+						<a class="city_map" href="https://www.google.com/maps/search/4970+Highway+290+West,+suite+410+Austin,+TX+78735/@30.2360134,-97.8225501,17z/data=!3m1!4b1" target="_blank">
 						
 						4970 Highway 290 West, suite 410<br/>
 Austin, TX 78735
