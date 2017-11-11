@@ -152,7 +152,50 @@ San Juan Capistrano, CA 92675
 	</div><!-- state_wrapper -->
 	
 
-	
+	<div class="state_wrapper">
+		
+		
+		<h2 class="white">Colorado</h2>
+		
+		<div class="state_col">
+			
+			<div class="single_city" itemscope itemtype="http://schema.org/LocalBusiness">
+		
+				<h3 class="city_title"><a href="<?php bloginfo('url');?>/highlandsranch">Highlands Ranch</a></h3><!-- city_title -->
+					
+					<div class="location_address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					
+						<a class="city_map" href="" target="_blank">
+						
+<!--
+						5705 La Jolla Blvd<br/>
+						La Jolla, CA 02842
+-->
+						
+						</a>
+					
+						<a class="schedule_button" href="<?php bloginfo('url');?>/highlandsranch/schedule">Schedule</a><!-- schedule_button -->
+			
+					</div><!-- location_address -->
+				
+			</div><!-- single_city -->
+			
+			
+			
+						
+			
+		</div><!-- state_col -->
+		
+		<div class="state_col">
+			
+			
+			
+			
+			
+						
+		</div><!-- state_col -->
+		
+	</div><!-- state_wrapper -->
 
 	<div class="state_wrapper">
 		
@@ -235,6 +278,52 @@ Dedham, MA 02026
 			
 			
 			
+		</div><!-- state_col -->
+		
+	</div><!-- state_wrapper -->
+	
+	
+	<div class="state_wrapper">
+		
+		
+		<h2 class="white">Michigan</h2>
+		
+		<div class="state_col">
+			
+			<div class="single_city" itemscope itemtype="http://schema.org/LocalBusiness">
+		
+				<h3 class="city_title"><a href="<?php bloginfo('url');?>/grandrapids">Grand Rapids</a></h3><!-- city_title -->
+					
+					<div class="location_address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					
+						<a class="city_map" href="https://www.google.com/maps/place/1888+Breton+Rd+SE,+Grand+Rapids,+MI+49506/@42.9294875,-85.6101522,17z/data=!3m1!4b1!4m5!3m4!1s0x8819b2ae97ceac67:0x2a5dd65abce9cd9!8m2!3d42.9294875!4d-85.6079635" target="_blank">
+						
+
+						1888 Breton Rd SE<br/>
+						Grand Rapids, MI
+
+						
+						</a>
+					
+						<a class="schedule_button" href="<?php bloginfo('url');?>/grandrapids/schedule">Schedule</a><!-- schedule_button -->
+			
+					</div><!-- location_address -->
+				
+			</div><!-- single_city -->
+			
+			
+			
+						
+			
+		</div><!-- state_col -->
+		
+		<div class="state_col">
+			
+			
+			
+			
+			
+						
 		</div><!-- state_col -->
 		
 	</div><!-- state_wrapper -->
