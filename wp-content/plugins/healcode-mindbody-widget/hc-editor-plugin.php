@@ -20,7 +20,7 @@ if (!class_exists('HealcodeShortcodeContainer')) {
     }
 
     public function include_hc_media_button_js() {
-      wp_enqueue_script('hc_media_script', plugins_url('/js/healcode-wp-mb-widget.js', __FILE__), array('jquery'), '1.1.16', true);
+      wp_enqueue_script('hc_media_script', plugins_url('/js/healcode-wp-mb-widget.js', __FILE__), array('jquery'), '1.1.17', true);
     }
 
     public function add_hc_media_button($editor_name) {

@@ -4,7 +4,7 @@ Donate link: https://www.mindbodyonline.com/
 Tags: HealCode, MINDBODY, Branded Web, add HealCode, insert Widget, insert Widgets, add Widget, add Widgets, add HealCode Widget, add HealCode Widgets, MINDBODY Widgets, shortcode, shortcodes, calendar, pear, schedule, soap, yoga, pilates, crossfit, mindbody website integration, mindbody api, sidebar, footer, header, mindbody website integration
 Requires at least: 3.0
 Tested up to: 4.8
-Stable tag: 1.1.16
+Stable tag: 1.1.17
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -129,7 +129,6 @@ This plugin lets you generate shortcodes for your MINDBODY Widgets. The shortcod
 = Using the Plugin =
 
 [See our FAQ here.](https://support.mindbodyonline.com/s/article/ka032000000LBlAAAW/Putting-widgets-on-WordPress-com-branded-web-tools-formerly-HealCode?language=en_US)
-[vimeo http://vimeo.com/117301143]
 
 
 
@@ -148,7 +147,6 @@ MINDBODY widgets are installed onto your website and Facebook pages and sync wit
 
 See our [MINDBODY Widget Plugin FAQ](https://support.mindbodyonline.com/s/article/ka032000000LBlAAAW/Putting-widgets-on-WordPress-com-branded-web-tools-formerly-HealCode?language=en_US)
 
-[vimeo http://vimeo.com/117301143]
 
 = Where do I find my MINDBODY Widget code? =
 
@@ -227,6 +225,8 @@ More questions ? [Contact MINDBODY Support.](https://support.mindbodyonline.com/
 
 == Changelog ==
 
+= 1.1.17 =
+* Remove broken video in readme
 = 1.1.16 =
 * Reflect MINDBODY ownership
 = 1.1.15 =
@@ -288,6 +288,8 @@ More questions ? [Contact MINDBODY Support.](https://support.mindbodyonline.com/
 
 == Upgrade Notice ==
 
+= 1.1.17 =
+* Remove broken video in readme
 = 1.1.16 =
 * Reflect MINDBODY ownership
 = 1.1.15 =
