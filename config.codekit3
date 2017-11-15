@@ -4836,6 +4836,13 @@
 		"oAP": "\/wp-content\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/mu-plugins\/wp-migrate-db-pro-compatibility.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/mu-plugins\/wp-migrate-db-pro-compatibility.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/acf-content-analysis-for-yoast-seo\/inc\/class-ac-yoast-acf-content-analysis.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -14840,6 +14847,483 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/AjaxController.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/AjaxController.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/css\/general.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/css\/general-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/css\/mrwhite-reset.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/css\/mrwhite-reset-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/css\/mrwhite-ui-kit.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/css\/mrwhite-ui-kit-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/download.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/download-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/dropdowns.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/dropdowns-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/expand-collapse.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/expand-collapse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/input.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/input-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/InstapageCmsPluginAjax.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/InstapageCmsPluginAjax-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/InstapageCmsPluginLang.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/InstapageCmsPluginLang-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/jq.hoverintent.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/jq.hoverintent-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/jquery.tmpl.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/jquery.tmpl.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/knockout-no-conflict.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/knockout-no-conflict-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/mrwhite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/mrwhite-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/ripple.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/ripple-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/select2.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/select2.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/snack-bars.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/snack-bars-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/tabs.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/tabs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/js\/ui-kit-scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/js\/ui-kit-scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/assets\/lang\/en-GB.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/assets\/lang\/en-GB-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/connectors\/InstapageCmsPluginConnector.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/connectors\/InstapageCmsPluginConnector.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/connectors\/InstapageCmsPluginDrupal7Connector.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/connectors\/InstapageCmsPluginDrupal7Connector.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/connectors\/InstapageCmsPluginDrupal8Connector.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/connectors\/InstapageCmsPluginDrupal8Connector.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/connectors\/InstapageCmsPluginWPConnector.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/connectors\/InstapageCmsPluginWPConnector.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/instapage.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/instapage.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/InstapageCmsPluginAjaxController.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/InstapageCmsPluginAjaxController.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/InstapageCmsPluginHelper.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/InstapageCmsPluginHelper.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/InstapageHelper.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/InstapageHelper.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/knockout\/core\/knockout-3.4.0.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/knockout\/core\/knockout-3.4.0-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/knockout\/core\/knockout.simpleGrid.3.0.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/knockout\/core\/knockout.simpleGrid.3.0-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginEditModel.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginEditModel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginMasterModel.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginMasterModel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginMessagesModel.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginMessagesModel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginPagedGridModel.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginPagedGridModel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginSettingsModel.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginSettingsModel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginToolbarModel.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/knockout\/view_models\/InstapageCmsPluginToolbarModel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/instapage\/license.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/license.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginAPIModel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginAPIModel.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginDBModel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginDBModel.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginDebugLogModel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginDebugLogModel.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginPageModel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginPageModel.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginServicesModel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginServicesModel.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginSubaccountModel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginSubaccountModel.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginViewModel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/models\/InstapageCmsPluginViewModel.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/instapage\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/wp-content\/plugins\/instapage\/README.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/README.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/templates\/log.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/templates\/log.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/templates\/log_options.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/templates\/log_options.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/templates\/log_plugins.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/templates\/log_plugins.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/views\/base.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/views\/base.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/views\/edit.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/views\/edit.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/views\/listing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/views\/listing.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/views\/messages.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/views\/messages.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/views\/settings.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/views\/settings.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/instapage\/views\/toolbar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/instapage\/views\/toolbar.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/media-library-assistant\/css\/mla-add-new-bulk-edit-rtl.css": {
