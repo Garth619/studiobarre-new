@@ -7,7 +7,7 @@
 		"uuidString": "545B99EA-E5B9-481E-93E1-366DC20BF4F3"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -27618,6 +27618,433 @@
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/wp-migrate-db-pro.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/wp-super-cache\/advanced-cache.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/advanced-cache.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-be_BY.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-be_BY.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-be_BY.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-be_BY.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-de_DE.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-de_DE.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-de_DE.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-de_DE.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-es_ES.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-es_ES.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-es_ES.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-es_ES.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-fr_FR.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-fr_FR.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-fr_FR.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-fr_FR.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-it_IT.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-it_IT.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-it_IT.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-it_IT.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ja.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ja.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ja.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ja.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-lt_LT.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-lt_LT.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-lt_LT.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-lt_LT.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ro_RO.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ro_RO.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ro_RO.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ro_RO.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ru_RU.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ru_RU.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ru_RU.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ru_RU.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-sr_RS.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-sr_RS.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-sr_RS.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-sr_RS.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-sv_SE.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-sv_SE.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-sv_SE.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-sv_SE.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-tr_TR.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-tr_TR.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-tr_TR.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-tr_TR.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ua_UA.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ua_UA.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ua_UA.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-ua_UA.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-uk.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-uk.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-uk.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-uk.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-zh_CN.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-zh_CN.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-zh_CN.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-zh_CN.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-zh_TW.mo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-zh_TW.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-zh_TW.po": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/languages\/wp-super-cache-zh_TW.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/ossdl-cdn.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/ossdl-cdn.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/plugins\/awaitingmoderation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/plugins\/awaitingmoderation.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/plugins\/badbehaviour.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/plugins\/badbehaviour.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/plugins\/domain-mapping.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/plugins\/domain-mapping.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/plugins\/dynamic-cache-test.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/plugins\/dynamic-cache-test.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/plugins\/jetpack.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/plugins\/jetpack.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/plugins\/multisite.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/plugins\/multisite.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/plugins\/searchengine.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/plugins\/searchengine.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/plugins\/wptouch.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/plugins\/wptouch.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/readme.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-delete-cache.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-delete-cache.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-cache.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-cache.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-plugins.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-plugins.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-settings.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-settings.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-stats.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-stats.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-status.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-get-status.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-preload.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-preload.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-test-cache.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-test-cache.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-update-plugins.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-update-plugins.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-update-settings.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-rest-update-settings.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-settings-map.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/class.wp-super-cache-settings-map.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/rest\/load.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/rest\/load.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/wp-cache-base.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/wp-cache-base.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/wp-cache-config-sample.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/wp-cache-config-sample.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/wp-cache-phase1.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/wp-cache-phase1.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/wp-cache-phase2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/wp-cache-phase2.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/wp-cache.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/wp-cache.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wp-super-cache\/wp-super-cache.pot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wp-super-cache\/wp-super-cache.pot",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -28212,7 +28639,7 @@
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/email.png": {
 		"ft": 32768,
-		"iS": 1727,
+		"iS": 673,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/email.png",
 		"oF": 0,
@@ -28223,7 +28650,7 @@
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/facebook.png": {
 		"ft": 32768,
-		"iS": 1380,
+		"iS": 419,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/facebook.png",
 		"oF": 0,
@@ -28234,7 +28661,7 @@
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/google-plus.png": {
 		"ft": 32768,
-		"iS": 1659,
+		"iS": 633,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/google-plus.png",
 		"oF": 0,
@@ -28256,7 +28683,7 @@
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/instagram2.png": {
 		"ft": 32768,
-		"iS": 1988,
+		"iS": 911,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/instagram2.png",
 		"oF": 0,
@@ -28339,7 +28766,7 @@
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/pinterest.png": {
 		"ft": 32768,
-		"iS": 1787,
+		"iS": 752,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/pinterest.png",
 		"oF": 0,
@@ -28461,7 +28888,7 @@
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/studio-barre.png": {
 		"ft": 32768,
-		"iS": 6944,
+		"iS": 5354,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/studio-barre.png",
 		"oF": 0,
@@ -28483,7 +28910,7 @@
 		},
 	"\/wp-content\/themes\/studiobarrecorporate\/images\/twitter.png": {
 		"ft": 32768,
-		"iS": 1486,
+		"iS": 507,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/studiobarrecorporate\/images\/twitter.png",
 		"oF": 0,
@@ -39460,7 +39887,7 @@
 		"oAP": "\/wp-content\/uploads\/sites\/18\/2017\/09\/SB_014_RegPromo_FirstClassFree-625x805-150x150.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/sites\/18\/2017\/09\/SB_014_RegPromo_FirstClassFree-625x805-233x300.jpg": {
@@ -39470,7 +39897,7 @@
 		"oAP": "\/wp-content\/uploads\/sites\/18\/2017\/09\/SB_014_RegPromo_FirstClassFree-625x805-233x300.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/sites\/18\/2017\/09\/SB_014_RegPromo_FirstClassFree-625x805-249x302.jpg": {
@@ -39480,7 +39907,7 @@
 		"oAP": "\/wp-content\/uploads\/sites\/18\/2017\/09\/SB_014_RegPromo_FirstClassFree-625x805-249x302.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/sites\/18\/2017\/09\/SB_014_RegPromo_FirstClassFree-625x805.jpg": {
@@ -39490,7 +39917,7 @@
 		"oAP": "\/wp-content\/uploads\/sites\/18\/2017\/09\/SB_014_RegPromo_FirstClassFree-625x805.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/sites\/18\/2017\/09\/Screen-Shot-2014-10-08-at-10.46.40-AM-150x150.png": {
@@ -41601,6 +42028,146 @@
 		"iS": 23270,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/10\/xsmaller2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/FullSizeRender-2-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4984,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/FullSizeRender-2-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/FullSizeRender-2-249x302.jpg": {
+		"ft": 16384,
+		"iS": 9052,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/FullSizeRender-2-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/FullSizeRender-2-300x222.jpg": {
+		"ft": 16384,
+		"iS": 9236,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/FullSizeRender-2-300x222.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/FullSizeRender-2.jpg": {
+		"ft": 16384,
+		"iS": 36055,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/FullSizeRender-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5132-150x150.jpg": {
+		"ft": 16384,
+		"iS": 8377,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5132-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5132-232x300.jpg": {
+		"ft": 16384,
+		"iS": 20171,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5132-232x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5132-249x302.jpg": {
+		"ft": 16384,
+		"iS": 21770,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5132-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5132.jpg": {
+		"ft": 16384,
+		"iS": 119968,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5132.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-1024x829.jpg": {
+		"ft": 16384,
+		"iS": 79427,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-1024x829.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7335,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-249x302.jpg": {
+		"ft": 16384,
+		"iS": 16782,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-300x243.jpg": {
+		"ft": 16384,
+		"iS": 15063,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-300x243.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-768x622.jpg": {
+		"ft": 16384,
+		"iS": 53258,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_-768x622.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_.jpg": {
+		"ft": 16384,
+		"iS": 298005,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/11\/IMG_5818.large_.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -45081,6 +45648,66 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-1024x682.jpg": {
+		"ft": 16384,
+		"iS": 76025,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-1024x682.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5103,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-249x302.jpg": {
+		"ft": 16384,
+		"iS": 12196,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-300x200.jpg": {
+		"ft": 16384,
+		"iS": 10168,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-300x200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-768x512.jpg": {
+		"ft": 16384,
+		"iS": 44633,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/emma-768x512.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/emma.jpg": {
+		"ft": 16384,
+		"iS": 346566,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/emma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/sites\/7\/2017\/09\/image003-651x594-150x150.jpg": {
 		"ft": 16384,
 		"iS": 8434,
@@ -45163,6 +45790,66 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-1024x683.jpg": {
+		"ft": 16384,
+		"iS": 90170,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-1024x683.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5310,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-249x302.jpg": {
+		"ft": 16384,
+		"iS": 13132,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-300x200.jpg": {
+		"ft": 16384,
+		"iS": 10432,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-300x200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-768x512.jpg": {
+		"ft": 16384,
+		"iS": 51373,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-768x512.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-e1510882314479.jpg": {
+		"ft": 16384,
+		"iS": 7991,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/Jill2-e1510882314479.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/sites\/7\/2017\/09\/Newport-page-banner-885x448-1-150x150.jpg": {
@@ -45560,6 +46247,206 @@
 		"iS": 121239,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/photo-3-copy-797x1024.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5288,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1-249x302.jpg": {
+		"ft": 16384,
+		"iS": 14217,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1-300x254.jpg": {
+		"ft": 16384,
+		"iS": 12634,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1-300x254.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1.jpg": {
+		"ft": 16384,
+		"iS": 31225,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1024x866.jpg": {
+		"ft": 16384,
+		"iS": 114089,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-1024x866.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5356,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-2-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5220,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-2-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-2-247x300.jpg": {
+		"ft": 16384,
+		"iS": 12164,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-2-247x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-2.jpg": {
+		"ft": 16384,
+		"iS": 23653,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-249x302.jpg": {
+		"ft": 16384,
+		"iS": 13463,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-3-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5220,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-3-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-3-247x300.jpg": {
+		"ft": 16384,
+		"iS": 12164,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-3-247x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-3.jpg": {
+		"ft": 16384,
+		"iS": 23653,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-300x254.jpg": {
+		"ft": 16384,
+		"iS": 13072,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-300x254.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-4-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5277,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-4-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-4-248x300.jpg": {
+		"ft": 16384,
+		"iS": 12516,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-4-248x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-4-249x302.jpg": {
+		"ft": 16384,
+		"iS": 12697,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-4-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-4.jpg": {
+		"ft": 16384,
+		"iS": 81348,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-768x650.jpg": {
+		"ft": 16384,
+		"iS": 65000,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca-768x650.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca.jpg": {
+		"ft": 16384,
+		"iS": 337126,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/rebecca.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
