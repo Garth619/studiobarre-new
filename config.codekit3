@@ -27618,21 +27618,21 @@
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/wp-migrate-db-pro.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/wp-multiple-passwords-master\/LICENSE": {
+	"\/wp-content\/plugins\/wp-multiple-passwords\/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/wp-content\/plugins\/wp-multiple-passwords-master\/LICENSE",
+		"oAP": "\/wp-content\/plugins\/wp-multiple-passwords\/LICENSE",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/wp-multiple-passwords-master\/multiple-passwords.plugin.php": {
+	"\/wp-content\/plugins\/wp-multiple-passwords\/multiple-passwords.plugin.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/wp-content\/plugins\/wp-multiple-passwords-master\/multiple-passwords.plugin.php",
+		"oAP": "\/wp-content\/plugins\/wp-multiple-passwords\/multiple-passwords.plugin.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/wp-multiple-passwords-master\/README.md": {
+	"\/wp-content\/plugins\/wp-multiple-passwords\/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -27641,7 +27641,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-multiple-passwords-master\/README.html",
+		"oAP": "\/wp-content\/plugins\/wp-multiple-passwords\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -33137,6 +33137,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/12\/Healthy-Way-To-Sleigh-Guide-final.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2017\/12\/Healthy-Way-To-Sleigh-Guide-final.pdf",
+		"oF": 0
 		},
 	"\/wp-content\/uploads\/ithemes-security\/backups\/index.php": {
 		"cB": 0,
