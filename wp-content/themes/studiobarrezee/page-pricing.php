@@ -84,7 +84,7 @@
 					
 					<?php endif;?>
 					
-					<?php if(get_field('most_popular_title')):?>
+					<?php if(get_field('new_to_the_studio_title')):?>
 					
 					
 					<div class="box_wrapper">
