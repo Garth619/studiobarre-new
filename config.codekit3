@@ -19434,6 +19434,51 @@
 		"oAP": "\/wp-content\/plugins\/multisite-clone-duplicator\/wp-cli\/wp-cli-site-duplicate-subcommand.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/oh-add-script-header-footer\/images\/300-250.jpg": {
+		"ft": 16384,
+		"iS": 41780,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/oh-add-script-header-footer\/images\/300-250.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/plugins\/oh-add-script-header-footer\/metaboxes\/oh-header-footer-metabox.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/oh-add-script-header-footer\/metaboxes\/oh-header-footer-metabox.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/oh-add-script-header-footer\/oh-add-script-header-footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/oh-add-script-header-footer\/oh-add-script-header-footer.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/oh-add-script-header-footer\/oh-settings-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/oh-add-script-header-footer\/oh-settings-page.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/oh-add-script-header-footer\/oh-terms-settings.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/oh-add-script-header-footer\/oh-terms-settings.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/oh-add-script-header-footer\/readme.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/oh-add-script-header-footer\/readme.txt",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/password-protect-plugin-for-wordpress\/readme.txt": {
 		"cB": 0,
 		"ft": 8192,
