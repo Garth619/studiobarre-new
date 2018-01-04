@@ -44,6 +44,20 @@
 		"oAP": "\/readme.html",
 		"oF": 0
 		},
+	"\/studiobarre-demo.com.crt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/studiobarre-demo.com.crt",
+		"oF": 0
+		},
+	"\/studiobarre-demo.com.key": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/studiobarre-demo.com.key",
+		"oF": 0
+		},
 	"\/studiobarre-migrate-20171002002221.sql.gz": {
 		"cB": 0,
 		"ft": 8192,
@@ -29730,6 +29744,13 @@
 		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/page-franchising.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/studiobarreownastudio\/page-thankyou.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/studiobarreownastudio\/page-thankyou.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/studiobarreownastudio\/page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -30291,6 +30312,56 @@
 		"iS": 101919,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/07\/banner-ourstory.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7494,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio-231x225.jpg": {
+		"ft": 16384,
+		"iS": 13485,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio-231x225.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio-249x302.jpg": {
+		"ft": 16384,
+		"iS": 16952,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio-300x241.jpg": {
+		"ft": 16384,
+		"iS": 18007,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio-300x241.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio.jpg": {
+		"ft": 16384,
+		"iS": 155375,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/07\/Dedham-Local-new-studio.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -42264,6 +42335,96 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7934,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-212x300.jpg": {
+		"ft": 16384,
+		"iS": 19732,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-212x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-249x302.jpg": {
+		"ft": 16384,
+		"iS": 20426,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-3-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7300,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-3-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-3-245x300.jpg": {
+		"ft": 16384,
+		"iS": 17795,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-3-245x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-3-249x302.jpg": {
+		"ft": 16384,
+		"iS": 17936,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-3-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-3.jpg": {
+		"ft": 16384,
+		"iS": 113136,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-723x1024.jpg": {
+		"ft": 16384,
+		"iS": 100234,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender-723x1024.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender.jpg": {
+		"ft": 16384,
+		"iS": 160109,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/2\/2017\/12\/FullSizeRender.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/sites\/3\/2017\/09\/StudioBarreFranchiseApplication.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -46173,6 +46334,66 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-1024x683.jpg": {
+		"ft": 16384,
+		"iS": 100920,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-1024x683.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5740,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-249x302.jpg": {
+		"ft": 16384,
+		"iS": 15195,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-300x200.jpg": {
+		"ft": 16384,
+		"iS": 11231,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-300x200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-768x512.jpg": {
+		"ft": 16384,
+		"iS": 57625,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2-768x512.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2.jpg": {
+		"ft": 16384,
+		"iS": 295286,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/patricia2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/sites\/7\/2017\/09\/photo-3-680x1024-1-150x150.jpg": {
 		"ft": 16384,
 		"iS": 4889,
@@ -46807,6 +47028,66 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-1024x683.jpg": {
+		"ft": 16384,
+		"iS": 72046,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-1024x683.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4851,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-249x302.jpg": {
+		"ft": 16384,
+		"iS": 11620,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-300x200.jpg": {
+		"ft": 16384,
+		"iS": 9377,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-300x200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-768x512.jpg": {
+		"ft": 16384,
+		"iS": 41690,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3-768x512.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3.jpg": {
+		"ft": 16384,
+		"iS": 318668,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/7\/2017\/09\/sydney3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/sites\/7\/2017\/10\/about1-1024x682.jpg": {
@@ -48009,6 +48290,86 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/IMG_7640-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5457,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/IMG_7640-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/IMG_7640-249x302.jpg": {
+		"ft": 16384,
+		"iS": 13721,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/IMG_7640-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/IMG_7640-300x231.jpg": {
+		"ft": 16384,
+		"iS": 11386,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/IMG_7640-300x231.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/IMG_7640.jpg": {
+		"ft": 16384,
+		"iS": 380339,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/IMG_7640.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Kelsey-Millay-Website-BW-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5045,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Kelsey-Millay-Website-BW-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Kelsey-Millay-Website-BW-249x302.jpg": {
+		"ft": 16384,
+		"iS": 12780,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Kelsey-Millay-Website-BW-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Kelsey-Millay-Website-BW-300x231.jpg": {
+		"ft": 16384,
+		"iS": 10561,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Kelsey-Millay-Website-BW-300x231.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Kelsey-Millay-Website-BW.jpg": {
+		"ft": 16384,
+		"iS": 96408,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Kelsey-Millay-Website-BW.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/sites\/9\/2017\/09\/San-Juan-Cap-page-banner-885x448-1-150x150.jpg": {
 		"ft": 16384,
 		"iS": 28493,
@@ -48407,6 +48768,86 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-1-150x150.jpg": {
+		"ft": 16384,
+		"iS": 6208,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-1-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-1-217x300.jpg": {
+		"ft": 16384,
+		"iS": 13206,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-1-217x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-1-249x302.jpg": {
+		"ft": 16384,
+		"iS": 14893,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-1-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-1.jpg": {
+		"ft": 16384,
+		"iS": 52560,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7208,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-217x300.jpg": {
+		"ft": 16384,
+		"iS": 15457,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-217x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-249x302.jpg": {
+		"ft": 16384,
+		"iS": 17293,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2-249x302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2.jpg": {
+		"ft": 16384,
+		"iS": 215073,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/sites\/9\/2017\/09\/Zandra-Tamayo-Website-copy-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/sites\/9\/2017\/10\/about1-1024x682.jpg": {

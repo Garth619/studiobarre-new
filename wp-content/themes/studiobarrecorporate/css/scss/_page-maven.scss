@@ -1,5 +1,5 @@
     
-   body.page-template-page-maven, body.page-template-page-franchising  { // body.page-template-page-franchising is being used in "studiobarreownastudio" theme
+   body.page-template-page-maven, body.page-template-page-franchising, body.page-template-page-thankyou  { // body.page-template-page-franchising is being used in "studiobarreownastudio" theme
 	   .inner_main {
 		   overflow: visible;
 		   &:after {
@@ -184,11 +184,11 @@
 		 		display: block;
    		}
    		
-   		body.page-template-page-maven.fixed, body.page-template-page-franchising.fixed {
+   		body.page-template-page-maven.fixed, body.page-template-page-franchising.fixed, body.page-template-page-thankyou.fixed {
 	   		overflow-y: hidden;
    		}
    		
-   		body.page-template-page-maven, body.page-template-page-franchising {
+   		body.page-template-page-maven, body.page-template-page-franchising, body.page-template-page-thankyou {
 	   		
 	   		header.fixed {
 		   		position: fixed;

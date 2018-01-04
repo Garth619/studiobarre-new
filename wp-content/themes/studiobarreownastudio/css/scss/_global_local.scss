@@ -1,13 +1,22 @@
 // Alot of styles for this template are coming from the _page-maven.scss partial from the "stuiobarrcorporate" since the styles are similar, other styles in file are minor overrides
 
 
+body.page-template-page-thankyou {
+
+nav ul#menu-top-nav>li:hover:after {
+	display: none;
+}
+
+}
+
+
 
 .content_wrapper {
 	padding-top:0;
 }
 
 
-body.page-template-page-franchising nav {
+body.page-template-page-franchising nav, body.page-template-page-thankyou nav {
 	max-width: 550px;
 }
 
@@ -43,7 +52,7 @@ nav {
 		margin-bottom: 0;
 	}
 
-h1.franchise_title, body.page-template-page-franchising .content h2 {
+h1.franchise_title, body.page-template-page-franchising .content h2, body.page-template-page-thankyou .content h2 {
 	font-family: $akzcondensed;
 	font-size:33px;
 	margin-top:15px;
@@ -164,7 +173,7 @@ a.get_started_content {
 @media screen and (max-width: 800px) {
 	
 	
-	body.page-template-page-franchising nav {
+	body.page-template-page-franchising nav, body.page-template-page-thankyou nav {
 		max-width: 100%;
 	}
 	
@@ -231,7 +240,7 @@ h1.franchise_title {
 */
 
 
-h1.franchise_title, body.page-template-page-franchising .content h2 {
+h1.franchise_title, body.page-template-page-franchising .content h2, body.page-template-page-thankyou .content h2 {
 	font-size:28px;
 	text-align: left;
 	span {
