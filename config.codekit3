@@ -19517,6 +19517,20 @@
 		"oAP": "\/wp-content\/plugins\/password-protect-plugin-for-wordpress\/wp_passprotect.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/simple-301-redirects\/readme.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-301-redirects\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/simple-301-redirects\/wp-simple-301-redirects.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/simple-301-redirects\/wp-simple-301-redirects.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/simple-history\/bin\/install-wp-tests.sh": {
 		"cB": 0,
 		"ft": 8192,
