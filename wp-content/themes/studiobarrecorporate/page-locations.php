@@ -545,7 +545,7 @@ Austin, TX 78735
 	<div class="state_wrapper">
 		
 		
-		<h2 class="white">Virgina</h2>
+		<h2 class="white">Virginia</h2>
 		
 		<div class="state_col">
 			
