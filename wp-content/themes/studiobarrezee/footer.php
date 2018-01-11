@@ -37,7 +37,7 @@
 		<?php endif;?>
 		
 		
-		<a class="email_link mobile" href="mailto:<?php the_field( 'facebook','option' ); ?>"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png" alt="Email"/></a>
+		<a class="email_link mobile" href="mailto:<?php the_field( 'email','option' ); ?>"><img class="email" src="<?php bloginfo('template_directory');?>/images/email.png" alt="Email"/></a>
 		
 	</div><!-- social_media_wrapper -->
 	
