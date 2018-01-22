@@ -30,9 +30,9 @@
 		
 		<?php endif;?>
 		
-		<?php if(get_field( 'google','option')):?>
+		<?php if(get_field( 'google_+','option')):?>
 		
-			<a href="<?php the_field( 'google','option' ); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.png" alt="Google"/></a>
+			<a href="<?php the_field( 'google_+','option' ); ?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/google-plus.png" alt="Google"/></a>
 		
 		<?php endif;?>
 		
