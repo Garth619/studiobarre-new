@@ -65,6 +65,58 @@
 								
 							</div><!-- box_single_description -->
 							
+							
+							
+							
+							
+						<?php if(get_field('most_popular_title_two')):?>
+							
+							
+							<div class="box_single_description">
+								
+								<span class="box_single_title"><?php the_field( 'most_popular_title_two' ); ?></span><!-- box_single_title -->
+								
+								
+								
+								
+								<div class="box_single_content">
+									
+									<div class="single_line_wrapper">
+									
+										<span class="single_line_left"><?php the_field( 'most_popular_description_two' ); ?></span>
+									
+										<span class="single_line_right"><?php the_field( 'most_popular_price_two' ); ?></span><!-- single_line_right -->
+										
+									</div><!-- single_line_wrapper -->
+									
+									<?php if(get_field('most_popular_single_line_description_two')):?>
+									
+										<span class="single_line"><?php the_field( 'most_popular_single_line_description_two' ); ?></span><!-- single_line -->
+									
+									<?php endif;?>
+									
+								</div><!-- box_single_content -->
+								
+								<?php if(get_field('most_popular_asterisk_two')):?>
+								
+									<span class="single_line_ast"><?php the_field( 'most_popular_asterisk_two' ); ?></span><!-- single_line_right -->
+								
+								<?php endif;?>
+								
+							</div><!-- box_single_description -->
+							
+							
+						<?php endif;?>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
 							</div><!-- box_description_inner_wrapper -->
 							
 							
@@ -138,6 +190,7 @@
 						</div><!-- box_description_wrapper -->
 						
 						
+						
 						<?php if(get_field('new_to_the_studio_link')):?>
 						
 							<a class="buy_now" href="<?php the_field( 'new_to_the_studio_link' ); ?>" target="_blank">Buy Now</a><!-- buy_now -->
@@ -148,6 +201,7 @@
 					</div><!-- box_wrapper -->
 					
 					<?php endif;?>
+					
 					
 					
 					<?php if(get_field('regular_pricing')): ?>

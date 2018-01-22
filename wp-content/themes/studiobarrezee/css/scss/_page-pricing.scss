@@ -47,6 +47,10 @@
 }
 
 .box_single_description {
+	margin-bottom:30px;
+	&:last-of-type {
+		margin-bottom:0;
+	}
 	span.box_single_title {
 		display: block;
 		padding-bottom:10px;
