@@ -280,6 +280,14 @@ body.page-template-page-barretenders {
 }
 
 
+body.page-template-page-contact {
+	iframe {
+		width:100% !important;
+		max-width:800px !important;
+	}
+}
+
+
 
 @media screen and (min-width: 800px) {
 	
@@ -296,6 +304,8 @@ body.page-template-page-barretenders {
 
 @media screen and (max-width: 800px) {
 	
+
+
 
 body.page-template-page-barretenders {
 	.location_content {
