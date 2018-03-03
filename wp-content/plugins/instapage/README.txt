@@ -2,7 +2,7 @@
 Contributors: marek@instapage
 Tags: landing page, lead generation, a/b testing, Instapage, squeeze page, conversion rate optimization, splash page, WordPress landing page, landing page optimization, lead capture page, mobile app landing page, Facebook landing page, sales page
 Requires at least: 3.4
-Tested up to: 4.8.1
+Tested up to: 4.9.4
 Stable tag: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -54,6 +54,22 @@ Join 250,000+ businesses who rely on Instapage.
 4. Instapage app's dashboard.
 
 == Changelog ==
+= 3.2.2 (2018-02-26) =
+- Bugfix: CMS plugin loads the page even if additional dashes are in URL
+- Bugfix: Drupal7/8 Double slash in domain URL on Edit page
+- Bugfix: Error 500 when Drupal 7/8 is installed in subdirectory
+- Bugfix: Typo in account disconnecting info
+
+= 3.2.1 (2017-12-21) =
+- Bugfix: Plugin multi-click publish & delete button issue
+- CMS plugin slug validator optimization
+
+= 3.1.11 (2017-12-07) =
+- Plugin requirements & requirements check added
+- CMS version added to debug log
+- Bugfix: Drupal module does not load
+- Bugfix: Drupal 8 Homepage & 404 Page does not load
+
 = 3.1.10 (2017-09-14) =
 - Plugin description updated
 - 'Tested up to' field updated 

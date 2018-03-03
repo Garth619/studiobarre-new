@@ -180,7 +180,7 @@ class InstapageCmsPluginSubaccountModel {
       $this->setSubAccountsStatus('disconnect', $tokens, $silent);
     } else {
       if (!$silent) {
-        echo InstapageCmsPluginHelper::formatJsonMessage(InstapageCmsPluginConnector::lang('Subaccounts bound to your account are dissconnected'));
+        echo InstapageCmsPluginHelper::formatJsonMessage(InstapageCmsPluginConnector::lang('Subaccounts bound to your account are disconnected'));
       }
     }
   }

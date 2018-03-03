@@ -170,6 +170,45 @@ class InstapageCmsPluginConnector {
   }
 
   /**
+   * Gets the currently used CMS version.
+   * @uses   self::getSelectedConnector()
+   * @return string CMS version.
+   */
+  public static function getCMSVersion() {
+    return self::getSelectedConnector()->getCMSVersion();
+  }
+
+  /**
+   * Gets the currently used MySQL version.
+   * @uses   self::getSelectedConnector()
+   * @return string MySQL version.
+   */
+  public static function getMySQLVersion() {
+    $sql = 'SELECT VERSION() as version';
+    $result = self::getSelectedConnector()->getRow($sql);
+
+    return $result->version;
+  }
+
+  /**
+   * Checks if API is accessible
+   * @uses   self::getSelectedConnector()
+   * @return bool
+   */
+  public static function isAPIAccessible() {
+    return self::getSelectedConnector()->isAPIAccessible();
+  }
+
+  /**
+   * Checks if SEO friendly urls are enabled
+   * @uses   self::getSelectedConnector()
+   * @return bool
+   */
+  public static function areSEOFriendlyUrlsEnabled() {
+    return self::getSelectedConnector()->areSEOFriendlyUrlsEnabled();
+  }
+
+  /**
    * Sends an e-mail using CMS native email sending method.
    *
    * @param string $to Receiver address.
@@ -261,13 +300,29 @@ class InstapageCmsPluginConnector {
 
   /**
    * Gets the slugs of all landing pages stored in the plugin's DB.
-   *
+   * @deprecated
    * @return array Stored slugs.
    */
   public static function getLandingPageSlugs() {
     $db = InstapageCmsPluginDBModel::getInstance();
     $sql = 'SELECT id, slug, \'\' AS editUrl FROM ' . $db->pagesTable . ' WHERE type = \'page\' AND slug <> \'\'';
     $results = $db->getResults($sql);
+
+    return $results;
+  }
+
+  /**
+   * Checks if given slug is prohibited in terms of publishing a landing page. If it's free - will return false. Otherwise an array with slug details will be returned
+   * @param  string $slug Slug to be checked
+   * @uses   InstapageCmsPluginDBModel::$pagesTable
+   * @uses   InstapageCmsPluginDBModel::getInstance()
+   * @uses   InstapageCmsPluginDBModel::getResults()
+   * @return bool|array
+   */
+  public static function isProhibitedLandingPageSlug($slug) {
+    $db = InstapageCmsPluginDBModel::getInstance();
+    $sql = 'SELECT id, slug, \'\' AS editUrl FROM ' . $db->pagesTable . ' WHERE type = \'page\' AND slug = \'%s\' LIMIT 1';
+    $results = $db->getResults($sql, $slug);
 
     return $results;
   }
@@ -295,5 +350,54 @@ class InstapageCmsPluginConnector {
    */
   public static function getSettingsModule() {
     return self::getSelectedConnector()->getSettingsModule();
+  }
+
+  /**
+   * Gets requirements section for settings module
+   * @param  array $features
+   * @uses   self::getMySQLVersion()
+   * @uses   self::isAPIAccessible()
+   * @uses   self::areSEOFriendlyUrlsEnabled()
+   * @uses   self::lang()
+   * @uses   InstapageCmsPluginHelper::getRawVersion()
+   * @uses   InstapageCmsPluginHelper::isRegularMySQL()
+   * @uses   InstapageCmsPluginHelper::isMariaDBMySQL()
+   * @return string HTML
+   */
+  public static function getPluginRequirements($features) {
+    $dbVersion = InstapageCmsPluginConnector::getMySQLVersion();
+    $commonFeatures = array(
+      array('label' => InstapageCmsPluginConnector::lang('PHP 5.5+'), 'condition' => version_compare(phpversion(), '5.5.0', '>=')),
+      array('label' => InstapageCmsPluginConnector::lang('MySQL 5.5.3+ / MariaDB 5.5+'), 'condition' => (
+        (InstapageCmsPluginHelper::isRegularMySQL($dbVersion) && version_compare(InstapageCmsPluginHelper::getRawVersion($dbVersion), '5.5.3', '>=')) ||
+        (InstapageCmsPluginHelper::isMariaDBMySQL($dbVersion) && version_compare(InstapageCmsPluginHelper::getRawVersion($dbVersion), '5.5.0', '>='))
+        )
+      ),
+      array('label' => InstapageCmsPluginConnector::lang('PHP Curl extension or another way to make remote requests'), 'condition' => InstapageCmsPluginConnector::isAPIAccessible()),
+      array('label' => InstapageCmsPluginConnector::lang('Enabled clean / SEO friendly URLs'), 'condition' => InstapageCmsPluginConnector::areSEOFriendlyUrlsEnabled()),
+      array('label' => InstapageCmsPluginConnector::lang('Every request for landing page requires a request to our page server (http://pageserve.co) and this URL has to be accessible.'), 'condition' => InstapageCmsPluginConnector::isAPIAccessible())
+    );
+    $features = array_merge($features, $commonFeatures);
+
+    ob_start();
+    ?>
+    <div class="custom-params-form ui-section">
+      <h3 class="ui-subtitle"><?php echo InstapageCmsPluginConnector::lang('Plugin requirements'); ?></h3>
+      <p class="l-space-bottom-primary"><?php echo InstapageCmsPluginConnector::lang('Instapage plugin requires following settings to work correctly:'); ?></p>
+      <ul class="c-list">
+        <?php foreach ($features as $feature): ?>
+          <li class="c-list-item">
+            &ndash; <span class="<?php echo ($feature['condition']) ? 'u-text--success' : 'u-text--danger'; ?>">
+              <?php echo $feature['label']; ?>
+            </span>
+          </li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+    <?php
+    $html = ob_get_contents();
+    ob_end_clean();
+
+    return $html;
   }
 }

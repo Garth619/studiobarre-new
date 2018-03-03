@@ -2,7 +2,8 @@
 var InstapageCmsPluginAjax = function InstapageCmsPluginAjax() {
   var self = this;
 
-  self.call = function call(method, url, data, success) {
+  self.call = function call(method, url, data, success, async) {
+    var async = (typeof async === 'undefined') ? true : async;
     var xmlhttp = null;
     var urlAppendix = (url.match(/\?/) === null ? '?' : '&') + (new Date()).getTime();
 
@@ -18,7 +19,7 @@ var InstapageCmsPluginAjax = function InstapageCmsPluginAjax() {
       }
     };
 
-    xmlhttp.open(method, url + urlAppendix, true);
+    xmlhttp.open(method, url + urlAppendix, async);
 
     if (method === 'POST') {
       var formData = new FormData();
@@ -29,8 +30,8 @@ var InstapageCmsPluginAjax = function InstapageCmsPluginAjax() {
     }
   };
 
-  self.post = function post(url, data, success) {
-    self.call('POST', url, data, success);
+  self.post = function post(url, data, success, async) {
+    self.call('POST', url, data, success, async);
   };
 };
 

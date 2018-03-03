@@ -275,6 +275,20 @@ class InstapageCmsPluginHelper {
   }
 
   /**
+   * Check if request uri has duplicated slashes.
+   * 
+   * @return boolean True if requested uri has duplicated slashes, false if uri is ok 
+   */
+  public static function checkIfRequestUriHasDuplicatedSlashes() {
+    $url = $_SERVER['REQUEST_URI'];
+    if (($pos = strpos($url, '?')) !== false) {
+        $url = substr($url, 0, $pos);
+    }
+
+    return strpos($url, '//') !== false;
+  }
+
+  /**
    * Extracts a slug from current URL. Slug will be compared with values stored in plugin's database to find a landing page to display.
    *
    * @param string $homeUrl URL of the home page.
@@ -296,6 +310,8 @@ class InstapageCmsPluginHelper {
     }
 
     $slug = trim($segment, '/');
+    // removing duplicated slashes from obtained almost final slug form
+    $slug = preg_replace('~\/{2,}~', '/', $slug);
     self::writeDiagnostics($slug, 'checkCustomUrl: $slug');
 
     return $slug;
@@ -494,5 +510,35 @@ class InstapageCmsPluginHelper {
       header('Expires: 0');
       setcookie('no-cache', 'true');
     }
+  }
+
+  /**
+   * Returns true if given version number seems to be MariaDB
+   * @param  string $version Version number from InstapageCmsPluginConnector::getMySQLVersion()
+   * @return bool
+   */
+  public static function isMariaDBMySQL($version) {
+    return (strpos($version, 'MariaDB') !== false);
+  }
+
+  /**
+   * Returns true if given version number seems to be regular MySQL
+   * @param  string $version Version number from InstapageCmsPluginConnector::getMySQLVersion()
+   * @uses   self::isMariaDBMySQL()
+   * @return bool
+   */
+  public static function isRegularMySQL($version) {
+    return !self::isMariaDBMySQL($version);
+  }
+
+  /**
+   * Returns only number of version string
+   * @param  string $version Version number from InstapageCmsPluginConnector::getMySQLVersion()
+   * @uses   self::isMariaDBMySQL()
+   * @return string
+   */
+  public static function getRawVersion($version) {
+    $data = explode('-', $version, 2);
+    return $data[0];
   }
 }

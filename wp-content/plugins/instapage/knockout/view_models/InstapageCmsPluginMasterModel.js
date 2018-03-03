@@ -107,5 +107,3 @@ var loadPageList = function loadPageList() {
 var masterModel = new InstapageCmsPluginMasterModel();
 masterModel.updateApiTokens(loadPageList, loadPageList);
 masterModel.getOptions(masterModel.addDiagnosticsWarning);
-
-

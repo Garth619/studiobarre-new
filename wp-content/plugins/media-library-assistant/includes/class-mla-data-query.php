@@ -342,6 +342,27 @@ class MLAQuery {
 	private static $mla_list_table_items = NULL;
 
 	/**
+	 * Retrieve the terms in a given taxonomy, adjusting for changes in WP 4.5.0
+	 *
+	 * @since 2.66
+	 *
+	 * @param	mixed	single taxonomy (string) or taxonomy list (array of strings)
+	 * @param	array	arguments for taxonomy terms query
+	 *
+	 * @return	array|int|WP_Error) List of WP_Term instances and their children. Will return WP_Error, if any of $taxonomies do not exist.
+	 */
+	public static function mla_wp_get_terms( $taxonomy, $args ) {
+		if ( version_compare( get_bloginfo('version'), '4.5.0', '>=' ) ) {
+			$args['taxonomy'] = $taxonomy;
+			$terms = get_terms( $args );
+		} else {
+			$terms = get_terms( $taxonomy, $args );
+		}
+
+		return $terms;		
+	}
+	
+	/**
 	 * Get the total number of attachment posts
 	 *
 	 * @since 0.30
@@ -725,7 +746,6 @@ class MLAQuery {
 				case 'exact':
 				case 'mla-tax':
 				case 'mla-term':
-//					$clean_request[ $key ] = sanitize_key( $value );
 					$clean_request[ $key ] = sanitize_title_for_query( $value );
 					break;
 				case 'orderby':
@@ -876,6 +896,15 @@ class MLAQuery {
 							$clean_request[ $key ] = json_decode( stripslashes( $value ), true );
 							unset( $clean_request[ $key ]['slug'] );
 						} // not array
+					}
+
+					break;
+				// boolean values, default true
+				case 'cache_results':
+				case 'update_post_meta_cache':
+				case 'update_post_term_cache':
+					if ( ! empty( $value ) && ( 'true' != strtolower( $value ) ) ) {
+						$clean_request[ $key ] = false;
 					}
 
 					break;
@@ -1031,7 +1060,7 @@ class MLAQuery {
 			if ( $clean_request['mla_filter_term'] != 0 ) {
 				$tax_filter = MLACore::mla_taxonomy_support('', 'filter');
 				if ( $clean_request['mla_filter_term'] == -1 ) {
-					$term_list = get_terms( $tax_filter, array(
+					$term_list = MLAQuery::mla_wp_get_terms( $tax_filter, array(
 						'fields' => 'ids',
 						'hide_empty' => false
 					) );
@@ -1387,7 +1416,7 @@ class MLAQuery {
 					}
 
 					// WordPress encodes special characters, e.g., "&" as HTML entities in term names
-					$the_terms = get_terms( $terms_search_parameters['taxonomies'], array( 'name__like' => _wp_specialchars( $phrase ), 'fields' => 'all', 'hide_empty' => false ) );
+					$the_terms = MLAQuery::mla_wp_get_terms( $terms_search_parameters['taxonomies'], array( 'name__like' => _wp_specialchars( $phrase ), 'fields' => 'all', 'hide_empty' => false ) );
 
 					if ( $is_wildcard_search ) {
 						remove_filter( 'terms_clauses', 'MLAQuery::mla_query_terms_clauses_filter', 0x7FFFFFFF );

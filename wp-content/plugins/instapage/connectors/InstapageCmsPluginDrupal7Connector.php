@@ -166,6 +166,40 @@ class InstapageCmsPluginDrupal7Connector {
   }
 
   /**
+   * Gets the currently used CMS version.
+   * @return string CMS version.
+   */
+  public function getCMSVersion() {
+    return VERSION;
+  }
+
+  /**
+   * Checks if API is accessible
+   * @uses   self::remoteGet()
+   * @return bool
+   */
+  public function isAPIAccessible() {
+    $response = $this->remoteGet(INSTAPAGE_ENTERPRISE_ENDPOINT, array());
+
+    return (
+      (is_array($response)) &&
+      (isset($response['status'])) && ($response['status'] === 'ERROR') &&
+      (isset($response['message'])) && ($response['message'] === 'Request failed with status 404.')
+    );
+  }
+
+  /**
+   * Checks if SEO friendly urls are enabled. Note: Type checking is loosened on purpose
+   * @uses   self::getRow()
+   * @return bool
+   */
+  public function areSEOFriendlyUrlsEnabled() {
+    $sql = "SELECT value FROM variable WHERE name = '%s' LIMIT 1";
+    $row = $this->getRow($sql, 'clean_url');
+    return (unserialize($row->value) == 1);
+  }
+
+  /**
    * Checks if current user can manage the plugin's dashboard.
    *
    * @return bool Tru is current user has the permissions.
@@ -348,7 +382,7 @@ class InstapageCmsPluginDrupal7Connector {
   }
 
   /**
-   * Performsremote request in a way specific for Drupal 7.
+   * Performs remote request in a way specific for Drupal 7.
    *
    * @param string $url URL for the request.
    * @param array $data Data that will be passed in the request.
@@ -445,10 +479,17 @@ class InstapageCmsPluginDrupal7Connector {
     $url = $_SERVER['HTTP_HOST'];
 
     if ($protocol) {
-      if (isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS'])) {
+      if (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] === 'on')) {
         $url = 'https://' . $url;
       } else {
         $url = 'http://' . $url;
+      }
+    }
+
+    if (isset($_SERVER['PHP_SELF'])) {
+      $directory = ltrim(dirname($_SERVER['PHP_SELF']), DIRECTORY_SEPARATOR);
+      if (!empty($directory)) {
+        $url .= $directory;
       }
     }
 
@@ -474,7 +515,7 @@ class InstapageCmsPluginDrupal7Connector {
    * @return string AJAX URL.
    */
   public function getAjaxURL() {
-    return $this->getSiteURL() . '/index.php?action=instapage_ajax_call';
+    return $this->getSiteURL() . '/?action=instapage_ajax_call';
   }
 
   /**
@@ -507,6 +548,7 @@ class InstapageCmsPluginDrupal7Connector {
       $this->ajaxCallback();
     } else {
       InstapageCmsPluginHelper::writeDiagnostics($_SERVER['REQUEST_URI'], 'Instapage plugin initiated. REQUEST_URI');
+      InstapageCmsPluginHelper::writeDiagnostics($this->getCMSName() . ' ' . $this->getCMSVersion(), 'CMS name/version');
       $this->checkProxy();
       $this->checkHomepage();
       $this->checkCustomUrl();
@@ -656,13 +698,34 @@ class InstapageCmsPluginDrupal7Connector {
 
   /**
    * get list of slugs that can't be used to publish a landing page.
-   *
+   * @deprecated
    * @return array List of prohibitted slugs.
    */
   public function getProhibitedSlugs() {
     $result = array_merge($this->getPostSlugs(), InstapageCmsPluginConnector::getLandingPageSlugs());
 
     return $result;
+  }
+
+  /**
+   * Checks if given slug is prohibited in terms of publishing a landing page. If it's free - will return false. Otherwise an array with slug details will be returned
+   * @param  string $slug Slug to be checked
+   * @uses   self::isProhibitedPostSlug()
+   * @uses   InstapageCmsPluginConnector::isProhibitedLandingPageSlug()
+   * @return bool|array
+   */
+  public function isProhibitedSlug($slug) {
+    $postSlug = $this->isProhibitedPostSlug($slug);
+    if ($postSlug) {
+      return $postSlug;
+    }
+
+    $landingPageSlug = InstapageCmsPluginConnector::isProhibitedLandingPageSlug($slug);
+    if ($landingPageSlug) {
+      return $landingPageSlug;
+    }
+
+    return false;
   }
 
   /**
@@ -772,11 +835,12 @@ class InstapageCmsPluginDrupal7Connector {
 
   /**
    * Gets the settings module, a CMS-dependant part of the Settings page.
-   *
+   * @uses   InstapageCmsPluginConnector::getCmsVersion()
+   * @uses   InstapageCmsPluginConnector::getPluginRequirements()
    * @return string HTML form with settings for currently used CMS only.
    */
   public function getSettingsModule() {
-    return '';
+    return InstapageCmsPluginConnector::getPluginRequirements(array(array('label' => InstapageCmsPluginConnector::lang('Drupal 7.x+'), 'condition' => version_compare(InstapageCmsPluginConnector::getCMSVersion(), '7.0', '>='))));
   }
 
   /**
@@ -801,7 +865,7 @@ class InstapageCmsPluginDrupal7Connector {
 
   /**
    * Gets the list of slugs used by Drupal 7 posts.
-   *
+   * @deprecated
    * @return array List of slugs used by posts.
    */
   private function getPostSlugs() {
@@ -809,6 +873,23 @@ class InstapageCmsPluginDrupal7Connector {
     $dbPrefix = $this->getDBPrefix();
     $sql = 'SELECT pid AS id, SUBSTRING(alias, 2) AS slug, CONCAT(\'' . $editUrl . '\', source, \'/edit\') AS editUrl FROM ' . $dbPrefix . 'url_alias';
     $results = $this->getResults($sql);
+
+    return $results;
+  }
+
+  /**
+   * Checks if given slug is prohibited in terms of publishing a landing page. If it's free - will return false. Otherwise an array with slug details will be returned
+   * @param  string $slug Slug to be checked
+   * @uses   self::getSiteURL()
+   * @uses   self::getDBPrefix()
+   * @uses   self::getResults()
+   * @return bool|array
+   */
+  private function isProhibitedPostSlug($slug) {
+    $editUrl = $this->getSiteURL();
+    $dbPrefix = $this->getDBPrefix();
+    $sql = 'SELECT pid AS id, SUBSTRING(alias, 2) AS slug, CONCAT(\'' . $editUrl . '\', source, \'/edit\') AS editUrl FROM ' . $dbPrefix . 'url_alias WHERE SUBSTRING(alias, 2) = \'%s\' LIMIT 1';
+    $results = $this->getResults($sql, $slug);
 
     return $results;
   }

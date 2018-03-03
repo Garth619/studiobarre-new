@@ -134,6 +134,14 @@ class InstapageCmsPluginAjaxController {
        ));
       break;
 
+      case 'isProhibitedSlug':
+        $data = InstapageCmsPluginConnector::getSelectedConnector()->isProhibitedSlug($data);
+        echo json_encode((object) array(
+          'status' => 'OK',
+          'data' => $data
+       ));
+      break;
+
       case 'validateToken':
         $this->validateToken();
       break;

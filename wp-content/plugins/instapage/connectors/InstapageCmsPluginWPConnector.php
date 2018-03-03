@@ -29,6 +29,43 @@ class InstapageCmsPluginWPConnector {
   }
 
   /**
+   * Gets the currently used CMS version.
+   * @return string CMS version.
+   */
+  public function getCMSVersion() {
+    return get_bloginfo('version');
+  }
+
+  /**
+   * Checks if API is accessible
+   * @uses   self::remoteGet()
+   * @return bool
+   */
+  public function isAPIAccessible() {
+    $response = $this->remoteGet(INSTAPAGE_ENTERPRISE_ENDPOINT, array());
+
+    return (
+      (is_array($response)) &&
+      (isset($response['code'])) && ($response['code'] === 404) &&
+      (isset($response['body'])) && (stripos($response['body'], 'instapage') !== false)
+    );
+  }
+
+  /**
+   * Checks if SEO friendly urls are enabled
+   * @uses   self::getSelectedConnector()
+   * @return bool
+   */
+  public function areSEOFriendlyUrlsEnabled() {
+    global $wpdb;
+
+    $sql = "SELECT {$wpdb->options}.option_value FROM {$wpdb->options} WHERE {$wpdb->options}.option_name = '%s' LIMIT 1";
+    $row = $this->getRow($sql, 'permalink_structure');
+
+    return !empty($row->option_value);
+  }
+
+  /**
    * Checks if current user can manage the plugin's dashboard.
    *
    * @return bool Tru is current user has the permissions.
@@ -151,7 +188,7 @@ class InstapageCmsPluginWPConnector {
   }
 
   /**
-   * Performsremote request in a way specific for WodrPress.
+   * Performs remote request in a way specific for WordPress.
    *
    * @param string $url URL for the request.
    * @param array $data Data that will be passed in the request.
@@ -308,6 +345,7 @@ class InstapageCmsPluginWPConnector {
    */
   public function initPlugin() {
     InstapageCmsPluginHelper::writeDiagnostics($_SERVER['REQUEST_URI'], 'Instapage plugin initiated. REQUEST_URI');
+    InstapageCmsPluginHelper::writeDiagnostics($this->getCMSName() . ' ' . $this->getCMSVersion(), 'CMS name/version');
 
     if ($this->isInstapagePluginDashboard()) {
       add_action('admin_enqueue_scripts', array($this, 'addAdminJS'));
@@ -479,6 +517,13 @@ class InstapageCmsPluginWPConnector {
     }
 
     if (isset($result->instapage_id) && $result->instapage_id) {
+      // we have landing page for given slug, 
+      // but if in url there are duplicated slashes show 404 page instead
+      if (InstaPageCmsPluginHelper::checkIfRequestUriHasDuplicatedSlashes()) {
+        self::return404();
+        return false;
+      }
+
       if ($type == '404') {
         $page->display($result, 404);
       } else {
@@ -526,6 +571,23 @@ class InstapageCmsPluginWPConnector {
   }
 
   /**
+   * Return 404 page using native wordpress method.
+   * 
+   * Return 404 page using native wordpress method and
+   * prevent from any 301 redirection like removing duplicated slashes
+   * guessing url etc. Those 301 redirects are native wordpress functionality.
+   */
+  public static function return404() {
+    global $wp_query;
+
+    // remove redirections
+    remove_filter('template_redirect', 'redirect_canonical');
+
+    // Guess it's time to 404.
+    $wp_query->set_404();   
+  }
+
+  /**
    * Checks (and displays) if a landing page hould be displayed instead of normal CMS page under current URL.
    *
    * @uses InstapageCmsPluginWPConnector::checkPage()
@@ -559,12 +621,45 @@ class InstapageCmsPluginWPConnector {
 
   /**
    * get list of slugs that can't be used to publish a landing page.
-   *
+   * @deprecated
    * @return array List of prohibitted slugs.
    */
   public function getProhibitedSlugs() {
     $result = array_merge($this->getPostSlugs(), $this->getTermSlugs(), $this->getPageSlugs(), InstapageCmsPluginConnector::getLandingPageSlugs());
     return $result;
+  }
+
+  /**
+   * Checks if given slug is prohibited in terms of publishing a landing page. If it's free - will return false. Otherwise an array with slug details will be returned
+   * @param  string $slug Slug to be checked
+   * @uses   self::isProhibitedPostSlug()
+   * @uses   self::isProhibitedTermSlug()
+   * @uses   self::isProhibitedPageSlug()
+   * @uses   InstapageCmsPluginConnector::isProhibitedLandingPageSlug()
+   * @return bool|array
+   */
+  public function isProhibitedSlug($slug) {
+    $postSlug = $this->isProhibitedPostSlug($slug);
+    if ($postSlug) {
+      return $postSlug;
+    }
+
+    $termSlug = $this->isProhibitedTermSlug($slug);
+    if ($termSlug) {
+      return $termSlug;
+    }
+
+    $pageSlug = $this->isProhibitedPageSlug($slug);
+    if ($pageSlug) {
+      return $pageSlug;
+    }
+
+    $landingPageSlug = InstapageCmsPluginConnector::isProhibitedLandingPageSlug($slug);
+    if ($landingPageSlug) {
+      return $landingPageSlug;
+    }
+
+    return false;
   }
 
   /**
@@ -780,20 +875,27 @@ class InstapageCmsPluginWPConnector {
 
   /**
    * Gets the settings module, a CMS-dependant part of the Settings page.
-   *
+   * @uses   InstapageCmsPluginConnector::getCmsVersion()
+   * @uses   InstapageCmsPluginConnector::lang()
+   * @uses   InstapageCmsPluginConnector::getPluginRequirements()
    * @return string HTML form with settings for currently used CMS only.
    */
   public function getSettingsModule() {
-    $html = '
+    ob_start();
+    ?>
     <div class="custom-params-form ui-section">
-      <h3 class="ui-subtitle">' . InstapageCmsPluginConnector::lang('Support legacy pages') . '</h3>
-      <p class="l-space-bottom-primary">' . InstapageCmsPluginConnector::lang('Instapage plugin will search for landing pages in old database structure (before 3.0 update). After successful migration this option should not be used.') . '</p>
+      <h3 class="ui-subtitle"><?php echo InstapageCmsPluginConnector::lang('Support legacy pages'); ?></h3>
+      <p class="l-space-bottom-primary"><?php echo InstapageCmsPluginConnector::lang('Instapage plugin will search for landing pages in old database structure (before 3.0 update). After successful migration this option should not be used.'); ?></p>
       <label class="c-mark">
-          <input class="c-mark__input" data-bind="checked: supportLegacy, click: autoSaveMetadata" type="checkbox" >
-          <i class="c-mark__icon c-mark__icon--checkbox material-icons">check</i>
-          <span class="c-mark__label">' . InstapageCmsPluginConnector::lang('Turn on legacy support.') . '</span>
-        </label>
-    </div>';
+        <input class="c-mark__input" data-bind="checked: supportLegacy, click: autoSaveMetadata" type="checkbox" >
+        <i class="c-mark__icon c-mark__icon--checkbox material-icons">check</i>
+        <span class="c-mark__label"><?php echo InstapageCmsPluginConnector::lang('Turn on legacy support.'); ?></span>
+      </label>
+    </div>
+    <?php
+    $html = ob_get_contents();
+    $html .= InstapageCmsPluginConnector::getPluginRequirements(array(array('label' => InstapageCmsPluginConnector::lang('Wordpress 3.4+'), 'condition' => version_compare(InstapageCmsPluginConnector::getCMSVersion(), '3.4.0', '>='))));
+    ob_end_clean();
 
     return $html;
   }
@@ -811,7 +913,7 @@ class InstapageCmsPluginWPConnector {
       $messages = array(
         'Query: ' . $wpdb->last_query,
         'Error: ' . $wpdb->last_error
-     );
+      );
 
       InstapageCmsPluginHelper::writeDiagnostics(implode("\n", $messages), 'DB Error');
 
@@ -823,7 +925,7 @@ class InstapageCmsPluginWPConnector {
 
   /**
    * Gets the list of slugs used by WP posts.
-   *
+   * @deprecated
    * @return array List of slugs used by posts.
    */
   private function getPostSlugs() {
@@ -845,8 +947,74 @@ class InstapageCmsPluginWPConnector {
   }
 
   /**
+   * Checks if given slug is prohibited in terms of publishing a landing page. If it's free - will return false. Otherwise an array with slug details will be returned
+   * @param  string $slug Slug to be checked
+   * @uses   self::getSiteURL()
+   * @uses   self::getDBPrefix()
+   * @uses   self::getResults()
+   * @return bool|array
+   */
+  private function isProhibitedPostSlug($slug) {
+    $postPrefix = '';
+    $editUrl = $this->getSiteURL() . '/wp-admin/post.php?action=edit&post=';
+    $dbPrefix = $this->getDBPrefix();
+    $sql = 'SELECT ID AS id, CONCAT(\'' . $editUrl . '\', ID) AS editUrl FROM ' . $dbPrefix . 'posts WHERE post_type = \'post\' AND post_name = \'%s\' LIMIT 1';
+    $results = $this->getResults($sql, $slug);
+
+    if (is_array($results) && !empty($results)) {
+      $siteUrl = get_home_url() . '/';
+
+      foreach ($results as &$result) {
+        $result->slug = trim(str_replace($siteUrl, '', get_permalink($result->id)), '/');
+      }
+    }
+
+    return $results;
+  }
+
+
+  /**
+   * Gets the list of slugs used by WP terms.
+   * @deprecated
+   * @return array List of slugs used by terms.
+   */
+  private function getTermSlugs() {
+    $editUrl1 = $this->getSiteURL() . '/wp-admin/edit-tags.php?action=edit&post_type=post&taxonomy=';
+    $editUrl2 = '&tag_ID=';
+    $dbPrefix = $this->getDBPrefix();
+    $sql = 'SELECT t.term_id AS id, t.slug AS slug, CONCAT(\'' . $editUrl1 . '\', tt.taxonomy, \'' . $editUrl2 . '\', t.term_id) AS editUrl ' .
+    'FROM ' . $dbPrefix . 'terms t LEFT JOIN ' . $dbPrefix . 'term_taxonomy tt ON t.term_id = tt.term_id ' .
+    'WHERE (tt.taxonomy = \'category\' OR tt.taxonomy = \'post_tag\')' .
+    'AND t.slug <> \'\'';
+    $results = $this->getResults($sql);
+
+    return $results;
+  }
+
+  /**
+   * Checks if given slug is prohibited in terms of publishing a landing page. If it's free - will return false. Otherwise an array with slug details will be returned
+   * @param  string $slug Slug to be checked
+   * @uses   self::getSiteURL()
+   * @uses   self::getDBPrefix()
+   * @uses   self::getResults()
+   * @return bool|array
+   */
+  private function isProhibitedTermSlug($slug) {
+    $editUrl1 = $this->getSiteURL() . '/wp-admin/edit-tags.php?action=edit&post_type=post&taxonomy=';
+    $editUrl2 = '&tag_ID=';
+    $dbPrefix = $this->getDBPrefix();
+    $sql = 'SELECT t.term_id AS id, t.slug AS slug, CONCAT(\'' . $editUrl1 . '\', tt.taxonomy, \'' . $editUrl2 . '\', t.term_id) AS editUrl ' .
+    'FROM ' . $dbPrefix . 'terms t LEFT JOIN ' . $dbPrefix . 'term_taxonomy tt ON t.term_id = tt.term_id ' .
+    'WHERE (tt.taxonomy = \'category\' OR tt.taxonomy = \'post_tag\')' .
+    'AND t.slug = \'%s\' LIMIT 1';
+    $results = $this->getResults($sql, $slug);
+
+    return $results;
+  }
+
+  /**
    * Pulls slugs used by WordPress pages.
-   *
+   * @deprecated
    * @return array List of slugs used by pages.
    */
   private function getPageSlugs() {
@@ -859,19 +1027,18 @@ class InstapageCmsPluginWPConnector {
   }
 
   /**
-   * Gets the list of slugs used by WP terms.
-   *
-   * @return array List of slugs used by terms.
+   * Checks if given slug is prohibited in terms of publishing a landing page. If it's free - will return false. Otherwise an array with slug details will be returned
+   * @param  string $slug Slug to be checked
+   * @uses   self::getSiteURL()
+   * @uses   self::getDBPrefix()
+   * @uses   self::getResults()
+   * @return bool|array
    */
-  private function getTermSlugs() {
-    $editUrl1 = $this->getSiteURL() . '/wp-admin/edit-tags.php?action=edit&post_type=post&taxonomy=';
-    $editUrl2 = '&tag_ID=';
+  private function isProhibitedPageSlug($slug) {
+    $editUrl = $this->getSiteURL() . '/wp-admin/post.php?action=edit&post=';
     $dbPrefix = $this->getDBPrefix();
-    $sql = 'SELECT t.term_id AS id, t.slug AS slug, CONCAT(\'' . $editUrl1 . '\', tt.taxonomy, \'' . $editUrl2 . '\', t.term_id) AS editUrl ' .
-    'FROM ' . $dbPrefix . 'terms t LEFT JOIN ' . $dbPrefix . 'term_taxonomy tt ON t.term_id = tt.term_id ' .
-    'WHERE (tt.taxonomy = \'category\' OR tt.taxonomy = \'post_tag\')' .
-    'AND t.slug <> \'\'';
-    $results = $this->getResults($sql);
+    $sql = 'SELECT ID AS id, post_name AS slug, CONCAT(\'' . $editUrl . '\', ID) AS editUrl FROM ' . $dbPrefix . 'posts WHERE post_type = \'page\' AND post_name = \'%s\' LIMIT 1';
+    $results = $this->getResults($sql, $slug);
 
     return $results;
   }

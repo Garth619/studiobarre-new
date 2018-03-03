@@ -269,17 +269,20 @@ class MLASettings {
 			 * Add format, option and no_null to IPTC/EXIF custom mapping rules
 			 */
 			$option_value = MLACore::mla_get_option( 'iptc_exif_mapping' );
-			$new_values = array();
-
-			foreach ( $option_value['custom'] as $key => $value ) {
-				$value['format'] = isset( $value['format'] ) ? $value['format'] : 'native';
-				$value['option'] = isset( $value['option'] ) ? $value['option'] : 'text';
-				$value['no_null'] = isset( $value['no_null'] ) ? $value['no_null'] : false;
-				$new_values[ $key ] = $value;
+			
+			if ( !empty( $option_value['custom'] ) ) {
+				$new_values = array();
+	
+				foreach ( $option_value['custom'] as $key => $value ) {
+					$value['format'] = isset( $value['format'] ) ? $value['format'] : 'native';
+					$value['option'] = isset( $value['option'] ) ? $value['option'] : 'text';
+					$value['no_null'] = isset( $value['no_null'] ) ? $value['no_null'] : false;
+					$new_values[ $key ] = $value;
+				}
+	
+				$option_value['custom'] = $new_values;
+				MLACore::mla_update_option( 'iptc_exif_mapping', $option_value );
 			}
-
-			$option_value['custom'] = $new_values;
-			MLACore::mla_update_option( 'iptc_exif_mapping', $option_value );
 		} // version is less than 2.13
 
 		MLACore::mla_update_option( MLACoreOptions::MLA_VERSION_OPTION, MLACore::CURRENT_MLA_VERSION );
@@ -1066,7 +1069,7 @@ class MLASettings {
 			'Donate to FTJ' => __( 'Donate to FTJ', 'media-library-assistant' ),
 			'Donate' => __( 'Donate', 'media-library-assistant' ),
 			/* translators: 1: donation hyperlink */
-			'This plugin was' => sprintf( __( 'This plugin was inspired by my work on the WordPress web site for our nonprofit, Fair Trade Judaica. If you find the Media Library Assistant plugin useful and would like to support a great cause, consider a %1$s to our work. Thank you!', 'media-library-assistant' ), '<a href="http://fairtradejudaica.org/make-a-difference/donate/" title="' . __( 'Donate to FTJ', 'media-library-assistant' ) . '" target="_blank" style="font-weight:bold">' . __( 'tax-deductible donation', 'media-library-assistant' ) . '</a>' ),
+			'This plugin was' => sprintf( __( 'This plugin was inspired by my work on the WordPress web site for our nonprofit, Fair Trade Judaica. If you find the Media Library Assistant plugin useful and would like to support a great cause, consider a %1$s to our work. Thank you!', 'media-library-assistant' ), '<a href="http://fairtradejudaica.org/media-library-assistant-a-wordpress-plugin/" title="' . __( 'Donate to FTJ', 'media-library-assistant' ) . '" target="_blank" style="font-weight:bold">' . __( 'tax-deductible donation', 'media-library-assistant' ) . '</a>' ),
 			'shortcode_list' => '',
 			'form_url' => admin_url( 'options-general.php' ) . '?page=mla-settings-menu-general&mla_tab=general',
 			'options_list' => '',
@@ -1422,6 +1425,9 @@ class MLASettings {
 			'Debug Settings' => __( 'Debug Settings', 'media-library-assistant' ),
 			'settings_list' => $settings_list,
 			'Error Log' => __( 'Error Log', 'media-library-assistant' ),
+			/* translators: 1: Documentation hyperlink */
+			'You can find' => sprintf( __( 'You can find more information about the MLA Reporting/MLA_DEBUG_LEVEL values in the %1$s section of the Documentation tab.', 'media-library-assistant' ), '<a href="[+settingsURL+]?page=mla-settings-menu-documentation&amp;mla_tab=documentation#mla_debug_tab" title="' . __( 'MLA Debug Tab documentation', 'media-library-assistant' ) . '" target="_blank">' . __( 'MLA Debug Tab', 'media-library-assistant' ) . '</a>' ),
+			'settingsURL' => admin_url('options-general.php'),
 			'Error Log Name' => $error_log_name,
 			'Error Log Size' => number_format( (float) $error_log_size ),
 			'error_log_text' => $error_log_contents,
