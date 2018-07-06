@@ -30,8 +30,35 @@
 								<h2><?php the_sub_field( 'promo_title' ); ?></h2>
 								
 								<?php $promo_image = get_sub_field( 'promo_image' ); ?>
-				
-								<img src="<?php echo $promo_image['url']; ?>" alt="<?php echo $promo_image['alt']; ?>"/>
+								
+								<?php if(get_sub_field( 'promo_link' )):?>
+								
+								
+									<?php if( get_sub_field('open_link_in_a_new_browser_tab') == 'Open Link in New Browser Tab' ): ?>
+	
+										<a href="<?php the_sub_field( 'promo_link' );?>" target="_blank">
+											
+											<img src="<?php echo $promo_image['url']; ?>" alt="<?php echo $promo_image['alt']; ?>"/>
+										
+										</a>
+										
+										<?php else:?>
+										
+										<a href="<?php the_sub_field( 'promo_link' );?>">
+											
+											<img src="<?php echo $promo_image['url']; ?>" alt="<?php echo $promo_image['alt']; ?>"/>
+										
+										</a>
+
+
+									<?php endif; ?>
+								
+								
+								<?php else:?>
+								
+									<img src="<?php echo $promo_image['url']; ?>" alt="<?php echo $promo_image['alt']; ?>"/>
+								
+								<?php endif;?>
 					
 							</div><!-- single_promo -->
 						
