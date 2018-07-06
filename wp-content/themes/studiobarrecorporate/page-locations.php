@@ -229,7 +229,25 @@ Crown Point, IN 46307
 		<div class="state_col">
 			
 			
+			<div class="single_city" itemscope itemtype="http://schema.org/LocalBusiness">
+		
+				<h3 class="city_title"><a href="<?php bloginfo('url');?>/stjohn">St. John</a></h3><!-- city_title -->
+					
+					<div class="location_address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					
+						<a class="city_map" href="https://www.google.com/maps/place/7864+US-41,+St+John,+IN+46373/@41.4758832,-87.4704779,17z/data=!4m13!1m7!3m6!1s0x8811e3ed62f77fa7:0xd2a1b7fe15d5628e!2s7864+US-41,+St+John,+IN+46373!3b1!8m2!3d41.4759047!4d-87.4704346!3m4!1s0x8811e3ed62f77fa7:0xd2a1b7fe15d5628e!8m2!3d41.4759047!4d-87.4704346" target="_blank">
+						
+						7950 US 41<br/>
+St. John, IN 46373
+
+						
+						</a>
+					
+						<a class="schedule_button" href="<?php bloginfo('url');?>/stjohn/schedule">Schedule</a><!-- schedule_button -->
 			
+					</div><!-- location_address -->
+				
+			</div><!-- single_city -->
 			
 			
 		</div><!-- state_col -->
