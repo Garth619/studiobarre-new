@@ -379,7 +379,24 @@ Bozeman, MT 59718
 		<div class="state_col">
 			
 			
+			<div class="single_city" itemscope itemtype="http://schema.org/LocalBusiness">
+		
+				<h3 class="city_title"><a href="<?php bloginfo('url');?>/greatfalls">Great Falls</a></h3><!-- city_title -->
+					
+					<div class="location_address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					
+						<a class="city_map" href="https://www.google.com/maps/place/112+3rd+St+S,+Great+Falls,+MT+59405/@47.503739,-111.303007,16z/data=!4m5!3m4!1s0x534237ee7b4eae5f:0x6f6827ca519505c2!8m2!3d47.5037386!4d-111.3030068?hl=en-US" target="_blank">
+						
+						112 3rd St S<br>
+Great Falls, MT 59401
+						
+						</a>
+					
+						<a class="schedule_button" href="<?php bloginfo('url');?>/greatfalls/schedule">Schedule</a><!-- schedule_button -->
 			
+					</div><!-- location_address -->
+				
+			</div><!-- single_city -->
 			
 			
 		</div><!-- state_col -->
