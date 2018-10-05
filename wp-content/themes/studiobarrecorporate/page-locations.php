@@ -35,7 +35,7 @@
 						<a class="city_map" href="https://www.google.com/maps/place/5705+La+Jolla+Blvd,+La+Jolla,+CA+92037/@32.8158358,-117.270554,17z/data=!3m1!4b1!4m2!3m1!1s0x80dc03d4e0265e39:0x6d2f4576d149e339" target="_blank">
 						
 						5705 La Jolla Blvd<br/>
-						La Jolla, CA 02842
+						La Jolla, CA 92037
 						
 						</a>
 					
